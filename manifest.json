@@ -1,0 +1,22 @@
+﻿{
+    "name": "Kingdom Hearts Randomizer Tracker",
+    "game_name": "Kingdom Hearts Final Mix",
+    "package_version": "0.1",
+    "package_uid": "KHFM_Lojtana",
+    "platform": "PC", 
+    "author": "Lojtana",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}

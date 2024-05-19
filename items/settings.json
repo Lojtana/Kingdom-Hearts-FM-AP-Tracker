@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Manual Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "name": "Hide Manual Checks",
+                "img": "/images/misc/Cross.png",
+                "img_mods": "@disabled",
+                "inherit_codes": false,
+                "codes": "manuals_setting, manuals_off"
+            },
+            {
+                "name": "Show Manual Checks",
+                "img": "/images/misc/Cross.png",
+                "inherit_codes": false,
+                "codes": "manuals_setting, manuals_on"
+            }
+        ]
+    }
+]

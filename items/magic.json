@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Dumbo",
+        "img": "images/summons/Dumbo Summon.png",
+        "type": "toggle",
+        "codes": "dumbo"
+    },
+    {
+        "name": "Bambi",
+        "img": "images/summons/Bambi Summon.png",
+        "type": "toggle",
+        "codes": "bambi"
+    },
+    {
+        "name": "Genie",
+        "img": "images/summons/Genie Summon.png",
+        "type": "toggle",
+        "codes": "genie"
+    },
+    {
+        "name": "Tinker Bell",
+        "img": "images/summons/Tinkerbell Summon.png",
+        "type": "toggle",
+        "codes": "tinkerbell"
+    },
+    {
+        "name": "Mushu",
+        "img": "images/summons/Mushu Summon.png",
+        "type": "toggle",
+        "codes": "mushu"
+    },
+    {
+        "name": "Simba",
+        "img": "images/summons/Simba Summon.png",
+        "type": "toggle",
+        "codes": "simba"
+    },
+    {
+        "name": "Progressive Fire",
+        "img": "images/magic/Fire Magic.png",
+        "type": "consumable",
+        "codes": "fire",
+        "max_quantity": 3
+    },
+    {
+        "name": "Progressive Blizzard",
+        "img": "images/magic/Blizzard Magic.png",
+        "type": "consumable",
+        "codes": "blizzard",
+        "max_quantity": 3
+    },
+    {
+        "name": "Progressive Thunder",
+        "img": "images/magic/Thunder Magic.png",
+        "type": "consumable",
+        "codes": "thunder"
+    },
+    {
+        "name": "Progressive Cure",
+        "img": "images/magic/Cure Magic.png",
+        "type": "consumable",
+        "codes": "cure"
+    },
+    {
+        "name": "Progressive Gravity",
+        "img": "images/magic/Gravity Magic.png",
+        "type": "consumable",
+        "codes": "gravity"
+    },
+    {
+        "name": "Progressive Stop",
+        "img": "images/magic/Stop Magic.png",
+        "type": "consumable",
+        "codes": "stop"
+    },
+    {
+        "name": "Progressive Aero",
+        "img": "images/magic/Aero Magic.png",
+        "type": "consumable",
+        "codes": "Aero"
+    }
+]

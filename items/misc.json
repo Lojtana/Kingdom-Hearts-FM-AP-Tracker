@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Fire Arts",
+        "type": "toggle",
+        "codes": "fire_arts"
+    },
+    {
+        "name": "Blizzard Arts",
+        "type": "toggle",
+        "codes": "blizzard_arts"
+    },
+    {
+        "name": "Thunder Arts",
+        "type": "toggle",
+        "codes": "thunder_arts"
+    },
+    {
+        "name": "Cure Arts",
+        "type": "toggle",
+        "codes": "cure_arts"
+    },
+    {
+        "name": "Gravity Arts",
+        "type": "toggle",
+        "codes": "gravity_arts"
+    },
+    {
+        "name": "Stop Arts",
+        "type": "toggle",
+        "codes": "stop_arts"
+    },
+    {
+        "name": "Aero Arts",
+        "type": "toggle",
+        "codes": "aero_arts"
+    },
+    {
+        "name": "Postcard",
+        "type": "consumable",
+        "codes": "postcard",
+        "img": "images/misc/Postcards.png",
+        "max_quantity": 10,
+        "overlay_font_size": 24
+    }
+]

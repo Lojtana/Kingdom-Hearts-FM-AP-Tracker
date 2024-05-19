@@ -1,0 +1,400 @@
+[
+    {
+        "name": "Monstro Chests",
+        "access_rules":["monstro"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 158,
+                        "y": 551
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 6 - Chest on Platform Near Chamber 5 Entrance",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 134,
+                        "y": 508
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 248,
+                        "y": 548
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 6 - Low Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 198,
+                        "y": 588
+                    }
+                ]
+            },
+            {
+                "name": "Mouth - Boat Deck Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 622,
+                        "y": 117
+                    }
+                ]
+            }
+            ,
+            {
+                "name": "Mouth - Chest on High Platform Boat Side",
+                "access_rules":["high_jump", "$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 515,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Mouth - Chest on High Platform Across from Boat",
+                "access_rules":["high_jump", "$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 540,
+                        "y": 46
+                    }
+                ]
+            },
+            {
+                "name": "Mouth - Chest Near Ship",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 546,
+                        "y": 122
+                    }
+                ]
+            },
+            {
+                "name": "Mouth - Green Trinity Chest",
+                "access_rules":["green_trinity, high_jump", "green_trinity, $any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 657,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 2 - Ground Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 509,
+                        "y": 398
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 2 - Platform Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 473,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 5 - Platform Chest",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 589,
+                        "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 3 - Ground Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 136,
+                        "y": 337
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 3 - Chest on Platform Above Chamber 2 Entrance",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 241,
+                        "y": 236
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 3 - Chest Near Chamber 6 Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 141,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 3 - Chest on Platform Near Chamber 6 Entrance",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 133,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Mouth - Chest on High Platform Near Teeth",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 399,
+                        "y": 89
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 5 - Chest Atop Barrel",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 625,
+                        "y": 492
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 5 - 2nd Low Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 722,
+                        "y": 591
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 5 - 1st Low Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 748,
+                        "y": 574
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 6 - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 50,
+                        "y": 539
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Monstro Events",
+        "access_rules":["monstro"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Defeat Parasite Cage",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 709,
+                        "y": 798
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Parasite Cage II",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "hosted_item": "finish_monstro"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 450,
+                        "y": 940
+                    }
+                ]
+            }
+        ]
+    }
+]

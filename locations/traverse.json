@@ -1,0 +1,814 @@
+[
+    {
+        "name": "Traverse Town Chests",
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "children": [
+            {
+                "name": "1st District - Candle Puzzle Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "access_rules": "blizzard:1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 419,
+                        "y": 658
+                    }
+                ]
+            },
+            {
+                "name": "1st District - Accessory Shop Roof Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 518,
+                        "y": 615
+                    }
+                ]
+            },
+            {
+                "name": "2nd District - Boots and Shoes Awning Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 963,
+                        "y": 129
+                    }
+                ]
+            },
+            {
+                "name": "2nd District - Rooftop Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 958,
+                        "y": 85
+                    }
+                ]
+            },
+            {
+                "name": "2nd District - Gizmo Shop Facade Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 845,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway - Balcony Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 159,
+                        "y": 427 
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway - Blue Room Awning Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 330,
+                        "y": 459 
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway - Corner Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 346,
+                        "y": 463
+                    }
+                ]
+            },
+            {
+                "name": "Green Room - Clock Puzzle Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 583,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Green Room - Table Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 567,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Red Room Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    } 
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 358,
+                        "y": 333
+                    }
+                ]
+            },
+            {
+                "name": "Mystical House - Yellow Trinity Chest",
+                "access_rules": ["fire:1, yellow_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Yellow Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 860,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "name": "Accessory Shop Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 594,
+                        "y": 802
+                    }
+                ]
+            },
+            {
+                "name": "Secret Waterway - White Trinity Chest",
+                "access_rules": ["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/White Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 781,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House Chest",
+                "access_rules": ["finish_monstro"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 623,
+                         "y": 493
+                    }
+                ]
+            },
+            {
+                "name": "Moogle Workshop - Right Chest",
+                "access_rules": ["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 323,
+                        "y": 777
+                    }
+                ]
+            },
+            {
+                "name": "1st District - Blue Trinity Balcony Chest",
+                "access_rules": ["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Blue Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 439,
+                        "y": 639
+                    },
+                    {
+                        "map": "TT",
+                        "x": 439,
+                        "y": 657
+                    }
+                ]
+            },
+            {
+                "name": "Mystical House - Glide Chest",
+                "access_rules": ["fire:1, $any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 825,
+                        "y": 831
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway - Chest behind Crates",
+                "access_rules": ["red_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 359,
+                        "y": 494
+                    }
+                ]
+            },
+            {
+                "name": "Moogle Workshop - Left Chest",
+                "access_rules": ["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 328,
+                        "y": 764
+                    }
+                ]
+            },
+            {
+                "name": "Secret Waterway - Chest Near Stairs",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 745,
+                        "y": 833
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Traverse Town Events",
+        "chest_unopened_img": "/images/misc/Key Item.png",
+        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "children": [
+            {
+                "name": "Guard Armor Rewards",
+                "sections": [
+                    {
+                        "name": "Dodge Roll",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Trinity",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 452,
+                        "y": 680
+                    }
+                ]
+            },
+            {
+                "name": "Secret Waterway",
+                "sections": [
+                    {
+                        "name": "Leon",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kairi",
+                        "item_count": 1,
+                        "access_rules": ["seal_HB"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 782,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Guard Armor",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 870,
+                        "y": 481
+                    }
+                ]
+            },
+            {
+                "name": "Postcards",
+                "chest_unopened_img": "/images/misc/postcards.png",
+                "sections": [
+                    {
+                        "name": "Mail Postcard 01",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:1"]
+                    },
+                    {
+                        "name": "Mail Postcard 02",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:2"]
+                    },
+                    {
+                        "name": "Mail Postcard 03",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:3"]
+                    },
+                    {
+                        "name": "Mail Postcard 04",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:4"]
+                    },
+                    {
+                        "name": "Mail Postcard 05",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:5"]
+                    },
+                    {
+                        "name": "Mail Postcard 06",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:6"]
+                    },
+                    {
+                        "name": "Mail Postcard 07",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:7"]
+                    },
+                    {
+                        "name": "Mail Postcard 08",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:8"]
+                    },
+                    {
+                        "name": "Mail Postcard 09",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:9"]
+                    },
+                    {
+                        "name": "Mail Postcard 10",
+                        "item_count": 1,
+                        "access_rules": ["$card_count:10"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 495,
+                        "y": 655
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Opposite Armor",
+                "access_rules": ["red_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 926,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House - Gepetto",
+                "access_rules": ["finish_monstro"],
+                "sections": [
+                    {
+                        "name": "Rewards",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "All Summons Reward",
+                        "item_count": 1,
+                        "access_rules": ["bambi, dumbo, mushu, simba, tinkerbell, genie"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 597,
+                        "y": 530
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House - Pinocchio",
+                "access_rules": ["finish_monstro"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                         "map": "TT",
+                         "x": 598,
+                         "y": 500
+                    }
+                ]
+            },
+            {
+                "name": "Magician's Study - Merlin",
+                "access_rules": ["fire:1"],
+                "sections": [
+                    {
+                        "name": "All Arts Items",
+                        "item_count": 1,
+                        "access_rules": ["fire_arts, blizzard_arts, thunder_arts, cure_arts, gravity_arts, stop_arts, aero_arts"]
+                    },
+                    {
+                        "name": "All LV1 Magic",
+                        "item_count": 1,
+                        "access_rules": ["fire:1, blizzard:1, thunder:1, cure:1, gravity:1, stop:1, aero:1"]
+                    },
+                    {
+                        "name": "All LV3 Magic",
+                        "item_count": 1,
+                        "access_rules": ["fire:3, blizzard:3, thunder:3, cure:3, gravity:3, stop:3, aero:3"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 754,
+                        "y": 726
+                    }
+                ]
+            },
+            {
+                "name": "Dalmatian's Den",
+                "sections": [
+                    {
+                        "name": "Return 10 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:10"]
+                    },
+                    {
+                        "name": "Return 20 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:20"]
+                    },
+                    {
+                        "name": "Return 30 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:30"]
+                    },
+                    {
+                        "name": "Return 40 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:40"]
+                    },
+                    {
+                        "name": "Return 50 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:50"]
+                    },
+                    {
+                        "name": "Return 60 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:60"]
+                    },
+                    {
+                        "name": "Return 70 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:70"]
+                    },
+                    {
+                        "name": "Return 80 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:80"]
+                    },
+                    {
+                        "name": "Return 90 Puppies",
+                        "item_count": 1,
+                        "access_rules": ["$puppy_count:90"]
+                    },
+                    {
+                        "name": "Return 99 Puppies",
+                        "item_count": 2,
+                        "access_rules": ["$puppy_count:99"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 774,
+                        "y": 383
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Traverse Town - Manual Checks",
+        "visibility_rules": ["manuals_on"],
+        "children": [
+            {
+                "name": "Postcard - Open Safe in 1st District",
+                "sections": [
+                    {
+                        "hosted_item": "Postcard",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 476,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Hit Fan in Item Shop",
+                "sections": [
+                    {
+                        "hosted_item": "Postcard",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 290,
+                        "y": 558 
+                    }
+                ]
+            },
+            {
+                "name": "Postcards - Activate Clock in Gizmo Shop",
+                "sections": [
+                    {
+                        "access_rules": ["TT_Cable"],
+                        "hosted_item": "Postcard, Postcard",
+                        "item_count": 2,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png"
+                        
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 760,
+                         "y": 198
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - 3rd District Balcony",
+                "sections": [
+                    {
+                        "hosted_item": "Postcard",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 898,
+                         "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Moogle Workshop Poster",
+                "sections": [
+                    {
+                        "hosted_item": "Postcard",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png",
+                        "access_rules":["green_trinity"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 314,
+                         "y": 695
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Bowl in Gepetto's House",
+                "sections": [
+                    {
+                        "hosted_item": "Postcard",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Chest.png",
+                        "chest_opened_img": "/images/misc/Postcards.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 668,
+                         "y": 514
+                    }
+                ]
+            },
+            {
+                "name": "Activate Switches in Gizmo Shop",
+                "sections": [
+                    {
+                        "access_rules": ["thunder:1"],
+                        "hosted_item": "TT_Cable",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/magic/thunder.png",
+                        "chest_opened_img": "/images/magic/thunder_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 825,
+                        "y": 466
+                    }
+                ]
+            },
+            {
+                "name": "Open Passage to Mystical House",
+                "sections": [
+                    {
+                        "item_count": 1,
+                        "access_rules": ["fire:1"],
+                        "chest_unopened_img": "/images/magic/fire.png",
+                        "chest_opened_img": "/images/magic/fire_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 951,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "Access to Bell Rope",
+                "access_rules": ["red_trinity"],
+                "sections": [
+                    {
+                        "name": "Red Trinity on Rooftop",
+                        "chest_unopened_img": "/images/misc/Red Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 831,
+                        "y": 89
+                    }
+                ]
+            }
+        ]
+    }
+]

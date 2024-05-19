@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Guard",
+        "type": "toggle",
+        "codes": "guard"
+    },
+    {
+        "name": "High Jump",
+        "img": "images/misc/High Jump.png",
+        "type": "toggle",
+        "codes": "high_jump"
+    },
+    {
+        "name": "Mermaid Kick",
+        "img": "images/misc/Mermaid Kick.png",
+        "type": "toggle",
+        "codes": "mermaid_kick"
+    },
+    {
+        "name": "Glide",
+        "img": "images/misc/Glide.png",
+        "type": "toggle",
+        "codes": "glide"
+    },
+    {
+        "name": "Superglide",
+        "img": "images/misc/Glide.png",
+        "type": "toggle",
+        "codes": "superglide"
+    },
+    {
+        "name": "Blue Trinity",
+        "img": "images/misc/Blue Trinity.png",
+        "type": "toggle",
+        "codes": "blue_trinity"
+    },
+    {
+        "name": "Red Trinity",
+        "img": "images/misc/Red Trinity.png",
+        "type": "toggle",
+        "codes": "red_trinity"
+    },
+    {
+        "name": "Green Trinity",
+        "img": "images/misc/Green Trinity.png",
+        "type": "toggle",
+        "codes": "green_trinity"
+    },
+    {
+        "name": "Yellow Trinity",
+        "img": "images/misc/Yellow Trinity.png",
+        "type": "toggle",
+        "codes": "yellow_trinity"
+    },
+    {
+        "name": "White Trinity",
+        "img": "images/misc/White Trinity.png",
+        "type": "toggle",
+        "codes": "white_trinity"
+    }
+]

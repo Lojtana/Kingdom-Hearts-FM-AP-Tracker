@@ -1,0 +1,16 @@
+{
+  "shared_item_grid": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "layout",
+        "dock": "top",
+        "key": "visit_locks"
+      },
+      {
+        "type": "layout",
+        "key": "progressive_items"
+      }
+    ]
+  }
+}

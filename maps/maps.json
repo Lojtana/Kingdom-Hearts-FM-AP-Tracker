@@ -1,0 +1,80 @@
+[
+    {
+        "name": "TT",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/traverse.png"
+    },
+    {
+        "name": "WL",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/wonderland.png"
+    },
+    {
+        "name": "OC",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/olympus.png"
+    },
+    {
+        "name": "DJ",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/jungle.png"
+    },
+    {
+        "name": "AG",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/agrabah.png"
+    },
+    {
+        "name": "AG_Cave",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/agrabah_cave.png"
+    },
+    {
+        "name": "Mon",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/monstro.png"
+    },
+    {
+        "name": "AL",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/atlantica.png"
+    },
+    {
+        "name": "HT",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/halloween.png"
+    },
+    {
+        "name": "NL",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/neverland.png"
+    },
+    {
+        "name": "HB",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/hollow_bastion.png"
+    },
+    {
+        "name": "100",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/100acre.png"
+    },
+    {
+        "name": "EOTW",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/end.png"
+    }
+]

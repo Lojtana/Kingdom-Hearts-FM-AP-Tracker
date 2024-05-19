@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Ansem's Report 1",
+        "type": "toggle",
+        "codes": "Ansem_1"
+    },
+    {
+        "name": "Ansem's Report 2",
+        "type": "toggle",
+        "codes": "Ansem_2"
+    },
+    {
+        "name": "Ansem's Report 3",
+        "type": "toggle",
+        "codes": "Ansem_3"
+    },
+    {
+        "name": "Ansem's Report 4",
+        "type": "toggle",
+        "codes": "Ansem_4"
+    },
+    {
+        "name": "Ansem's Report 5",
+        "type": "toggle",
+        "codes": "Ansem_5"
+    },
+    {
+        "name": "Ansem's Report 6",
+        "type": "toggle",
+        "codes": "Ansem_6"
+    },
+    {
+        "name": "Ansem's Report 7",
+        "type": "toggle",
+        "codes": "Ansem_7"
+    },
+    {
+        "name": "Ansem's Report 8",
+        "type": "toggle",
+        "codes": "Ansem_8"
+    },
+    {
+        "name": "Ansem's Report 9",
+        "type": "toggle",
+        "codes": "Ansem_9"
+    },
+    {
+        "name": "Ansem's Report 10",
+        "type": "toggle",
+        "codes": "Ansem_10"
+    },
+    {
+        "name": "Ansem's Report 11",
+        "type": "toggle",
+        "codes": "Ansem_11"
+    },
+    {
+        "name": "Ansem's Report 12",
+        "type": "toggle",
+        "codes": "Ansem_12"
+    },
+    {
+        "name": "Ansem's Report 13",
+        "type": "toggle",
+        "codes": "Ansem_13"
+    },
+    {
+        "name": "Theon Vol. 6",
+        "type": "toggle",
+        "codes": "Theon"
+    },
+    {
+        "name": "Torn Page 2",
+        "type": "toggle",
+        "codes": "Torn Page 2"
+    },
+    {
+        "name": "Torn Page 3",
+        "type": "toggle",
+        "codes": "Torn Page 3"
+    },
+    {
+        "name": "Slide 1",
+        "type": "toggle",
+        "codes": "DJ_progress"
+    },
+    {
+        "name": "Jack-In-The-Box",
+        "type": "toggle",
+        "codes": "HT_progress"
+    },
+    {
+        "name": "Dalmatian Puppies",
+        "type": "consumable",
+        "codes": "Puppies",
+        "img": "images/misc/Dalmatians.png",
+        "max_quantity": 99,
+        "overlay_font_size": 24
+    },
+    {
+        "name": "Ansem's Reports",
+        "type": "consumable",
+        "codes": "Reports",
+        "img": "images/misc/Ansem's Reports.png",
+        "max_quantity": 13,
+        "overlay_font_size": 24
+    },
+    {
+        "name": "Navi-G Piece",
+        "type": "consumable",
+        "codes": "navi_g"
+    }
+]

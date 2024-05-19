@@ -1,0 +1,375 @@
+[
+    {
+        "name": "Wonderland Chests",
+        "access_rules":["wonderland"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "children": [
+            {
+                "name": "Rabbit Hole - Green Trinity Chest",
+                "access_rules":["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Green Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 281,
+                        "y": 796
+                    }
+                ]
+            },
+            {
+                "name": "Rabbit Hole - Defeat Heartless 1",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 230,
+                        "y": 811
+                    }
+                ]
+            },
+            {
+                "name": "Rabbit Hole - Defeat Heartless 2",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 239,
+                        "y": 745
+                    }
+                ]
+            },
+            {
+                "name": "Rabbit Hole - Defeat Heartless 3",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 274,
+                        "y": 756
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room - Green Trinity Chest",
+                "access_rules": ["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/misc/Green Trinity.png",
+                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 748,
+                        "y": 592
+                    }
+                ]
+            },
+            {
+                "name": "Queen's Castle - Left Hedge Chest",
+                "access_rules":["footprints", "high_jump","$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 543,
+                        "y": 153
+                    }
+                ]
+            },
+            {
+                "name": "Queen's Castle - Right Hedge Blue Chest",
+                "access_rules":["footprints", "high_jump","$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 601,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Queen's Castle - Right Hedge Red Chest",
+                "access_rules":["footprints", "high_jump","$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                         "x": 644,
+                         "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - Thunder Plant Chest 1",
+                "access_rules":["footprints, thunder:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 131,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - Thunder Plant Chest 2",
+                "access_rules":["footprints, thunder:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 312,
+                        "y": 82
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - Southwest Corner Chest",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 264,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - Chest Near Nut",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 208,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - Northeast Corner Chest",
+                "access_rules":["[high_jump]","[$any_glide]"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 184,
+                        "y": 78
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room - Lamp Chest",
+                "access_rules":["footprints"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 729,
+                        "y": 914
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden - 2nd Chest Above Lotus Forest Entrance",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 278,
+                        "y": 459
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden - 1st Chest Above Lotus Forest Entrance",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 195,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden - Bear and Clock Puzzle Chest",
+                "access_rules":["footprints", "$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 392,
+                        "y": 524
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 325,
+                        "y": 597
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest - White Trinity Chest",
+                "access_rules":["footprints, white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 335,
+                        "y": 73
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Woderland Events",
+        "access_rules":["wonderland"],
+        "chest_unopened_img": "/images/misc/Key Item.png",
+        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "children": [
+            {
+                "name": "Defeat Trickmaster",
+                "access_rules":["footprints"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 670,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room - Read Book",
+                "access_rules":["footprints"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 543,
+                        "y": 576
+                    }
+                ]
+            }
+        ]
+    }
+]

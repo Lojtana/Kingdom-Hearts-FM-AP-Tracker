@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Wonderland",
+        "img": "images/worlds/Wonderland.png",
+        "type": "toggle",
+        "codes": "wonderland"
+    },
+    {
+        "name": "Footprints",
+        "type": "toggle",
+        "codes": "footprints"
+    },
+    {
+        "name": "Deep Jungle",
+        "img": "images/worlds/Deep Jungle.png",
+        "type": "toggle",
+        "codes": "deep_jungle"
+    },
+    {
+        "name": "Deep Jungle Slides",
+        "type": "toggle",
+        "codes": "slides"
+    },
+    {
+        "name": "Olympus Coliseum",
+        "img": "images/worlds/Olympus Coliseum KH1.png",
+        "type": "toggle",
+        "codes": "olympus_coliseum"
+    },
+    {
+        "name": "Phil Cup",
+        "type": "toggle",
+        "codes": "phil_cup"
+    },
+    {
+        "name": "Pegasus Cup",
+        "type": "toggle",
+        "codes": "pegasus_cup"
+    },
+    {
+        "name": "Hercules Cup",
+        "type": "toggle",
+        "codes": "hercules_cup"
+    },
+    {
+        "name": "Agrabah",
+        "img": "images/worlds/Agrabah.png",
+        "type": "toggle",
+        "codes": "agrabah"
+    },
+    {
+        "name": "Halloween Town",
+        "img": "images/worlds/Halloween Town.png",
+        "type": "toggle",
+        "codes": "halloween_town"
+    },
+    {
+        "name": "Atlantica",
+        "img": "images/worlds/Atlantica KH1.png",
+        "type": "toggle",
+        "codes": "atlantica"
+    },
+    {
+        "name": "Neverland",
+        "img": "images/worlds/Neverland KH1.png",
+        "type": "toggle",
+        "codes": "neverland"
+    },
+    {
+        "name": "Hollow Bastion",
+        "img": "images/worlds/Hollow Bastion.png",
+        "type": "toggle",
+        "codes": "hollow_bastion"
+    },
+    {
+        "name": "Monstro",
+        "img": "images/worlds/Monstro.png",
+        "type": "toggle",
+        "codes": "monstro"
+    },
+    {
+        "name": "100 Acre Wood",
+        "img": "images/worlds/100 Acre Wood.png",
+        "type": "toggle",
+        "codes": "100"
+    },
+    {
+        "name": "Traverse Town",
+        "img": "images/worlds/Traverse Town KH1.png",
+        "type": "toggle",
+        "codes": "traverse_town"
+    },
+    {
+        "name": "End of the World",
+        "img": "images/worlds/End of the World.png",
+        "type": "toggle",
+        "codes": "end_of_the_world"
+    }
+]

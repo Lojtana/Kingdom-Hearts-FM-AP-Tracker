@@ -1,0 +1,539 @@
+[
+    {
+        "name": "Deep Jungle Chests",
+        "access_rules": ["deep_jungle"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/elixir.png",
+        "children": [
+            {
+                "name": "Beneath Tree House Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 123,
+                        "y": 342
+                    }
+                ]
+            },
+            {
+                "name": "Tree House - Rooftop Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 556,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Hippo's Lagoon - Center Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 0
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 393,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Hippo's Lagoon - Left Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 435,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Hippo's Lagoon - Right Chest",
+                "access_rules":["high_jump", "$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 447,
+                        "y": 854
+                    }
+                ]
+            },
+            {
+                "name": "Vines Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 507,
+                        "y": 727
+                    }
+                ]
+            },
+            {
+                "name": "Vines 2 Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 590,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Climbing Trees- Blue Trinity Chest",
+                "access_rules":["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 105,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 256,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "Cavern of Hearts - White Trinity Chest",
+                "access_rules":["slides, white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 835,
+                        "y": 59
+                    }
+                ]
+            },
+            {
+                "name": "Camp - Blue Trinity Chest",
+                "access_rules":["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 885,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Tent Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 796,
+                        "y": 848
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern - Lower Chest",
+                "access_rules":["slides"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 977,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern - Middle Chest",
+                "access_rules":["slides"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 934,
+                        "y": 219
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern - High Wall Chest",
+                "access_rules":["slides"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 962,
+                        "y": 204
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern - High Middle Chest",
+                "access_rules":["slides"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 915,
+                        "y": 199
+                    }
+                ]
+            },
+            {
+                "name": "Cliff - Left Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 965,
+                        "y": 401
+                    }
+                ]
+            },
+            {
+                "name": "Cliff - Right Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 964,
+                        "y": 416
+                    }
+                ]
+            },
+            {
+                "name": "Tree House - Suspended Boat Chest",
+                "access_rules":[["$any_glide"]],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 443,
+                        "y": 420
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Deep Jungle Events",
+        "access_rules":["deep_jungle, slides"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Defeat Sabor",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 762,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Clayton",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 873,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Seal the Keyhole",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2,
+                        "hosted_item": "navi_g, seal_jungle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 850,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Cliff - Save Gorillas",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 918,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Tree House - Save Gorillas",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 321,
+                        "y": 309
+                    }
+                ]
+            },
+            {
+                "name": "Camp - Save Gorillas",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 849,
+                        "y": 706
+                    }
+                ]
+            },
+            {
+                "name": "Bamboo Thicket - Save Gorillas",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 766,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Climbing Trees - Save Gorillas",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 153,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Jungle Slider",
+                "access_rules":["seal_jungle"],
+                "sections": [
+                    {
+                        "name": "Green Serpent",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Splash Tunnel",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jade Spiral",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Panic Fall",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shadow Cavern",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 310,
+                        "y": 515
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Deep Jungle Experiments",
+        "access_rules":["deep_jungle"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Research Table Experiment",
+                "access_rules":["blizzard:1"],
+                "sections": [
+                    {
+                        "name": "1st Experiment",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2nd Experiment",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 904,
+                        "y": 751
+                    }
+                ]
+            },
+            {
+                "name": "Oven Experiment",
+                "access_rules":["fire:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 935,
+                        "y": 768
+                    }
+                ]
+            }
+        ]
+    }
+]

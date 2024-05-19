@@ -1,0 +1,698 @@
+[
+    {
+        "name": "Agrabah Chests",
+        "access_rules":["agrabah"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/elixir.png",
+        "children": [
+            {
+                "name": "Plaza - Chest by Storage",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 338,
+                        "y": 654
+                    }
+                ]
+            },
+            {
+                "name": "Plaza - Raised Terrace Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 454,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Plaza - Top Corner Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 293,
+                        "y": 650
+                    }
+                ]
+            },
+            {
+                "name": "Alley Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 0
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 48,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "Bazaar - Chest Across Windows",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 702,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Bazaar - High Corner Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 670,
+                        "y": 279
+                    }
+                ]
+            },
+            {
+                "name": "Main Street - Right Palace Entrance Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 439,
+                        "y": 409
+                    }
+                ]
+            },
+            {
+                "name": "Main Street - Chest High Above Alley Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 273,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Main Street - Chest High Above Palace Entrance",
+                "access_rules":["high_jump","$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 429,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Palace Gates - Low Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 469,
+                        "y": 113
+                    }
+                ]
+            },
+            {
+                "name": "Palace Gates - High Chest Opposite Palace",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 426,
+                        "y": 103
+                    }
+                ]
+            },
+            {
+                "name": "Palace Gates - High Chest Close to Palace",
+                "access_rules":["high_jump, $any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 519,
+                        "y": 37
+                    }
+                ]
+            },
+            {
+                "name": "Storage - Green Trinity Chest",
+                "access_rules":["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 89,
+                        "y": 637
+                    }
+                ]
+            },
+            {
+                "name": "Storage - Chest Behind Barrel",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 166,
+                        "y": 693
+                    }
+                ]
+            },
+            {
+                "name": "Aladdin's House - Chest at Main Street Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 648,
+                        "y": 629
+                    }
+                ]
+            },
+            {
+                "name": "Aladdin's House - Chest at Plaza Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 552,
+                        "y": 656
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cave of Wonders Chests",
+        "access_rules":["agrabah"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/elixir.png",
+        "children": [
+            {
+                "name": "Cave Entrance - Left Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 482,
+                        "y": 729
+                    }
+                ]
+            },
+            {
+                "name": "Cave Entrance - Tall Tower Chest",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 421,
+                        "y": 747
+                    }
+                ]
+            },
+            {
+                "name": "Hall - High Left Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 49,
+                        "y": 779
+                    }
+                ]
+            },
+            {
+                "name": "Hall - Chest Near Bottomless Hall",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 53,
+                        "y": 684
+                    }
+                ]
+            },
+            {
+                "name": "Bottomless Hall - Raised Platform Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 67,
+                        "y": 491
+                    }
+                ]
+            },
+            {
+                "name": "Bottomless Hall - Pillar Chest",
+                "access_rules":["[high_jump]"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 86,
+                        "y": 559
+                    }
+                ]
+            },
+            {
+                "name": "Bottomless Hall - Chest Across Chasm",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 186,
+                        "y": 558
+                    }
+                ]
+            },
+            {
+                "name": "Treasure Room - Chest Across Platforms",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 166,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Treasure Room - Small Treasure Pile Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 100,
+                        "y": 137
+                    }
+                ]
+            },
+            {
+                "name": "Treasure Room - Large Treasure Pile Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 194,
+                        "y": 149
+                    }
+                ]
+            },
+            {
+                "name": "Treasure Room - Chest Above Fire",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 89,
+                        "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "Relic Chamber - Jump from Stairs Chest",
+                "sections": [
+                    {
+                        "name": "Push Block in Bottomless Hall",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 866,
+                        "y": 351
+                    }
+                ]
+            },
+            {
+                "name": "Relic Chamber - Stairs Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 933,
+                        "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "Dark Chamber - Abu Gem Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 933,
+                        "y": 581
+                    }
+                ]
+            },
+            {
+                "name": "Dark Chamber - Chest Across Relic Chamber Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 894,
+                        "y": 501
+                    }
+                ]
+            },
+            {
+                "name": "Dark Chamber - Bridge Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 928,
+                        "y": 636
+                    }
+                ]
+            },
+            {
+                "name": "Dark Chamber - Chest Near Save Point",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 916,
+                        "y": 682
+                    }
+                ]
+            },
+            {
+                "name": "Silent Chamber - Blue Trinity Chest",
+                "access_rules":["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 609,
+                        "y": 406
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Room - Right Chest",
+                "access_rules":["yellow_trinity", "high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 533,
+                        "y": 707
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Room - Left Chest",
+                "access_rules":["yellow_trinity", "high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 527,
+                        "y": 739
+                    }
+                ]
+            },
+            {
+                "name": "Cave Entrance - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 406,
+                        "y": 654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Agrabah Events",
+        "access_rules":["agrabah"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Defeat Pot Centipede",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 535,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Jafar",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 350,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Genie Jafar",
+                "sections": [
+                    {
+                        "name": "Defeat Genie Jafar",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Seal the Keyhole",
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 415,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Kurt Zisa",
+                "access_rules":["seal_HB"],
+                "visibility_rules":["superboss_on", "superboss_goal"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 330,
+                        "y": 788
+                    }
+                ]
+            }
+        ]
+    }
+]

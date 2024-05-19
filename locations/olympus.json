@@ -1,0 +1,243 @@
+[
+    {
+        "name": "Olympus Coliseum Chests",
+        "access_rules":["olympus_coliseum"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/elixir.png",
+        "children": [
+            {
+                "name": "Coliseum Gates - Chest Behind Left Columns",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 202,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Right Blue Trinity Chest",
+                "access_rules":["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 115,
+                        "y": 222
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Left Blue Trinity Chest",
+                "access_rules":["blue_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 252,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 233,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Blizzara Chest",
+                "access_rules":["blizzard:2"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 353,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Blizzaga Chest",
+                "access_rules":["blizzard:3"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 138,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Purple Jar",
+                "access_rules":["defeat_hades"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 125,
+                        "y": 242
+                    }
+                ]
+            },
+            {
+                "name": "Olympia Chest",
+                "access_rules":["cups_count:3"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 224,
+                        "y": 531
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Olympus Coliseum Events",
+        "access_rules":["olympus_coliseum"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Olympus Coliseum Cups",
+                "sections": [
+                    {
+                        "name": "Phil's Training",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Phil Cup",
+                        "access_rules":["phil_cup"],
+                        "item_count": 3,
+                        "hosted_item": "cups_count"
+                    },
+                    {
+                        "name": "Pegasus Cup",
+                        "access_rules":["pegasus_cup"],
+                        "item_count": 3,
+                        "hosted_item": "cups_count"
+                    },
+                    {
+                        "name": "Hercules Cup",
+                        "access_rules":["hercules_cup"],
+                        "item_count": 5,
+                        "hosted_item": "cups_count"
+                    },
+                    {
+                        "name": "Hades Cup",
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, $world_count:7"],
+                        "item_count": 7
+                    },
+                    {
+                        "name": "Defeat Hades",
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, $world_count:7"],
+                        "item_count": 2,
+                        "hosted_item": "defeat_hades"
+                    },
+                    {
+                        "name": "Defeat Sephiroth",
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, $world_count:7"],
+                        "visibility_rules":["superboss_on", "superboss_goal", "sephiroth_goal"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Defeat Ice Titan",
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, $world_count:7, guard"],
+                        "visibility_rules":["superboss_on", "superboss_goal"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 63,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Cerberus",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 92,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Coliseum Gates - Green Trinity",
+                "access_rules":["green_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OC",
+                        "x": 383,
+                        "y": 166
+                    }
+                ]
+            }
+        ]
+    }
+]
