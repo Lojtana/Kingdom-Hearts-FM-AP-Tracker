@@ -1,0 +1,486 @@
+[
+    {
+        "name": "Atlantica Chests",
+        "access_rules": ["atlantica"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Sunken Ship - Chest in Flipped Boat",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 421,
+                        "y": 562
+                    }
+                ]
+            },
+            {
+                "name": "Sunken Ship - Seabed Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 449,
+                        "y": 542
+                    }
+                ]
+            },
+            {
+                "name": "Shunken Ship - Chest Inside Ship",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 435,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Ariel's Grotto - High Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 737,
+                        "y": 814
+                    }
+                ]
+            },
+            {
+                "name": "Ariel's Grotto - Middle Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 695,
+                        "y": 854
+                    }
+                ]
+            },
+            {
+                "name": "Ariel's Grotto - Low Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 761,
+                        "y": 933
+                    }
+                ]
+            },
+            {
+                "name": "Ursula's Lair - Use Fire on Urchin Chest",
+                "access_rules":["fire:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 171,
+                        "y": 123
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Gorge - Jammed Chest by Ariel's Grotto",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 773,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Triton's Palace - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 736,
+                        "y": 188
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Atlantica Clams",
+        "access_rules":["atlantica"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Undersea Gorge - Blizzard Clam",
+                "access_rules":["blizzard:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 612,
+                        "y": 583
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Gorge - Ocean Floor Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 687,
+                        "y": 537
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Higher Cave Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 0
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 312,
+                        "y": 890
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Lower Cave Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 0
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 263,
+                        "y": 906
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Fire Clam",
+                "access_rules":["fire:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 275,
+                        "y": 845
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Wall Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 252,
+                        "y": 719
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Pillar Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 231,
+                        "y": 766
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Valley - Ocean Floor Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 253,
+                        "y": 849
+                    }
+                ]
+            },
+            {
+                "name": "Triton's Palace - Thunder Clam",
+                "access_rules":["thunder:1"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 687,
+                        "y": 191
+                    }
+                ]
+            },
+            {
+                "name": "Triton's Palace - Right Wall Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 773,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Triton's Palace - Clam Near Path",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 735,
+                        "y": 213
+                    }
+                ]
+            },
+            {
+                "name": "Triton's Palace - Left Wall Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 711,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "Cavern Nook Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 282,
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Sunken Ship - Clam Below Deck",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 364,
+                        "y": 129
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Garden Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 597,
+                        "y": 427
+                    }
+                ]
+            },
+            {
+                "name": "Undersea Cave Clam",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 525,
+                        "y": 750
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Atlantica Events",
+        "access_rules":[
+            "atlantica, fire:1",
+            "atlantica, blizzard:1",
+            "atlantica, thunder:1",
+            "atlantica, stop:1"
+        ],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Defeat Ursula I",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 127,
+                        "y": 147
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Ursula II",
+                "access_rules":["mermaid_kick"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 454,
+                        "y": 924
+                    }
+                ]
+            },
+            {
+                "name": "Seal Atlantica Keyhole",
+                "access_rules":["mermaid_kick"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 728,
+                        "y": 920
+                    }
+                ]
+            }
+        ]
+    }
+]
