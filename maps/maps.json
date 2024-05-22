@@ -42,7 +42,7 @@
         "img": "images/maps/monstro.png"
     },
     {
-        "name": "AL",
+        "name": "AT",
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/atlantica.png"
