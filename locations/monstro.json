@@ -379,12 +379,11 @@
             },
             {
                 "name": "Defeat Parasite Cage II",
-                "access_rules":["high_jump"],
+                "access_rules":["high_jump", "$any_glide"],
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "hosted_item": "finish_monstro"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
