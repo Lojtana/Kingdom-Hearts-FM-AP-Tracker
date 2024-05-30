@@ -1,7 +1,7 @@
 [
     {
         "name": "Atlantica Chests",
-        "access_rules": ["atlantica"],
+        "access_rules": ["atlantica, $world_count:2"],
         "chest_unopened_img": "/images/misc/Chest.png",
         "chest_opened_img": "/images/misc/Key Item.png",
         "children": [
@@ -155,7 +155,7 @@
     },
     {
         "name": "Atlantica Clams",
-        "access_rules":["atlantica"],
+        "access_rules":["atlantica, $world_count:2"],
         "chest_unopened_img": "/images/misc/Chest.png",
         "chest_opened_img": "/images/misc/Key Item.png",
         "children": [
@@ -423,10 +423,10 @@
     {
         "name": "Atlantica Events",
         "access_rules":[
-            "atlantica, fire:1",
-            "atlantica, blizzard:1",
-            "atlantica, thunder:1",
-            "atlantica, stop:1"
+            "atlantica, $world_count:2, fire:1",
+            "atlantica, $world_count:2, blizzard:1",
+            "atlantica, $world_count:2, thunder:1",
+            "atlantica, $world_count:2, stop:1"
         ],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
