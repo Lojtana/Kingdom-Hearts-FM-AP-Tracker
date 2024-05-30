@@ -1,0 +1,426 @@
+[
+    {
+        "name": "Halloween Town Chests",
+        "access_rules":["halloween_town, $world_count:2"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Moonlight Hill - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 373,
+                        "y": 692
+                    }
+                ]
+            },
+            {
+                "name": "Boneyard - Tombstone Puzzle Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 592,
+                        "y": 556
+                    }
+                ]
+            },
+            {
+                "name": "Guillotine Square - High Tower Chest",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 299,
+                        "y": 799
+                    }
+                ]
+            },
+            {
+                "name": "Guillotine Square - Left Chest in Pumpkin Structure",
+                "access_rules":["high_jump, $any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 227,
+                        "y": 855
+                    }
+                ]
+            },
+            {
+                "name": "Guillotine Square - Chest Under Jack's House",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 429,
+                        "y": 892
+                    }
+                ]
+            },
+            {
+                "name": "Guillotine Square - Right Side in Pumpkin Structure",
+                "access_rules":["high_jump, $any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 240,
+                        "y": 841
+                    }
+                ]
+            },
+            {
+                "name": "Guillotine Square - Ring Jack's Doorbell 3 Times",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 435,
+                        "y": 863
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halloween Town Chests - 2nd Visit",
+        "access_rules":["halloween_town, jack_box, $world_count:2"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Bridge - Chest Under Bridge",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 294,
+                        "y": 516
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Chest Right of Gate",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 317,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Cemetary - Chest Behind Grave",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 631,
+                        "y": 421
+                    }
+                ]
+            },
+            {
+                "name": "Cemetary - Chest By Cat Shaped Grave",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 773,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Cemetary - Chest Between Graves",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 709,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Chest in Lower Iron Cage",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 419,
+                        "y": 113
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Chest in Upper Iron Cage",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 409,
+                        "y": 89
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Hollow Chest",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 466,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Red Trinity Chest",
+                "access_rules":["red_trinity"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 143,
+                        "y": 268
+                    },
+                    {
+                        "map": "HT",
+                        "x": 546,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Chest at Entrance Steps",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 491,
+                        "y": 151
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Chest Inside Entrance",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 464,
+                        "y": 96
+                    }
+                ]
+            },
+            {
+                "name": "Oogie's Manor - Chests in Remains",
+                "sections": [
+                    {
+                        "name": "Oogie's Manor - Chest in Lower Iron Cage",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest in Lower Iron Cage/"
+                    },
+                    {
+                        "name": "Oogie's Manor - Chest in Upper Iron Cage",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest in Upper Iron Cage/"
+                    },
+                    {
+                        "name": "Oogie's Manor - Hollow Chest",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Hollow Chest/"
+                    },
+                    {
+                        "name": "Oogie's Manor - Red Trinity Chest",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Red Trinity Chest/"
+                    },
+                    {
+                        "name": "Oogie's Manor - Chest at Entrance Steps",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest at Entrance Steps/"
+                    },
+                    {
+                        "name": "Oogie's Manor - Chest Inside Entrance",
+                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest Inside Entrance/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 86,
+                        "y": 249
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Chest Left of Gate",
+                "access_rules":["high_jump", "$any_glide"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 243,
+                        "y": 524
+                    }
+                ]
+            },
+            {
+                "name": "Cemetary - Chest by Striped Grave",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 707,
+                        "y": 452
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Halloween Town Events",
+        "access_rules":["halloween_town, jack_box, $world_count:2"],
+        "chest_unopened_img": "/images/misc/Chest.png",
+        "chest_opened_img": "/images/misc/Key Item.png",
+        "children": [
+            {
+                "name": "Defeat Oogie Boogie",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 306,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Oogie's Manor",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 425,
+                        "y": 273
+                    }
+                ]
+            }
+        ]
+    }
+]

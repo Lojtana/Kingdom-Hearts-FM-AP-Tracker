@@ -55,6 +55,11 @@
         "codes": "halloween_town"
     },
     {
+        "name": "Jack-in-a-Box",
+        "type": "toggle",
+        "codes": "jack_box"
+    },
+    {
         "name": "Atlantica",
         "img": "images/worlds/Atlantica KH1.png",
         "type": "toggle",
