@@ -311,7 +311,7 @@
                 ]
             },
             {
-                "name": "Alleyway - Chest behind Crates",
+                "name": "Alleyway - Chest Behind Crates",
                 "access_rules": ["red_trinity"],
                 "sections": [
                     {
@@ -381,6 +381,10 @@
                     {
                         "name": "Blue Trinity",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Leon's Gift",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -425,6 +429,129 @@
                         "map": "TT",
                         "x": 870,
                         "y": 481
+                    }
+                ]
+            },
+            {
+                "name": "1st District - Talk to Cid",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 494,
+                        "y": 589
+                    }
+                ]
+            },
+            {
+                "name": "1st District - Talk to Aerith",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 499,
+                        "y": 631
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Hit Fan in Item Shop",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 290,
+                        "y": 558 
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Open Safe in 1st District",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 476,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Activate Clock in Gizmo Shop",
+                "sections": [
+                    {
+                        "item_count": 2
+                        
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 760,
+                         "y": 198
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Moogle Workshop Poster",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 314,
+                         "y": 695
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - 3rd District Balcony",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 898,
+                         "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Bowl in Gepetto's House",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 668,
+                         "y": 514
                     }
                 ]
             },
@@ -600,7 +727,7 @@
                     },
                     {
                         "name": "Return 50 Puppies",
-                        "item_count": 1,
+                        "item_count": 2,
                         "access_rules": ["$puppy_count:50"]
                     },
                     {
@@ -643,117 +770,6 @@
         "name": "Traverse Town - Manual Checks",
         "visibility_rules": ["manuals_on"],
         "children": [
-            {
-                "name": "Postcard - Open Safe in 1st District",
-                "sections": [
-                    {
-                        "hosted_item": "Postcard",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 476,
-                        "y": 571
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Hit Fan in Item Shop",
-                "sections": [
-                    {
-                        "hosted_item": "Postcard",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 290,
-                        "y": 558 
-                    }
-                ]
-            },
-            {
-                "name": "Postcards - Activate Clock in Gizmo Shop",
-                "sections": [
-                    {
-                        "access_rules": ["TT_Cable"],
-                        "hosted_item": "Postcard, Postcard",
-                        "item_count": 2,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png"
-                        
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 760,
-                         "y": 198
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - 3rd District Balcony",
-                "sections": [
-                    {
-                        "hosted_item": "Postcard",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 898,
-                         "y": 420
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Moogle Workshop Poster",
-                "sections": [
-                    {
-                        "hosted_item": "Postcard",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png",
-                        "access_rules":["green_trinity"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 314,
-                         "y": 695
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Bowl in Gepetto's House",
-                "sections": [
-                    {
-                        "hosted_item": "Postcard",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Chest.png",
-                        "chest_opened_img": "/images/misc/Postcards.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 668,
-                         "y": 514
-                    }
-                ]
-            },
             {
                 "name": "Activate Switches in Gizmo Shop",
                 "sections": [
