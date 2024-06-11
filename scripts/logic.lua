@@ -47,19 +47,6 @@ function puppy_count()
     return count
 end
 
-function card_count()
-    local count = 0
-    for _, item in pairs(CARD_REQ) do
-        if has("green_trinity") then
-            count = count + 1
-        end
-        if has("finish_monstro") then
-            count = count + 1
-        end
-    end
-    return count
-end
-
 
 --- access functions
 
