@@ -128,10 +128,12 @@ LOCATION_MAPPING = {
     [2651412] = {"@Deep Jungle Chests/Cliff - Right Chest/"},
     [2651413] = {"@Deep Jungle Chests/Tree House - Suspended Boat Chest/"},
 
+    [2656383] = {"@Deep Jungle Events/Collect All Slides/"},
     [2656021] = {"@Deep Jungle Events/Defeat Sabor/"},
     [2656022] = {"@Deep Jungle Events/Defeat Clayton/"},
     [2656023] = {"@Deep Jungle Events/Seal the Keyhole/"},
     [2656024] = {"@Deep Jungle Events/Seal the Keyhole/"},
+    [2656384] = {"@Deep Jungle Events/Seal the Keyhole/"},
 
     [2656361] = {"@Deep Jungle Experiments/Research Table Experiment/1st Experiment"},
     [2656362] = {"@Deep Jungle Experiments/Research Table Experiment/2nd Experiment"},

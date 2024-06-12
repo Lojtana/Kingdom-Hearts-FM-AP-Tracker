@@ -1,7 +1,7 @@
 [
     {
         "name": "Deep Jungle Chests",
-        "access_rules": ["deep_jungle"],
+        "access_rules": ["deep_jungle, $world_count:2"],
         "chest_unopened_img": "/images/misc/Chest.png",
         "chest_opened_img": "/images/misc/elixir.png",
         "children": [
@@ -71,7 +71,7 @@
             },
             {
                 "name": "Hippo's Lagoon - Right Chest",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["[high_jump]", "[$any_glide]"],
                 "sections": [
                     {
                         "name": "",
@@ -303,7 +303,7 @@
             },
             {
                 "name": "Tree House - Suspended Boat Chest",
-                "access_rules":[["$any_glide"]],
+                "access_rules":["[$any_glide]"],
                 "sections": [
                     {
                         "name": "",
@@ -322,10 +322,30 @@
     },
     {
         "name": "Deep Jungle Events",
-        "access_rules":["deep_jungle, slides"],
+        "access_rules":["deep_jungle, slides, $world_count:2"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
+            {
+                "name": "Collect All Slides",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 770,
+                        "y": 863
+                    },
+                    {
+                        "map": "DJ",
+                        "x": 933,
+                        "y": 710
+                    }
+                ]
+            },
             {
                 "name": "Defeat Sabor",
                 "sections": [
@@ -363,8 +383,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 2,
-                        "hosted_item": "navi_g, seal_jungle"
+                        "item_count": 3
                     }
                 ],
                 "map_locations": [
@@ -492,7 +511,7 @@
     },
     {
         "name": "Deep Jungle Experiments",
-        "access_rules":["deep_jungle"],
+        "access_rules":["deep_jungle, $world_count:2"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
