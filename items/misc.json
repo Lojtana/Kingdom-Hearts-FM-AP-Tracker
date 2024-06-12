@@ -38,8 +38,15 @@
         "name": "Postcard",
         "type": "consumable",
         "codes": "postcard",
-        "img": "images/misc/Postcards.png",
+        "img": "images/misc/postcards.png",
         "max_quantity": 10,
         "overlay_font_size": 24
+    },
+    {
+        "name": "Empty Bottle",
+        "type": "consumable",
+        "img": "images/misc/bottle.png",
+        "max_quantity": 6,
+        "codes": "bottle"
     }
 ]

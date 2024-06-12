@@ -53,3 +53,7 @@ end
 function any_glide()
     return has("glide") or has("superglide")
 end
+
+function has_emblems()
+    return has("emblem_flame") and has ("emblem_chest") and has ("emblem_statue") and has ("emblem_fountain")
+end

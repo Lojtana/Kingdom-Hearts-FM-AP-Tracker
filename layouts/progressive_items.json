@@ -53,6 +53,18 @@
                         ["blue_trinity", "red_trinity", "green_trinity", "yellow_trinity", "white_trinity"]
                     ]
                 }
+            },
+            {
+                "type": "group",
+                "header": "Collectibles",
+                "content": {
+                    "type": "itemgrid",
+                    "item_margin": "5,5",
+                    "item_size": "40,40",
+                    "rows": [
+                        ["postcard", "bottle"]
+                    ]
+                }
             }
         ]
     }

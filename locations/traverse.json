@@ -183,7 +183,7 @@
             },
             {
                 "name": "Mystical House - Yellow Trinity Chest",
-                "access_rules": ["fire:1, yellow_trinity"],
+                "access_rules": ["fire:1, yellow_trinity", "fire:1, high_jump:2"],
                 "sections": [
                     {
                         "name": "",
@@ -237,7 +237,7 @@
             },
             {
                 "name": "Gepetto's House Chest",
-                "access_rules": ["finish_monstro"],
+                "access_rules": ["monstro, high_jump"],
                 "sections": [
                     {
                         "name": "",
@@ -254,7 +254,7 @@
             },
             {
                 "name": "Moogle Workshop - Right Chest",
-                "access_rules": ["green_trinity"],
+                "access_rules": ["green_trinity", "high_jump:3"],
                 "sections": [
                     {
                         "name": "",
@@ -329,7 +329,7 @@
             },
             {
                 "name": "Moogle Workshop - Left Chest",
-                "access_rules": ["green_trinity"],
+                "access_rules": ["green_trinity", "high_jump:3"],
                 "sections": [
                     {
                         "name": "",
@@ -383,7 +383,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Leon's Gift",
+                        "name": "Defeat Leon - MISSABLE",
                         "item_count": 1
                     }
                 ],
@@ -405,7 +405,7 @@
                     {
                         "name": "Kairi",
                         "item_count": 1,
-                        "access_rules": ["seal_HB"]
+                        "access_rules": ["hollow_bastion, $world_count:5, $has_emblems"]
                     }
                 ],
                 "map_locations": [
@@ -434,6 +434,7 @@
             },
             {
                 "name": "1st District - Talk to Cid",
+                "access_rules":["hollow_bastion, $has_emblems, $world_count:5"],
                 "sections": [
                     {
                         "name": "",
@@ -449,7 +450,7 @@
                 ]
             },
             {
-                "name": "1st District - Talk to Aerith",
+                "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE",
                 "sections": [
                     {
                         "name": "",
@@ -461,160 +462,6 @@
                         "map": "TT",
                         "x": 499,
                         "y": 631
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Hit Fan in Item Shop",
-                "sections": [
-                    {
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 290,
-                        "y": 558 
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Open Safe in 1st District",
-                "sections": [
-                    {
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 476,
-                        "y": 571
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Activate Clock in Gizmo Shop",
-                "sections": [
-                    {
-                        "item_count": 2
-                        
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 760,
-                         "y": 198
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Moogle Workshop Poster",
-                "sections": [
-                    {
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 314,
-                         "y": 695
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - 3rd District Balcony",
-                "sections": [
-                    {
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 898,
-                         "y": 420
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - Bowl in Gepetto's House",
-                "sections": [
-                    {
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 668,
-                         "y": 514
-                    }
-                ]
-            },
-            {
-                "name": "Postcards",
-                "chest_unopened_img": "/images/misc/postcards.png",
-                "sections": [
-                    {
-                        "name": "Mail Postcard 01",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:1"]
-                    },
-                    {
-                        "name": "Mail Postcard 02",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:2"]
-                    },
-                    {
-                        "name": "Mail Postcard 03",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:3"]
-                    },
-                    {
-                        "name": "Mail Postcard 04",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:4"]
-                    },
-                    {
-                        "name": "Mail Postcard 05",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:5"]
-                    },
-                    {
-                        "name": "Mail Postcard 06",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:6"]
-                    },
-                    {
-                        "name": "Mail Postcard 07",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:7"]
-                    },
-                    {
-                        "name": "Mail Postcard 08",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:8"]
-                    },
-                    {
-                        "name": "Mail Postcard 09",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:9"]
-                    },
-                    {
-                        "name": "Mail Postcard 10",
-                        "item_count": 1,
-                        "access_rules": ["$card_count:10"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 495,
-                        "y": 655
                     }
                 ]
             },
@@ -637,7 +484,7 @@
             },
             {
                 "name": "Gepetto's House - Gepetto",
-                "access_rules": ["finish_monstro"],
+                "access_rules": ["monstro, high_jump"],
                 "sections": [
                     {
                         "name": "Rewards",
@@ -659,7 +506,7 @@
             },
             {
                 "name": "Gepetto's House - Pinocchio",
-                "access_rules": ["finish_monstro"],
+                "access_rules": ["monstro, high_jump"],
                 "sections": [
                     {
                         "name": "",
@@ -681,7 +528,7 @@
                     {
                         "name": "All Arts Items",
                         "item_count": 1,
-                        "access_rules": ["fire_arts, blizzard_arts, thunder_arts, cure_arts, gravity_arts, stop_arts, aero_arts"]
+                        "access_rules": ["fire_arts, blizzard_arts, thunder_arts, cure_arts, gravity_arts, stop_arts, aero_arts, fire:1, blizzard:1, thunder:1, cure:1, gravity:1, stop:1, aero:1"]
                     },
                     {
                         "name": "All LV1 Magic",
@@ -761,6 +608,206 @@
                         "map": "TT",
                         "x": 774,
                         "y": 383
+                    }
+                ]
+            },
+            {
+                "name": "Moogle Shop Synthesis",
+                "access_rules":["green_trinity", "high_jump:3"],
+                "sections": [
+                    {
+                        "name": "Synth Log",
+                        "access_rules":["bottle:1"]
+                    },
+                    {
+                        "name": "Synth Cloth",
+                        "access_rules":["bottle:2"]
+                    },
+                    {
+                        "name": "Synth Rope",
+                        "access_rules":["bottle:3"]
+                    },
+                    {
+                        "name": "Synth Seagull Egg",
+                        "access_rules":["bottle:4"]
+                    },
+                    {
+                        "name": "Synth Fish",
+                        "access_rules":["bottle:5"]
+                    },
+                    {
+                        "name": "Synth Mushroom",
+                        "access_rules":["bottle:6"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 335,
+                        "y": 745
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Traverse Town Postcards",
+        "chest_unopened_img": "/images/misc/postcards.png",
+        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "children": [
+            {
+                "name": "Postcard - Hit Fan in Item Shop",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 290,
+                        "y": 558 
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Open Safe in 1st District",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 476,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Activate Clock in Gizmo Shop",
+                "access_rules":["thunder:1"],
+                "sections": [
+                    {
+                        "item_count": 2
+                        
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 760,
+                         "y": 198
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Moogle Workshop Poster",
+                "access_rules":["green_trinity", "high_jump:3"],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 314,
+                         "y": 695
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - 3rd District Balcony",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 898,
+                         "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Postcard - Bowl in Gepetto's House",
+                "access_rules":["monstro, high_jump"],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 668,
+                         "y": 514
+                    }
+                ]
+            },
+            {
+                "name": "Postcards",
+                "sections": [
+                    {
+                        "name": "Mail Postcard 01",
+                        "item_count": 1,
+                        "access_rules": ["postcard:1"]
+                    },
+                    {
+                        "name": "Mail Postcard 02",
+                        "item_count": 1,
+                        "access_rules": ["postcard:2"]
+                    },
+                    {
+                        "name": "Mail Postcard 03",
+                        "item_count": 1,
+                        "access_rules": ["postcard:3"]
+                    },
+                    {
+                        "name": "Mail Postcard 04",
+                        "item_count": 1,
+                        "access_rules": ["postcard:4"]
+                    },
+                    {
+                        "name": "Mail Postcard 05",
+                        "item_count": 1,
+                        "access_rules": ["postcard:5"]
+                    },
+                    {
+                        "name": "Mail Postcard 06",
+                        "item_count": 1,
+                        "access_rules": ["postcard:6"]
+                    },
+                    {
+                        "name": "Mail Postcard 07",
+                        "item_count": 1,
+                        "access_rules": ["postcard:7"]
+                    },
+                    {
+                        "name": "Mail Postcard 08",
+                        "item_count": 1,
+                        "access_rules": ["postcard:8"]
+                    },
+                    {
+                        "name": "Mail Postcard 09",
+                        "item_count": 1,
+                        "access_rules": ["postcard:9"]
+                    },
+                    {
+                        "name": "Mail Postcard 10",
+                        "item_count": 1,
+                        "access_rules": ["postcard:10"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 495,
+                        "y": 655
                     }
                 ]
             }

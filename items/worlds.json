@@ -78,6 +78,26 @@
         "codes": "hollow_bastion"
     },
     {
+        "name": "Flame Emblem",
+        "type": "toggle",
+        "codes": "emblem_flame"
+    },
+    {
+        "name": "Chest Emblem",
+        "type": "toggle",
+        "codes": "emblem_chest"
+    },
+    {
+        "name": "Statue Emblem",
+        "type": "toggle",
+        "codes": "emblem_statue"
+    },
+    {
+        "name": "Fountain Emblem",
+        "type": "toggle",
+        "codes": "emblem_fountain"
+    },
+    {
         "name": "Monstro",
         "img": "images/worlds/Monstro.png",
         "type": "toggle",

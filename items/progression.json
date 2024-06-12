@@ -7,7 +7,7 @@
     {
         "name": "High Jump",
         "img": "images/misc/High Jump.png",
-        "type": "toggle",
+        "type": "consumable",
         "codes": "high_jump"
     },
     {
