@@ -14,7 +14,7 @@ PUPPIES_TRIPLETS = {
     "Puppy 73-75", "Puppy 76-78", "Puppy 79-81", "Puppy 82-84", "Puppy 85-87", "Puppy 88-90", "Puppy 91-93", "Puppy 94-96", "Puppy 97-99"
 }
 PUPPIES_ALL = {"All Puppies"}
-CARD_REQ = {"postcard","thunder:1", "green_trinity", "finish_monstro"}
+CUPS = {"phil_cup,", "pegasus_cup", "hercules_cup"}
 
 --- count functions
 function world_count()
@@ -47,6 +47,16 @@ function puppy_count()
     return count
 end
 
+function cups_count()
+    local count = 0
+    for _, item in pairs(CUPS) do
+        if has(item) then
+            count = count + 1
+        end
+    end
+    return count
+end
+
 
 --- access functions
 
@@ -56,4 +66,8 @@ end
 
 function has_emblems()
     return has("emblem_flame") and has ("emblem_chest") and has ("emblem_statue") and has ("emblem_fountain")
+end
+
+function has_defenses()
+    return has("cure:2") and has ("leaf_bracer") and has ("dodge_roll") and has ("second_chance") or has ("mp_rage") or has ("aero:2")
 end

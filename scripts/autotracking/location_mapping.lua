@@ -158,10 +158,12 @@ LOCATION_MAPPING = {
     [2656330] = {"@Olympus Coliseum Chests/Coliseum Gates - Purple Jar/"},
     [2656369] = {"@Olympus Coliseum Chests/Olympia Chest/"},
 
-    [2656031] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Phil's Training"},
+    [2656031] = {"@Olympus Coliseum Events/Phil's Training/"},
     [2656032] = {"@Olympus Coliseum Events/Defeat Cerberus/"},
     [2656033] = {"@Olympus Coliseum Events/Defeat Cerberus/"},
+    [2656380] = {"@Olympus Coliseum Events/Defeat Cerberus/"},
     [2656377] = {"@Olympus Coliseum Events/Coliseum Gates - Green Trinity/"},
+    [2656386] = {"@Olympus Coliseum Events/Obtain Entry Pass/"},
 
     [2659001] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Phil Cup"},
     [2659002] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Phil Cup"},
@@ -172,6 +174,8 @@ LOCATION_MAPPING = {
     [2659007] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
     [2659008] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
     [2659009] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
+    [2659018] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
+    [2659019] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
     [2659010] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hades Cup"},
     [2659011] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hades Cup"},
     [2659012] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hades Cup"},
@@ -180,14 +184,10 @@ LOCATION_MAPPING = {
     [2659015] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hades Cup"},
     [2659016] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hades Cup"},
     [2659017] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Hades"},
-    [2659018] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
-    [2659019] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Hercules Cup"},
-
-    [2656328] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Sephiroth"},
-    [2656329] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Ice Titan"},
-
     [2657011] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Hades"},
     [2657025] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Sephiroth"},
+    [2656328] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Sephiroth"},
+    [2656329] = {"@Olympus Coliseum Events/Olympus Coliseum Cups/Defeat Ice Titan"},
 
     [2651972] = {"@Agrabah Chests/Plaza - Chest by Storage/"},
     [2651973] = {"@Agrabah Chests/Plaza - Raised Terrace Chest/"},

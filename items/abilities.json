@@ -1,5 +1,25 @@
 [
     {
+        "name": "Leaf Bracer",
+        "type": "toggle",
+        "codes": "leaf_bracer"
+    },
+    {
+        "name": "Dodge Roll",
+        "type": "toggle",
+        "codes": "dodge_roll"
+    },
+    {
+        "name": "Second Chance",
+        "type": "toggle",
+        "codes": "second_chance"
+    },
+    {
+        "name": "MP Rage",
+        "type": "toggle",
+        "codes": "mp_rage"
+    },
+    {
         "name": "Guard",
         "type": "toggle",
         "codes": "guard"

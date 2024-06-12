@@ -1,7 +1,7 @@
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/worlds.json")
 Tracker:AddItems("items/magic.json")
-Tracker:AddItems("items/progression.json")
+Tracker:AddItems("items/abilities.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/puppies.json")
 Tracker:AddItems("items/misc.json")
