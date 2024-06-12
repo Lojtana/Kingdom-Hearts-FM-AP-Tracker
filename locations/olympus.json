@@ -246,7 +246,7 @@
                     },
                     {
                         "name": "Defeat Sephiroth",
-                        "visibility_rules":["superboss_on", "superboss_door", "sephiroth_goal"],
+                        "visibility_rules":["superbosses_on", "superbosses_door", "sephiroth_goal"],
                         "access_rules":["$cups_count:3, $world_count:7, $has_defenses"],
                         "item_count": 2
                     },

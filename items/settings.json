@@ -1,22 +1,43 @@
 [
     {
-        "name": "Manual Checks",
+        "name": "Superbosses",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
-                "name": "Hide Manual Checks",
-                "img": "/images/misc/Cross.png",
-                "img_mods": "@disabled",
+                "img": "/images/settings/Gold Crown.png",
+                "img_mods": "overlay|/images/settings/Cross.png",
+                "codes": "superbosses, superbosses_off",
                 "inherit_codes": false,
-                "codes": "manuals_setting, manuals_off"
+                "name": "Superbosses Off"
             },
             {
-                "name": "Show Manual Checks",
-                "img": "/images/misc/Cross.png",
+                "img": "/images/settings/Gold Crown.png",
+                "codes": "superbosses, superbosses_on",
                 "inherit_codes": false,
-                "codes": "manuals_setting, manuals_on"
+                "name": "Superbosses On"
+            }
+        ]
+    },
+    {
+        "name": "Olympus Coliseum Cups",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/Hades Cup.png",
+                "img_mods": "overlay|/images/settings/Cross.png",
+                "codes": "cups, cups_off",
+                "inherit_codes": false,
+                "name": "Cups Off"
+            },
+            {
+                "img": "/images/settings/Hades Cup.png",
+                "codes": "cups, cups_on",
+                "inherit_codes": false,
+                "name": "Cups On"
             }
         ]
     }

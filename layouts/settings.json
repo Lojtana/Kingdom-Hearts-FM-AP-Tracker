@@ -7,18 +7,27 @@
       "content":
       [
         {
-          "type": "array",
+          "type": "tabbed",
+          "dock": "top",
           "orientation": "horizontal",
           "margin": "0,0",
           "content":
           [
             {
-              "type": "itemgrid",
-              "item_margin": "2,2",
-              "h_alignment": "left",
-              "rows":
-              [
-                ["manuals_setting"]
+              "title": "Settings",
+              "type": "array",
+              "orientation": "horizontal",
+              "margin": "0,0",
+              "content": [
+                {
+                  "type": "itemgrid",
+                  "item_margin": "2,2",
+                  "h_alignment": "center",
+                  "rows":
+                  [
+                    ["superbosses", "cups"]
+                  ]
+                }
               ]
             }
           ]
