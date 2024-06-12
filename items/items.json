@@ -80,34 +80,11 @@
         "codes": "Torn Page 3"
     },
     {
-        "name": "Slide 1",
-        "type": "toggle",
-        "codes": "DJ_progress"
-    },
-    {
-        "name": "Jack-In-The-Box",
-        "type": "toggle",
-        "codes": "HT_progress"
-    },
-    {
-        "name": "Dalmatian Puppies",
-        "type": "consumable",
-        "codes": "Puppies",
-        "img": "images/misc/Dalmatians.png",
-        "max_quantity": 99,
-        "overlay_font_size": 24
-    },
-    {
         "name": "Ansem's Reports",
         "type": "consumable",
         "codes": "Reports",
         "img": "images/misc/Ansem's Reports.png",
         "max_quantity": 13,
         "overlay_font_size": 24
-    },
-    {
-        "name": "Navi-G Piece",
-        "type": "consumable",
-        "codes": "navi_g"
     }
 ]

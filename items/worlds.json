@@ -1,25 +1,37 @@
 [
     {
         "name": "Wonderland",
-        "img": "images/worlds/Wonderland.png",
-        "type": "toggle",
-        "codes": "wonderland"
-    },
-    {
-        "name": "Footprints",
-        "type": "toggle",
-        "codes": "footprints"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Wonderland",
+                "codes": "wonderland",
+                "img": "images/worlds/Wonderland.png"
+            },
+            {
+                "name": "Wonderland",
+                "codes": "footprints",
+                "img": "images/worlds/Trickmaster.png"
+            }
+        ]
     },
     {
         "name": "Deep Jungle",
-        "img": "images/worlds/Deep Jungle.png",
-        "type": "toggle",
-        "codes": "deep_jungle"
-    },
-    {
-        "name": "Deep Jungle Slides",
-        "type": "toggle",
-        "codes": "slides"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Deep Jungle",
+                "codes": "deep_jungle",
+                "img": "images/worlds/Deep Jungle.png"
+            },
+            {
+                "name": "Deep Jungle",
+                "codes": "slides",
+                "img": "images/worlds/Clayton.png"
+            }
+        ]
     },
     {
         "name": "Olympus Coliseum",
@@ -50,14 +62,20 @@
     },
     {
         "name": "Halloween Town",
-        "img": "images/worlds/Halloween Town.png",
-        "type": "toggle",
-        "codes": "halloween_town"
-    },
-    {
-        "name": "Jack-in-a-Box",
-        "type": "toggle",
-        "codes": "jack_box"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Halloween Town",
+                "codes": "halloween_town",
+                "img": "images/worlds/Halloween Town.png"
+            },
+            {
+                "name": "Halloween Town",
+                "codes": "jack_box",
+                "img": "images/worlds/Oogie Boogie.png"
+            }
+        ]
     },
     {
         "name": "Atlantica",
@@ -73,9 +91,20 @@
     },
     {
         "name": "Hollow Bastion",
-        "img": "images/worlds/Hollow Bastion.png",
-        "type": "toggle",
-        "codes": "hollow_bastion"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Hollow Bastion",
+                "codes": "hollow_bastion",
+                "img": "images/worlds/Hollow Bastion.png"
+            },
+            {
+                "name": "Hollow Bastion",
+                "codes": "theon_6",
+                "img": "images/worlds/Riku Ansem.png"
+            }
+        ]
     },
     {
         "name": "Flame Emblem",
@@ -104,16 +133,41 @@
         "codes": "monstro"
     },
     {
-        "name": "100 Acre Wood",
-        "img": "images/worlds/100 Acre Wood.png",
-        "type": "toggle",
-        "codes": "100"
-    },
-    {
-        "name": "Traverse Town",
-        "img": "images/worlds/Traverse Town KH1.png",
-        "type": "toggle",
-        "codes": "traverse_town"
+        "name": "100 Acre",
+        "type": "progressive",
+        "codes": "100",
+        "loop": false,
+        "stages": [
+            {
+                "name": "100 Acre",
+                "codes": "page_1",
+                "img": "images/worlds/100 Acre Wood.png"
+            },
+            {
+                "name": "100 Acre",
+                "codes": "page_2",
+                "img": "images/worlds/100 Acre Wood.png",
+                "img_mods": "overlay|images/settings/2.png"
+            },
+            {
+                "name": "100 Acre",
+                "codes": "page_3",
+                "img": "images/worlds/100 Acre Wood.png",
+                "img_mods": "overlay|images/settings/3.png"
+            },
+            {
+                "name": "100 Acre",
+                "codes": "page_4",
+                "img": "images/worlds/100 Acre Wood.png",
+                "img_mods": "overlay|images/settings/4.png"
+            },
+            {
+                "name": "100 Acre",
+                "codes": "page_5",
+                "img": "images/worlds/100 Acre Wood.png",
+                "img_mods": "overlay|images/settings/5.png"
+            }
+        ]
     },
     {
         "name": "End of the World",
