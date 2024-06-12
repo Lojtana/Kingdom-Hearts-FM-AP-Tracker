@@ -102,8 +102,9 @@ LOCATION_MAPPING = {
     [2651132] = {"@Wonderland Chests/Tea Party Garden - Chest Across Bizarre Room Entrance/"},
     [2651133] = {"@Wonderland Chests/Lotus Forest - White Trinity Chest"},
 
-    [2656041] = {"@Wonderland Events/Defeat Trickmaster/"},
-    [2656042] = {"@Wonderland Events/Defeat Trickmaster/"},
+    [2656041] = {"@Wonderland Events/Defeat Trickmaster/Defeat Trickmaster"},
+    [2656042] = {"@Wonderland Events/Defeat Trickmaster/Defeat Trickmaster"},
+    [2656385] = {"@Wonderland Events/Defeat Trickmaster/Seal Keyhole"},
 
     [2656376] = {"@Wonderland Events/Bizarre Room - Read Book/"},
 

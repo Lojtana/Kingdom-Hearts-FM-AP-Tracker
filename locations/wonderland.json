@@ -1,7 +1,7 @@
 [
     {
         "name": "Wonderland Chests",
-        "access_rules":["wonderland"],
+        "access_rules":["wonderland, $world_count:2"],
         "chest_unopened_img": "/images/misc/Chest.png",
         "chest_opened_img": "/images/misc/key_item_bw.png",
         "children": [
@@ -58,6 +58,7 @@
             },
             {
                 "name": "Rabbit Hole - Defeat Heartless 3",
+                "access_rules":["[$world_count:5]"],
                 "sections": [
                     {
                         "name": "",
@@ -279,7 +280,7 @@
             },
             {
                 "name": "Tea Party Garden - Bear and Clock Puzzle Chest",
-                "access_rules":["footprints", "$any_glide"],
+                "access_rules":["footprints", "high_jump:2"],
                 "sections": [
                     {
                         "name": "",
@@ -296,7 +297,7 @@
             },
             {
                 "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
-                "access_rules":["$any_glide"],
+                "access_rules":["$any_glide", "footprints, high_jump:3"],
                 "sections": [
                     {
                         "name": "",
@@ -332,7 +333,7 @@
     },
     {
         "name": "Woderland Events",
-        "access_rules":["wonderland"],
+        "access_rules":["wonderland, $world_count:2"],
         "chest_unopened_img": "/images/misc/Key Item.png",
         "chest_opened_img": "/images/misc/key_item_bw.png",
         "children": [
@@ -341,8 +342,11 @@
                 "access_rules":["footprints"],
                 "sections": [
                     {
-                        "name": "",
+                        "name": "Defeat Trickmaster",
                         "item_count": 2
+                    },
+                    {
+                        "name": "Seal Keyhole"
                     }
                 ],
                 "map_locations": [
