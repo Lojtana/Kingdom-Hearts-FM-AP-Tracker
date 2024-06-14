@@ -95,9 +95,20 @@
     },
     {
         "name": "Atlantica",
-        "img": "images/worlds/Atlantica KH1.png",
-        "type": "toggle",
-        "codes": "atlantica"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Atlantica",
+                "img": "images/worlds/Atlantica KH1.png",
+                "codes": "atlantica"
+            },
+            {
+                "name": "Atlantica",
+                "codes": "trident",
+                "img": "images/worlds/Giant Ursula.png"
+            }
+        ]
     },
     {
         "name": "Neverland",

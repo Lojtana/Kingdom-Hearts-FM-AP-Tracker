@@ -2,8 +2,9 @@
     {
         "name": "Atlantica Chests",
         "access_rules": ["atlantica, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "visibility_rules":["atlantica_on"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Sunken Ship - Chest in Flipped Boat",
@@ -103,7 +104,7 @@
             },
             {
                 "name": "Ursula's Lair - Use Fire on Urchin Chest",
-                "access_rules":["fire:1"],
+                "access_rules":["fire:1, trident"],
                 "sections": [
                     {
                         "name": "",
@@ -156,8 +157,9 @@
     {
         "name": "Atlantica Clams",
         "access_rules":["atlantica, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "visibility_rules":["atlantica_on"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Undersea Gorge - Blizzard Clam",
@@ -356,6 +358,7 @@
             },
             {
                 "name": "Cavern Nook Clam",
+                "access_rules":["trident"],
                 "sections": [
                     {
                         "name": "",
@@ -422,17 +425,29 @@
     },
     {
         "name": "Atlantica Events",
-        "access_rules":[
-            "atlantica, $world_count:2, fire:1",
-            "atlantica, $world_count:2, blizzard:1",
-            "atlantica, $world_count:2, thunder:1",
-            "atlantica, $world_count:2, stop:1"
-        ],
+        "access_rules":["atlantica, $world_count:2"],
+        "visibility_rules":["atlantica_on"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
+                "name": "Sunken Ship - Obtain Crystal Trident",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AT",
+                        "x": 284,
+                        "y": 82
+                    }
+                ]
+            },
+            {
                 "name": "Defeat Ursula I",
+                "access_rules":["$has_offensive_magic, trident"],
                 "sections": [
                     {
                         "name": "",
@@ -449,7 +464,7 @@
             },
             {
                 "name": "Defeat Ursula II",
-                "access_rules":["mermaid_kick"],
+                "access_rules":["mermaid_kick, $has_offensive_magic, trident"],
                 "sections": [
                     {
                         "name": "",
@@ -466,7 +481,7 @@
             },
             {
                 "name": "Seal Atlantica Keyhole",
-                "access_rules":["mermaid_kick"],
+                "access_rules":["mermaid_kick, $has_offensive_magic, trident"],
                 "sections": [
                     {
                         "name": "",

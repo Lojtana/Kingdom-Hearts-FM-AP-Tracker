@@ -37,6 +37,7 @@ ITEM_MAPPING = {
     [2641189] = {"emblem_chest", "toggle"},
     [2641190] = {"emblem_statue", "toggle"},
     [2641191] = {"emblem_fountain", "toggle"},
+    [2641210] = {"trident", "consumable"},
     [2641211] = {"postcard", "consumable"},
     [2641212] = {"page_1", "toggle"},
     [2641213] = {"page_2", "toggle"},

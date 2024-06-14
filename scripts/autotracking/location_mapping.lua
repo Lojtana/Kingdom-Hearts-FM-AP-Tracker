@@ -292,6 +292,7 @@ LOCATION_MAPPING = {
     [2656215] = {"@Atlantica Clams/Undersea Garden Clam/"},
     [2656216] = {"@Atlantica Clams/Undersea Cave Clam/"},
 
+    [2656381] = {"@Atlantica Events/Sunken Ship - Obtain Crystal Trident/"},
     [2656071] = {"@Atlantica Events/Defeat Ursula I/"},
     [2656072] = {"@Atlantica Events/Defeat Ursula II/"},
     [2657016] = {"@Atlantica Events/Defeat Ursula II/"},

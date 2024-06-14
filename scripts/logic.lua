@@ -65,9 +65,13 @@ function any_glide()
 end
 
 function has_emblems()
-    return has("emblem_flame") and has ("emblem_chest") and has ("emblem_statue") and has ("emblem_fountain")
+    return has("emblem_flame") and has("emblem_chest") and has("emblem_statue") and has("emblem_fountain")
 end
 
 function has_defenses()
-    return has("cure:2") and has ("leaf_bracer") and has ("dodge_roll") and has ("second_chance") or has ("mp_rage") or has ("aero:2")
+    return has("cure:2") and has("leaf_bracer") and has("dodge_roll") and has("second_chance") or has("mp_rage") or has("aero:2")
+end
+
+function has_offensive_magic()
+    return has("fire:1") or has("blizzard:1") or has("thunder:1") or has("gravity:1") or has("stop:1")
 end
