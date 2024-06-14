@@ -1,9 +1,9 @@
 [
     {
         "name": "Agrabah Chests",
-        "access_rules":["agrabah"],
+        "access_rules":["agrabah, $world_count:2"],
         "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/elixir.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Plaza - Chest by Storage",
@@ -185,7 +185,7 @@
             },
             {
                 "name": "Palace Gates - High Chest Close to Palace",
-                "access_rules":["high_jump, $any_glide"],
+                "access_rules":["high_jump, $any_glide", "high_jump:3"],
                 "sections": [
                     {
                         "name": "",
@@ -269,9 +269,9 @@
     },
     {
         "name": "Cave of Wonders Chests",
-        "access_rules":["agrabah"],
+        "access_rules":["agrabah, $world_count:2"],
         "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/elixir.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Cave Entrance - Left Chest",
@@ -291,7 +291,7 @@
             },
             {
                 "name": "Cave Entrance - Tall Tower Chest",
-                "access_rules":["$any_glide"],
+                "access_rules":["$any_glide", "high_jump:2"],
                 "sections": [
                     {
                         "name": "",
@@ -356,7 +356,7 @@
             },
             {
                 "name": "Bottomless Hall - Pillar Chest",
-                "access_rules":["[high_jump]"],
+                "access_rules":["high_jump", "$any_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -619,7 +619,7 @@
     },
     {
         "name": "Agrabah Events",
-        "access_rules":["agrabah"],
+        "access_rules":["agrabah, $world_count:2"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
@@ -677,8 +677,8 @@
             },
             {
                 "name": "Defeat Kurt Zisa",
-                "access_rules":["seal_HB"],
-                "visibility_rules":["superboss_on", "superboss_goal"],
+                "access_rules":["$has_emblems, $world_count:7, $has_defenses"],
+                "visibility_rules":["superbosses_on", "superbosses_door"],
                 "sections": [
                     {
                         "name": "",
