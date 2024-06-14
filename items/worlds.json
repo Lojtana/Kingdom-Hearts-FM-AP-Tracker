@@ -35,9 +35,20 @@
     },
     {
         "name": "Olympus Coliseum",
-        "img": "images/worlds/Olympus Coliseum KH1.png",
-        "type": "toggle",
-        "codes": "olympus_coliseum"
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Olympus Coliseum",
+                "img": "images/worlds/Olympus Coliseum KH1.png",
+                "codes": "olympus_coliseum"
+            },
+            {
+                "name": "Olympus Coliseum",
+                "codes": "entry_pass",
+                "img": "images/worlds/Cerberus.png"
+            }
+        ]
     },
     {
         "name": "Phil Cup",
@@ -68,6 +79,11 @@
             {
                 "name": "Halloween Town",
                 "codes": "halloween_town",
+                "img": "images/worlds/Halloween Town.png"
+            },
+            {
+                "name": "Halloween Town",
+                "codes": "forget_me_not",
                 "img": "images/worlds/Halloween Town.png"
             },
             {
