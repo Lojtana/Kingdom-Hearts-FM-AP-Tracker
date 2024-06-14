@@ -212,6 +212,7 @@ ITEM_MAPPING = {
     [2647007] = {"atlantica", "toggle"},
     [2647008] = {"neverland", "toggle"},
     [2647009] = {"hollow_bastion", "toggle"},
+    [2647010] = {"end_of_the_world", "toggle"},
     [2647011] = {"monstro", "toggle"},
     [2648001] = {"blue_trinity", "toggle"},
     [2648002] = {"red_trinity", "toggle"},

@@ -1,0 +1,422 @@
+[
+    {
+        "name": "End of the World",
+        "access_rules":["end_of_the_world"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
+            {
+                "name": "Final Dimension - 1st Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 209,
+                        "y": 256
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 2nd Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 215,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 3rd Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 178,
+                        "y": 246
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 4th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 166,
+                        "y": 222
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 5th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 172,
+                        "y": 195
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 6th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 152,
+                        "y": 191
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 7th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 141,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 8th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 123,
+                        "y": 154
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 9th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 103,
+                        "y": 202
+                    }
+                ]
+            },
+            {
+                "name": "Final Dimension - 10th Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 98,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Giant Crevasse - 1st Chest",
+                "access_rules":["$any_glide", "high_jump"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 342,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Giant Crevasse - 2nd Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 405,
+                        "y": 98
+                    }
+                ]
+            },
+            {
+                "name": "Giant Crevasse - 3rd Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 350,
+                        "y": 111
+                    }
+                ]
+            },
+            {
+                "name": "Giant Crevasse - 4th Chest",
+                "access_rules":["$any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 296,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Giant Crevasse - 5th Chest",
+                "access_rules":["high_jump", "$any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 358,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Traverse Town Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 433,
+                        "y": 569
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Wonderland Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 448,
+                        "y": 537
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Olympus Coliseum Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 438,
+                        "y": 497
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Deep Jungle Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 425,
+                        "y": 468
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Agrabah Chest",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 391,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Atlantica Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 359,
+                        "y": 449
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Halloween Town Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 325,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Neverland Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 305,
+                        "y": 498
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - 100 Acre Wood Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 296,
+                        "y": 538
+                    }
+                ]
+            },
+            {
+                "name": "World Terminus - Hollow Bastion Chest",
+                "visibility_rules":["missables_on"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 382,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Final Rest - Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 438,
+                        "y": 953
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Chernabog",
+                "chest_unopened_img": "/images/misc/emblem.png",
+                "chest_opened_img": "/images/misc/emblem_bw.png",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 325,
+                        "y": 300
+                    }
+                ]
+            }
+        ]
+    }
+]
