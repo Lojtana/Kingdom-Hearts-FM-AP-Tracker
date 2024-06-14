@@ -2,12 +2,12 @@
     {
         "name": "Halloween Town Chests",
         "access_rules":["halloween_town, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Moonlight Hill - White Trinity Chest",
-                "access_rules":["white_trinity"],
+                "access_rules":["white_trinity, forget_me_not"],
                 "sections": [
                     {
                         "name": "",
@@ -24,6 +24,7 @@
             },
             {
                 "name": "Boneyard - Tombstone Puzzle Chest",
+                "access_rules":["forget_me_not"],
                 "sections": [
                     {
                         "name": "",
@@ -57,7 +58,7 @@
             },
             {
                 "name": "Guillotine Square - Left Chest in Pumpkin Structure",
-                "access_rules":["high_jump, $any_glide"],
+                "access_rules":["high_jump, $any_glide", "high_jump:2"],
                 "sections": [
                     {
                         "name": "",
@@ -90,7 +91,7 @@
             },
             {
                 "name": "Guillotine Square - Right Side in Pumpkin Structure",
-                "access_rules":["high_jump, $any_glide"],
+                "access_rules":["high_jump, $any_glide", "high_jump:2"],
                 "sections": [
                     {
                         "name": "",
@@ -104,30 +105,14 @@
                         "y": 841
                     }
                 ]
-            },
-            {
-                "name": "Guillotine Square - Ring Jack's Doorbell 3 Times",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "HT",
-                        "x": 435,
-                        "y": 863
-                    }
-                ]
             }
         ]
     },
     {
         "name": "Halloween Town Chests - 2nd Visit",
-        "access_rules":["halloween_town, jack_box, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "access_rules":["halloween_town, $world_count:2, jack_box, forget_me_not"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Bridge - Chest Under Bridge",
@@ -164,6 +149,7 @@
             },
             {
                 "name": "Cemetary - Chest Behind Grave",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -180,6 +166,7 @@
             },
             {
                 "name": "Cemetary - Chest By Cat Shaped Grave",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -196,6 +183,7 @@
             },
             {
                 "name": "Cemetary - Chest Between Graves",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -212,6 +200,7 @@
             },
             {
                 "name": "Oogie's Manor - Chest in Lower Iron Cage",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -228,6 +217,7 @@
             },
             {
                 "name": "Oogie's Manor - Chest in Upper Iron Cage",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -244,6 +234,7 @@
             },
             {
                 "name": "Oogie's Manor - Hollow Chest",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -367,6 +358,7 @@
             },
             {
                 "name": "Cemetary - Chest by Striped Grave",
+                "access_rules":["fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -385,12 +377,59 @@
     },
     {
         "name": "Halloween Town Events",
-        "access_rules":["halloween_town, jack_box, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "access_rules":["halloween_town, $world_count:2"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
+                "name": "Guillotine Square - Ring Jack's Doorbell 3 Times",
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 435,
+                        "y": 863
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard - Obtain Forget-Me-Not",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 738,
+                        "y": 700
+                    }
+                ]
+            },
+            {
+                "name": "Lab - Torn Page in Book",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HT",
+                        "x": 33,
+                        "y": 385
+                    }
+                ]
+            },
+            {
                 "name": "Defeat Oogie Boogie",
+                "access_rules":["jack_box, forget_me_not, fire:1"],
                 "sections": [
                     {
                         "name": "",
@@ -407,6 +446,7 @@
             },
             {
                 "name": "Defeat Oogie's Manor",
+                "access_rules":["jack_box, forget_me_not, fire:1"],
                 "sections": [
                     {
                         "name": "",

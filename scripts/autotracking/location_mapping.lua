@@ -319,6 +319,8 @@ LOCATION_MAPPING = {
     [2653294] = {"@Halloween Town Chests/Guillotine Square - Right Side in Pumpkin Structure/"},
     [2656331] = {"@Halloween Town Chests/Guillotine Square - Ring Jack's Doorbell 3 Times/"},
 
+    [2656382] = {"@Halloween Town Events/Graveyard - Obtain Forget-Me-Not/"},
+    [2656508] = {"@Halloween Town Events/Lab - Torn Page in Book/"},
     [2656081] = {"@Halloween Town Events/Defeat Oogie Boogie/"},
     [2656082] = {"@Halloween Town Events/Defeat Oogie's Manor/"},
     [2656083] = {"@Halloween Town Events/Defeat Oogie's Manor/"},
