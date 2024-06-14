@@ -65,7 +65,7 @@ function any_glide()
 end
 
 function has_emblems()
-    return has("emblem_flame") and has("emblem_chest") and has("emblem_statue") and has("emblem_fountain")
+    return has("emblem_flame") and has("emblem_chest") and has("emblem_statue") and has("emblem_fountain") and has("hollow_bastion") and world_count>=5
 end
 
 function has_defenses()
