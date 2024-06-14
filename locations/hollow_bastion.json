@@ -1,0 +1,805 @@
+[
+    {
+        "name": "Hollow Bastion Chests",
+        "access_rules":["hollow_bastion, $world_count:5"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
+            {
+                "name": "Rising Falls - Chest on Water Surface",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 194,
+                        "y": 571
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - 1st Chest Under Water",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 203,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - 2nd Chest Under Water",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 232,
+                        "y": 596
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - Chest on Floating Platform Near Save Point",
+                "access_rules":["high_jump", "$any_glide", "blizzard:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 175,
+                        "y": 559
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - Chest on Floating Platform Near Bubble",
+                "access_rules":["high_jump", "$any_glide", "blizzard:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 171,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - High Platform Chest",
+                "access_rules":["$any_glide", "blizzard:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 221,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "Castle Gates - Gravity Chest",
+                "access_rules":["gravity:1, $has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 75,
+                        "y": 790
+                    }
+                ]
+            },
+            {
+                "name": "Castle Gates - Chest on Freestanding Pillar",
+                "access_rules":["$has_emblems", "high_jump:2"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 207,
+                        "y": 849
+                    }
+                ]
+            },
+            {
+                "name": "Caste Gates - Chest on High Pillar",
+                "access_rules":["$has_emblems", "high_jump:2"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 219,
+                        "y": 822
+                    }
+                ]
+            },
+            {
+                "name": "Great Crest - Lower Chest",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 843,
+                        "y": 938
+                    }
+                ]
+            },
+            {
+                "name": "Great Crest - Chest after Battle Platform",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 875,
+                        "y": 916
+                    }
+                ]
+            },
+            {
+                "name": "High Tower - 2nd Gravity Chest",
+                "access_rules":["$has_emblems, gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 795,
+                        "y": 766
+                    }
+                ]
+            },
+            {
+                "name": "High Tower - 1st Gravity Chest",
+                "access_rules":["$has_emblems, gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 932,
+                        "y": 794
+                    }
+                ]
+            },
+            {
+                "name": "High Tower - Chest Above Sliding Blocks",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 829,
+                        "y": 753
+                    }
+                ]
+            },
+            {
+                "name": "Library - Chest on Bookshelf",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 134,
+                        "y": 397
+                    }
+                ]
+            },
+            {
+                "name": "Library - Turning Carousel Chest on 1st Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 68,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Library - Turning Carousel Chest on Top of Bookshelf",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 79,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Library - 1st Turning Carousel Chest on 2nd Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 104,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "Library - 2nd Turning Carousel Chest on 2nd Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 153,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Lift Stop - Gravity Chest in Library Node After High Tower Switch",
+                "access_rules":["$has_emblems, gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 742,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Lift Stop - Gravity Chest in Library Node",
+                "access_rules":["$has_emblems, gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 733,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Lift Stop - Chest Under High Tower Sliding Blocks",
+                "access_rules":["$has_emblems, $can_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 882,
+                        "y": 444
+                    },
+                    {
+                        "map": "HB",
+                        "x": 850,
+                        "y": 821
+                    }
+                ]
+            },
+            {
+                "name": "Lift Stop - Gravity Chest Behind Library Bookshelf",
+                "access_rules":["gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 854,
+                        "y": 576
+                    }
+                ]
+            },
+            {
+                "name": "Lift Stop - Gravity Chest Behind Heartless Sigil Door",
+                "access_rules":["$has_emblems, gravity:1"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 890,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "Base Level - Use Bubble to Move Under the Wall",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 351,
+                        "y": 787
+                    }
+                ]
+            },
+            {
+                "name": "Base Level - Chest on Platform Near Entrance",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 413,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "name": "Base Level - Chest Near Crystal Switch",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 358,
+                        "y": 772
+                    }
+                ]
+            },
+            {
+                "name": "Waterway - Chest Near Save",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 464,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Waterway - Chest Atop Passageway",
+                "access_rules":["blizzard:1, high_jump", "high_jump:3"],
+                "sections": [
+                    {
+                        "name": "Freeze Bubble"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 482,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Waterway - Unlock Passage from Base Level",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 559,
+                        "y": 753
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon - Chest by Candles",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 390,
+                        "y": 404
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon - Chest in Corner",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 419,
+                        "y": 372
+                    }
+                ]
+            },
+            {
+                "name": "Grand Hall - Chest on Right Side Steps",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 800,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Grand Hall - Oblivion Chest",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 770,
+                        "y": 65
+                    }
+                ]
+            },
+            {
+                "name": "Grand Hall - Chest Left of Gate",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 788,
+                        "y": 27
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Hall - Chest on Pillar Before Emblem Door",
+                "access_rules":["high_jump"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 314,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Rising Falls - White Trinity Chest",
+                "access_rules":["white_trinity"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 234,
+                        "y": 497
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hollow Bastion Events",
+        "access_rules":["hollow_bastion, $world_count:5"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Defeat Riku I",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 269,
+                        "y": 316
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Maleficent",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 863,
+                        "y": 263
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Dragon Maleficent",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 727,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Riku II",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 794,
+                        "y": 53
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Behemoth",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 816,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "Talk to the Princesses",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 846,
+                        "y": 265
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Unknown",
+                "visibility_rules":["superbosses_on", "superbosses_door", "unknown_goal"],
+                "access_rules":["$has_emblems, $world_count:7, $has_defenses"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 730,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Hall - Emblem Piece (Flame)",
+                "access_rules":["$can_get_fire_emblem"],
+                "sections": [
+                    {
+                        "name": "Light the Candles"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 285,
+                        "y": 157
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Hall - Emblem Piece (Chest)",
+                "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                "sections": [
+                    {
+                        "name": "Push the Statue"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 325,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Hall - Emblem Piece (Statue)",
+                "access_rules":["theon_6, red_trinity", "high_jump:3, red_trinity", "$has_emblems, red_trinity"],
+                "sections": [
+                    {
+                        "name": "Drop Statue with Red Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 254,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Hall - Emblem Piece (Fountain)",
+                "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                "sections": [
+                    {
+                        "name": "Break the Pots"
+                    }
+                ]
+            },
+            {
+                "name": "Talk to Belle",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 90,
+                        "y": 239
+                    }
+                ]
+            },
+            {
+                "name": "Talk to Aerith",
+                "access_rules":["$has_emblems"],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 5
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 41,
+                        "y": 363
+                    }
+                ]
+            }
+        ]
+    }
+]

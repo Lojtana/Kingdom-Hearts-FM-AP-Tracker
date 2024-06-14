@@ -79,3 +79,7 @@ end
 function has_lv2_magic()
     return has("fire:2") and has("blizzard:2") and has("thunder:2") and has("cure:2") and has("gravity:2") and has("stop:2") and has("aero:2")
 end
+
+function can_get_fire_emblem()
+    return (has("theon_6") or has("high_jump:3" or has_emblems())) and has("fire:1") and (has("high_jump") or any_glide() or has("thunder:1"))
+end
