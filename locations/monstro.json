@@ -1,9 +1,9 @@
 [
     {
         "name": "Monstro Chests",
-        "access_rules":["monstro"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/Key Item.png",
+        "access_rules":["monstro, $world_count:2"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance",
@@ -357,7 +357,7 @@
     },
     {
         "name": "Monstro Events",
-        "access_rules":["monstro"],
+        "access_rules":["monstro, $world_count:2"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
@@ -379,7 +379,7 @@
             },
             {
                 "name": "Defeat Parasite Cage II",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["high_jump"],
                 "sections": [
                     {
                         "name": "",
