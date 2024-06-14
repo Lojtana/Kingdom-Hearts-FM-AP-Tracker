@@ -39,13 +39,13 @@
     {
         "name": "Glide",
         "img": "images/misc/Glide.png",
-        "type": "toggle",
+        "type": "consumable",
         "codes": "glide"
     },
     {
         "name": "Superglide",
-        "img": "images/misc/Glide.png",
-        "type": "toggle",
+        "img": "images/misc/superglide.png",
+        "type": "consumable",
         "codes": "superglide"
     },
     {
