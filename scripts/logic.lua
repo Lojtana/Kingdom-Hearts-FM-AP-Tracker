@@ -75,3 +75,7 @@ end
 function has_offensive_magic()
     return has("fire:1") or has("blizzard:1") or has("thunder:1") or has("gravity:1") or has("stop:1")
 end
+
+function has_lv2_magic()
+    return has("fire:2") and has("blizzard:2") and has("thunder:2") and has("cure:2") and has("gravity:2") and has("stop:2") and has("aero:2")
+end
