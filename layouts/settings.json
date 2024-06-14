@@ -25,7 +25,8 @@
                   "h_alignment": "center",
                   "rows":
                   [
-                    ["superbosses", "cups"]
+                    ["keyblade_locks", "cups", "superbosses", "advanced_logic"],
+                    ["100_acre_checks", "atlantica_checks", "missable_checks"]
                   ]
                 }
               ]

@@ -135,7 +135,7 @@
     {
         "name": "100 Acre",
         "type": "progressive",
-        "codes": "100",
+        "codes": "100_acre",
         "loop": false,
         "stages": [
             {

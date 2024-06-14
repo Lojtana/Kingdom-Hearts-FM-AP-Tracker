@@ -6,14 +6,13 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/Gold Crown.png",
-                "img_mods": "overlay|/images/settings/Cross.png",
+                "img": "/images/settings/superbosses_bw.png",
                 "codes": "superbosses, superbosses_off",
                 "inherit_codes": false,
                 "name": "Superbosses Off"
             },
             {
-                "img": "/images/settings/Gold Crown.png",
+                "img": "/images/settings/superbosses.png",
                 "codes": "superbosses, superbosses_on",
                 "inherit_codes": false,
                 "name": "Superbosses On"
@@ -27,17 +26,116 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/Hades Cup.png",
-                "img_mods": "overlay|/images/settings/Cross.png",
+                "img": "/images/settings/cups_bw.png",
                 "codes": "cups, cups_off",
                 "inherit_codes": false,
                 "name": "Cups Off"
             },
             {
-                "img": "/images/settings/Hades Cup.png",
+                "img": "/images/settings/cups.png",
                 "codes": "cups, cups_on",
                 "inherit_codes": false,
                 "name": "Cups On"
+            }
+        ]
+    },
+    {
+        "name": "Keyblade Locks for Chests",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/keyblade_bw.png",
+                "codes": "keyblade_locks, keyblades_off",
+                "inherit_codes": false,
+                "name": "Keyblade Locks Off"
+            },
+            {
+                "img": "/images/settings/keyblade.png",
+                "codes": "keyblade_locks, keyblades",
+                "inherit_codes": false,
+                "name": "Keyblade Locks On"
+            }
+        ]
+    },
+    {
+        "name": "100 Acre Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/100_acre_bw.png",
+                "codes": "100_acre_checks, 100_acre_off",
+                "inherit_codes": false,
+                "name": "100 Acre Off"
+            },
+            {
+                "img": "/images/settings/100_acre.png",
+                "codes": "100_acre_checks, 100_acre_on",
+                "inherit_codes": false,
+                "name": "100 Acre On"
+            }
+        ]
+    },
+    {
+        "name": "Atlantica Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/atlantica_bw.png",
+                "codes": "atlantica_checks, atlantica_off",
+                "inherit_codes": false,
+                "name": "Atlantica Off"
+            },
+            {
+                "img": "/images/settings/atlantica.png",
+                "codes": "atlantica_checks, atlantica_on",
+                "inherit_codes": false,
+                "name": "Atlantica On"
+            }
+        ]
+    },
+    {
+        "name": "Missable Checks",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/missables_bw.png",
+                "codes": "missable_checks, missables_off",
+                "inherit_codes": false,
+                "name": "Missables Off"
+            },
+            {
+                "img": "/images/settings/missables.png",
+                "codes": "missable_checks, missables_on",
+                "inherit_codes": false,
+                "name": "Missables On"
+            }
+        ]
+    },
+    {
+        "name": "Advanced Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/advanced_logic_bw.png",
+                "codes": "advanced_logic, advanced_logic_off",
+                "inherit_codes": false,
+                "name": "Missables Off"
+            },
+            {
+                "img": "/images/settings/advanced_logic.png",
+                "codes": "advanced_logic, advanced_logic_on",
+                "inherit_codes": false,
+                "name": "Missables On"
             }
         ]
     }
