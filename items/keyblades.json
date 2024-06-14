@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Jungle King",
+        "type": "toggle",
+        "codes": "jungle_king"
+    },
+    {
+        "name": "Three Wishes",
+        "type": "toggle",
+        "codes": "three_wishes"
+    },
+    {
+        "name": "Fairy Harp",
+        "type": "toggle",
+        "codes": "fairy_harp"
+    },
+    {
+        "name": "Pumpkinhead",
+        "type": "toggle",
+        "codes": "pumpkinhead"
+    },
+    {
+        "name": "Crabclaw",
+        "type": "toggle",
+        "codes": "crabclaw"
+    },
+    {
+        "name": "Divine Rose",
+        "type": "toggle",
+        "codes": "divine_rose"
+    },
+    {
+        "name": "Olympia",
+        "type": "toggle",
+        "codes": "olympia"
+    },
+    {
+        "name": "Lionheart",
+        "type": "toggle",
+        "codes": "lionheart"
+    },
+    {
+        "name": "Oblivion",
+        "type": "toggle",
+        "codes": "oblivion"
+    },
+    {
+        "name": "Lady Luck",
+        "type": "toggle",
+        "codes": "lady_luck"
+    },
+    {
+        "name": "Wishing Star",
+        "type": "toggle",
+        "codes": "wishing_star"
+    }
+]

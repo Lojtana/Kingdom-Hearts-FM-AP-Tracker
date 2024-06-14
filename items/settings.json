@@ -53,7 +53,7 @@
             },
             {
                 "img": "/images/settings/keyblade.png",
-                "codes": "keyblade_locks, keyblades",
+                "codes": "keyblade_locks, keyblades_on",
                 "inherit_codes": false,
                 "name": "Keyblade Locks On"
             }
@@ -129,13 +129,13 @@
                 "img": "/images/settings/advanced_logic_bw.png",
                 "codes": "advanced_logic, advanced_logic_off",
                 "inherit_codes": false,
-                "name": "Missables Off"
+                "name": "Advanced Logic Off"
             },
             {
                 "img": "/images/settings/advanced_logic.png",
                 "codes": "advanced_logic, advanced_logic_on",
                 "inherit_codes": false,
-                "name": "Missables On"
+                "name": "Advanced Logic On"
             }
         ]
     }
