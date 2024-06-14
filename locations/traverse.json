@@ -1,8 +1,8 @@
 [
     {
         "name": "Traverse Town Chests",
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "1st District - Candle Puzzle Chest",
@@ -187,9 +187,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Yellow Trinity.png",
-                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -222,9 +220,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/White Trinity.png",
-                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -275,9 +271,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Blue Trinity.png",
-                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -285,11 +279,6 @@
                         "map": "TT",
                         "x": 439,
                         "y": 639
-                    },
-                    {
-                        "map": "TT",
-                        "x": 439,
-                        "y": 657
                     }
                 ]
             },
@@ -364,8 +353,8 @@
     },
     {
         "name": "Traverse Town Events",
-        "chest_unopened_img": "/images/misc/Key Item.png",
-        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
                 "name": "Guard Armor Rewards",
@@ -384,6 +373,7 @@
                     },
                     {
                         "name": "Defeat Leon - MISSABLE",
+                        "visibility_rules":["missables_on"],
                         "item_count": 1
                     }
                 ],
@@ -451,6 +441,7 @@
             },
             {
                 "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE",
+                "visibility_rules":["missables_on"],
                 "sections": [
                     {
                         "name": "",
@@ -652,13 +643,14 @@
     },
     {
         "name": "Traverse Town Postcards",
-        "chest_unopened_img": "/images/misc/postcards.png",
-        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
                 "name": "Postcard - Hit Fan in Item Shop",
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 1
                     }
                 ],
@@ -674,6 +666,7 @@
                 "name": "Postcard - Open Safe in 1st District",
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 1
                     }
                 ],
@@ -690,6 +683,7 @@
                 "access_rules":["thunder:1"],
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 2
                         
                     }
@@ -707,6 +701,7 @@
                 "access_rules":["green_trinity", "high_jump:3"],
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 1
                     }
                 ],
@@ -722,6 +717,7 @@
                 "name": "Postcard - 3rd District Balcony",
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 1
                     }
                 ],
@@ -738,6 +734,7 @@
                 "access_rules":["monstro, high_jump"],
                 "sections": [
                     {
+                        "name": "",
                         "item_count": 1
                     }
                 ],

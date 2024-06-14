@@ -2,8 +2,8 @@
     {
         "name": "Wonderland Chests",
         "access_rules":["wonderland, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Rabbit Hole - Green Trinity Chest",
@@ -11,9 +11,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Green Trinity.png",
-                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -79,9 +77,7 @@
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "chest_unopened_img": "/images/misc/Green Trinity.png",
-                        "chest_opened_img": "/images/misc/trinity_bw.png"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -334,8 +330,8 @@
     {
         "name": "Woderland Events",
         "access_rules":["wonderland, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Key Item.png",
-        "chest_opened_img": "/images/misc/key_item_bw.png",
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
                 "name": "Defeat Trickmaster",

@@ -2,8 +2,8 @@
     {
         "name": "Deep Jungle Chests",
         "access_rules": ["deep_jungle, $world_count:2"],
-        "chest_unopened_img": "/images/misc/Chest.png",
-        "chest_opened_img": "/images/misc/elixir.png",
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
                 "name": "Beneath Tree House Chest",
