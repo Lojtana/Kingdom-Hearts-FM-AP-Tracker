@@ -107,7 +107,7 @@
                             "title": "100 Acre Wood",
                             "content": {
                                 "type": "map",
-                                "maps": ["100"]
+                                "maps": ["100Acre"]
                             }
                         }
                     ]

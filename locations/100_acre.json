@@ -1,0 +1,451 @@
+[
+    {
+        "name": "100 Acre Chests",
+        "access_rules":["fire:1"],
+        "visibility_rules":["100_acre_on"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
+            {
+                "name": "Meadow - Chest Inside Log",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 459,
+                        "y": 554
+                    },
+                    {
+                        "map": "100Acre",
+                        "x": 203,
+                        "y": 596
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Chest on Cliff on Left Side",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 326,
+                        "y": 809
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Chest in Tree Alcove",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 355,
+                        "y": 738
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Chest in Tree Stump",
+                "access_rules":["$page_count:4"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 453,
+                        "y": 818
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "100 Acre Events",
+        "access_rules":["fire:1"],
+        "visibility_rules":["100_acre_on"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Turn in Rare Nut 1",
+                "access_rules":["$page_count:4"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 509,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Turn in Rare Nut 2",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 544,
+                        "y": 765
+                    }
+                ]
+            },
+            {
+                "name": "Turn in Rare Nut 3",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 556,
+                        "y": 811
+                    }
+                ]
+            },
+            {
+                "name": "Turn in Rare Nut 4",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 558,
+                        "y": 833
+                    }
+                ]
+            },
+            {
+                "name": "Turn in Rare Nut 5",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 407,
+                        "y": 865
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Turn in Rare Nuts",
+                "sections": [
+                    {
+                        "ref": "100 Acre Events/Turn in Rare Nut 1/"
+                    },
+                    {
+                        "ref": "100 Acre Events/Turn in Rare Nut 2/"
+                    },
+                    {
+                        "ref": "100 Acre Events/Turn in Rare Nut 3/"
+                    },
+                    {
+                        "ref": "100 Acre Events/Turn in Rare Nut 4/"
+                    },
+                    {
+                        "ref": "100 Acre Events/Turn in Rare Nut 5/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 505,
+                        "y": 862
+                    }
+                ]
+            },
+            {
+                "name": "Pooh's House - Talk to Owl",
+                "access_rules":["$page_count:5"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 789,
+                        "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "Pooh's House - Light the Fire",
+                "access_rules":["$page_count:3"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 701,
+                        "y": 266
+                    }
+                ]
+            },
+            {
+                "name": "Pooh's House - Open Cabinet",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 559,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Pooh's House - Strike Chimney",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 480,
+                        "y": 119
+                    },
+                    {
+                        "map": "100Acre",
+                        "x": 768,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Break the Log",
+                "access_rules":["$page_count:4"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 385,
+                        "y": 802
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Spot - Use the Seesaw",
+                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 522,
+                        "y": 852
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "100 Acre Overworld",
+        "access_rules":["fire:1"],
+        "visibility_rules":["100_acre_on"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
+            {
+                "name": "Pooh's House",
+                "sections": [
+                    {
+                        "name": "Open Cabinet",
+                        "ref": "100 Acre Events/Pooh's House - Open Cabinet/"
+                    },
+                    {
+                        "name": "Strike Chimney",
+                        "ref": "100 Acre Events/Pooh's House - Strike Chimney/"
+                    },
+                    {
+                        "name": "Light the Fire",
+                        "ref": "100 Acre Events/Pooh's House - Light the Fire/"
+                    },
+                    {
+                        "name": "Talk to Owl",
+                        "ref": "100 Acre Events/Pooh's House - Talk to Owl/"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 81,
+                        "y": 566
+                    }
+                ]
+            },
+            {
+                "name": "Torn Page #1 - Hunny Tree",
+                "access_rules":["$page_count:1"],
+                "sections": [
+                    {
+                        "name": "Convert Torn Page"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 143,
+                        "y": 523
+                    }
+                ]
+            },
+            {
+                "name": "Torn Page #2 - Rabbit's House",
+                "access_rules":["$page_count:2"],
+                "sections": [
+                    {
+                        "name": "Convert Torn Page"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 48,
+                        "y": 526
+                    }
+                ]
+            },
+            {
+                "name": "Torn Page #3 - Starry Hill",
+                "access_rules":["$page_count:3"],
+                "sections": [
+                    {
+                        "name": "Convert Torn Page"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 174,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "Torn Page #4 - Tigger's Bouncing Spot",
+                "sections": [
+                    {
+                        "name": "Chest of Cliff",
+                        "ref": "100 Acre Chests/Bouncing Spot - Chest on Cliff on Left Side/"
+                    },
+                    {
+                        "name": "Chest in Tree Alcove",
+                        "ref": "100 Acre Chests/Bouncing Spot - Chest in Tree Alcove/"
+                    },
+                    {
+                        "name": "Chest in Tree Stump",
+                        "ref": "100 Acre Chests/Bouncing Spot - Chest in Tree Stump/"
+                    },
+                    {
+                        "name": "Break Log",
+                        "ref": "100 Acre Events/Bouncing Spot - Break the Log/"
+                    },
+                    {
+                        "name": "Use the Seesaw",
+                        "ref": "100 Acre Events/Bouncing Spot - Use the Seesaw/"
+                    },
+                    {
+                        "name": "Turn in Rare Nut 1",
+                        "ref": "100 Acre Events/Turn in Rare Nut 1/"
+                    },
+                    {
+                        "name": "Turn in Rare Nut 2",
+                        "ref": "100 Acre Events/Turn in Rare Nut 2/"
+                    },
+                    {
+                        "name": "Turn in Rare Nut 3",
+                        "ref": "100 Acre Events/Turn in Rare Nut 3/"
+                    },
+                    {
+                        "name": "Turn in Rare Nut 4",
+                        "ref": "100 Acre Events/Turn in Rare Nut 4/"
+                    },
+                    {
+                        "name": "Turn in Rare Nut 5",
+                        "ref": "100 Acre Events/Turn in Rare Nut 5/"
+                    },
+                    {
+                        "name": "Convert Torn Page",
+                        "access_rules":["$page_count:4"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 134,
+                        "y": 573
+                    }
+                ]
+            },
+            {
+                "name": "Torn Page #5 - Muddy Path",
+                "access_rules":["$page_count:5"],
+                "sections": [
+                    {
+                        "name": "Convert Torn Page"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "100Acre",
+                        "x": 68,
+                        "y": 617
+                    }
+                ]
+            }
+        ]
+    }
+]

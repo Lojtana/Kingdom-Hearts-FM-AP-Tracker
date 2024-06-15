@@ -66,7 +66,7 @@
         "img": "images/maps/hollow_bastion.png"
     },
     {
-        "name": "100",
+        "name": "100Acre",
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/100acre.png"

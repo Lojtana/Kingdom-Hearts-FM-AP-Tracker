@@ -1,4 +1,5 @@
 WORLDS = {"wonderland", "olympus_coliseum", "deep_jungle", "agrabah", "halloween_town", "atlantica", "neverland", "hollow_bastion", "monstro"}
+REPORTS = {"report_1", "report_2", "report_3", "report_4", "report_5", "report_6", "report_7", "report_8", "report_9", "report_10", "report_11", "report_12", "report_13"}
 PUPPIES_SINGLE = {
     "Puppy 01", "Puppy 02", "Puppy 03", "Puppy 04", "Puppy 05", "Puppy 06", "Puppy 07", "Puppy 08", "Puppy 09", "Puppy 10", "Puppy 11", "Puppy 12", "Puppy 13", "Puppy 14",
     "Puppy 15", "Puppy 16", "Puppy 17", "Puppy 18", "Puppy 19", "Puppy 20", "Puppy 21", "Puppy 22", "Puppy 23", "Puppy 24", "Puppy 25", "Puppy 26", "Puppy 27", "Puppy 28",
@@ -15,6 +16,7 @@ PUPPIES_TRIPLETS = {
 }
 PUPPIES_ALL = {"All Puppies"}
 CUPS = {"phil_cup,", "pegasus_cup", "hercules_cup"}
+PAGES = {"page_1", "page_2", "page_3", "page_4", "page_5"}
 
 --- count functions
 function world_count()
@@ -57,6 +59,25 @@ function cups_count()
     return count
 end
 
+function reports_count()
+    local count = 0
+    for _, item in pairs(REPORTS) do
+        if has(item) then
+            count = count + 1
+        end
+    end
+    return count
+end
+
+function page_count()
+    local count = 0
+    for _, item in pairs(PAGES) do
+        if has(item) then
+            count = count + 1
+        end
+    end
+    return count
+end
 
 --- access functions
 
