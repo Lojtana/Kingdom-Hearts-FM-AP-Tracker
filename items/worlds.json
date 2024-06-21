@@ -1,54 +1,21 @@
 [
     {
         "name": "Wonderland",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Wonderland",
-                "codes": "wonderland",
-                "img": "images/worlds/Wonderland.png"
-            },
-            {
-                "name": "Wonderland",
-                "codes": "footprints",
-                "img": "images/worlds/Trickmaster.png"
-            }
-        ]
+        "type": "toggle",
+        "codes": "wonderland",
+        "img": "images/worlds/Wonderland.png"
     },
     {
         "name": "Deep Jungle",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Deep Jungle",
-                "codes": "deep_jungle",
-                "img": "images/worlds/Deep Jungle.png"
-            },
-            {
-                "name": "Deep Jungle",
-                "codes": "slides",
-                "img": "images/worlds/Clayton.png"
-            }
-        ]
+        "type": "toggle",
+        "codes": "deep_jungle",
+        "img": "images/worlds/Deep Jungle.png"
     },
     {
         "name": "Olympus Coliseum",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Olympus Coliseum",
-                "img": "images/worlds/Olympus Coliseum KH1.png",
-                "codes": "olympus_coliseum"
-            },
-            {
-                "name": "Olympus Coliseum",
-                "codes": "entry_pass",
-                "img": "images/worlds/Cerberus.png"
-            }
-        ]
+        "type": "toggle",
+        "img": "images/worlds/Olympus Coliseum KH1.png",
+        "codes": "olympus_coliseum"
     },
     {
         "name": "Phil Cup",
@@ -73,42 +40,15 @@
     },
     {
         "name": "Halloween Town",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Halloween Town",
-                "codes": "halloween_town",
-                "img": "images/worlds/Halloween Town.png"
-            },
-            {
-                "name": "Halloween Town",
-                "codes": "forget_me_not",
-                "img": "images/worlds/Tombstones.png"
-            },
-            {
-                "name": "Halloween Town",
-                "codes": "jack_box",
-                "img": "images/worlds/Oogie Boogie.png"
-            }
-        ]
+        "type": "toggle",
+        "codes": "halloween_town",
+        "img": "images/worlds/Halloween Town.png",
     },
     {
         "name": "Atlantica",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Atlantica",
-                "img": "images/worlds/Atlantica KH1.png",
-                "codes": "atlantica"
-            },
-            {
-                "name": "Atlantica",
-                "codes": "trident",
-                "img": "images/worlds/Giant Ursula.png"
-            }
-        ]
+        "type": "toggle",
+        "img": "images/worlds/Atlantica KH1.png",
+        "codes": "atlantica"
     },
     {
         "name": "Neverland",
@@ -118,20 +58,9 @@
     },
     {
         "name": "Hollow Bastion",
-        "type": "progressive",
-        "loop": false,
-        "stages": [
-            {
-                "name": "Hollow Bastion",
-                "codes": "hollow_bastion",
-                "img": "images/worlds/Hollow Bastion.png"
-            },
-            {
-                "name": "Hollow Bastion",
-                "codes": "theon_6",
-                "img": "images/worlds/Riku Ansem.png"
-            }
-        ]
+        "type": "toggle",
+        "codes": "hollow_bastion",
+        "img": "images/worlds/Hollow Bastion.png"
     },
     {
         "name": "Flame Emblem",
