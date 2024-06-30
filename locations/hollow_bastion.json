@@ -1,7 +1,7 @@
 [
     {
         "name": "Hollow Bastion Chests",
-        "access_rules":["hollow_bastion, $world_count:5"],
+        "access_rules":["hollow_bastion, [$world_count:5]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -592,7 +592,7 @@
     },
     {
         "name": "Hollow Bastion Events",
-        "access_rules":["hollow_bastion, $world_count:5"],
+        "access_rules":["hollow_bastion, [$world_count:5]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
@@ -695,7 +695,7 @@
             {
                 "name": "Defeat Unknown",
                 "visibility_rules":["superbosses_on", "superbosses_door", "unknown_goal"],
-                "access_rules":["$has_emblems, $world_count:7, $has_defenses"],
+                "access_rules":["$has_emblems, [$world_count:7], [$has_defenses]"],
                 "sections": [
                     {
                         "name": "",

@@ -424,7 +424,6 @@
             },
             {
                 "name": "1st District - Talk to Cid",
-                "access_rules":["hollow_bastion, $has_emblems, $world_count:5"],
                 "sections": [
                     {
                         "name": "",

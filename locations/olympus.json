@@ -1,7 +1,7 @@
 [
     {
         "name": "Olympus Coliseum Chests",
-        "access_rules":["olympus_coliseum, $world_count:2"],
+        "access_rules":["olympus_coliseum, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -108,7 +108,7 @@
             },
             {
                 "name": "Coliseum Gates - Purple Jar",
-                "access_rules":["$cups_count:3, $world_count:7, $has_defenses, entry_pass"],
+                "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], entry_pass"],
                 "sections": [
                     {
                         "name": "",
@@ -125,7 +125,7 @@
             },
             {
                 "name": "Olympia Chest",
-                "access_rules":["$cups_count:3, $world_count:4, entry_pass"],
+                "access_rules":["$cups_count:3, [$world_count:4], entry_pass"],
                 "sections": [
                     {
                         "name": "",
@@ -144,7 +144,7 @@
     },
     {
         "name": "Olympus Coliseum Events",
-        "access_rules":["olympus_coliseum, $world_count:2"],
+        "access_rules":["olympus_coliseum, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
@@ -230,31 +230,31 @@
                     {
                         "name": "Hercules Cup",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["hercules_cup, $world_count:4, entry_pass"],
+                        "access_rules":["hercules_cup, [$world_count:4], entry_pass"],
                         "item_count": 5
                     },
                     {
                         "name": "Hades Cup",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, $world_count:7, $has_defenses, entry_pass"],
+                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], entry_pass"],
                         "item_count": 7
                     },
                     {
                         "name": "Defeat Hades",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, $world_count:7, $has_defenses, entry_pass"],
+                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], entry_pass"],
                         "item_count": 2
                     },
                     {
                         "name": "Defeat Sephiroth",
                         "visibility_rules":["superbosses_on", "superbosses_door", "sephiroth_goal"],
-                        "access_rules":["$cups_count:3, $world_count:7, $has_defenses, entry_pass"],
+                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], entry_pass"],
                         "item_count": 2
                     },
                     {
                         "name": "Defeat Ice Titan",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, $world_count:7, $has_defenses, entry_pass"],
+                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], entry_pass"],
                         "item_count": 1
                     }
                 ],

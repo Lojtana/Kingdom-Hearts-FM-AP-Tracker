@@ -1,7 +1,7 @@
 [
     {
         "name": "Neverland Chests",
-        "access_rules":["neverland, $world_count:3"],
+        "access_rules":["neverland, [$world_count:3]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -201,7 +201,7 @@
     },
     {
         "name": "Neverland Events",
-        "access_rules":["neverland, $world_count:3, green_trinity"],
+        "access_rules":["neverland, [$world_count:3], green_trinity"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
@@ -288,7 +288,7 @@
     },
     {
         "name": "Neverland Clock Tower Chests",
-        "access_rules":["neverland, $world_count:3, green_trinity, $has_lv2_magic, $has_defenses, $has_emblems"],
+        "access_rules":["neverland, [$world_count:3], green_trinity, $has_lv2_magic, [$has_defenses], $has_emblems"],
         "visibility_rules":["missables_on"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",

@@ -1,7 +1,7 @@
 [
     {
         "name": "Monstro Chests",
-        "access_rules":["monstro, $world_count:2"],
+        "access_rules":["monstro, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -357,7 +357,7 @@
     },
     {
         "name": "Monstro Events",
-        "access_rules":["monstro, $world_count:2"],
+        "access_rules":["monstro, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
