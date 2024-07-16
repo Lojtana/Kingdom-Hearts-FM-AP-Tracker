@@ -1,13 +1,8 @@
--- this is an example/ default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
--- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
--- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
--- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 
 CUR_INDEX = -1
-SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
@@ -60,9 +55,43 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
+    -- get slot data
+    for key, value in pairs(SLOT_DATA) do
+        if key == "required_reports_eotw" then
+            Tracker:FindObjectForCode("eotw_req").AcquiredCount = value
+        elseif key == "required_reports_door" then
+            Tracker:FindObjectForCode("door_req").AcquiredCount = value
+        elseif key == "chestslocked" then
+            Tracker:FindObjectForCode("keyblade_locks").CurrentStage = 1
+        elseif key == "chestsunlocked" then
+            Tracker:FindObjectForCode("keyblade_locks").CurrentStage = 0
+        elseif key == "goal" then
+            if value == "sephiroth" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 0
+            elseif value == "unknown" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 1
+            elseif value == "postcards" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 2
+            elseif value == "final_ansem" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 3
+            elseif value == "puppies" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 4
+            elseif value == "final_rest" then
+                Tracker:FindObjectForCode("goal").CurrentStage = 5
+            end
+        elseif key == "door" then
+            if value == "reports" then
+                Tracker:FindObjectForCode("door_unlock").CurrentStage = 0
+            elseif value == "puppies" then
+                Tracker:FindObjectForCode("door_unlock").CurrentStage = 1
+            elseif value == "postcards" then
+                Tracker:FindObjectForCode("door_unlock").CurrentStage = 2
+            elseif value == "superbosses" then
+                Tracker:FindObjectForCode("door_unlock").CurrentStage = 3
+            end
+        elseif SLOT_CODES[key] then
+            Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
+        end
     end
 end
 
@@ -110,27 +139,6 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
-    -- track local items via snes interface
-    if is_local then
-        if LOCAL_ITEMS[v[1]] then
-            LOCAL_ITEMS[v[1]] = LOCAL_ITEMS[v[1]] + 1
-        else
-            LOCAL_ITEMS[v[1]] = 1
-        end
-    else
-        if GLOBAL_ITEMS[v[1]] then
-            GLOBAL_ITEMS[v[1]] = GLOBAL_ITEMS[v[1]] + 1
-        else
-            GLOBAL_ITEMS[v[1]] = 1
-        end
-    end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
-    end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
 end
 
 -- called when a location gets cleared
@@ -160,28 +168,10 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a locations is scouted
-function onScout(location_id, location_name, item_id, item_name, item_player)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
-    end
-    -- not implemented yet :(
-end
-
--- called when a bounce message is received 
-function onBounce(json)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
-    end
-    -- your code goes here
-end
-
--- add AP callbacks
--- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
-Archipelago:AddItemHandler("item handler", onItem)
-Archipelago:AddLocationHandler("location handler", onLocation)
-
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+    Archipelago:AddItemHandler("item handler", onItem)
+end
+if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
+    Archipelago:AddLocationHandler("location handler", onLocation)
+end

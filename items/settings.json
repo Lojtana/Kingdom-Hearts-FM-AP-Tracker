@@ -1,12 +1,57 @@
 [
     {
-        "name": "Superbosses",
+        "name": "Goal",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/superbosses_bw.png",
+                "img": "/images/settings/sephiroth.png",
+                "codes": "goal, goal_sephiroth",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Sephiroth"
+            },
+            {
+                "img": "/images/settings/unknown.png",
+                "codes": "goal, goal_unknown",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Unknown"
+            },
+            {
+                "img": "/images/settings/postcards.png",
+                "codes": "goal, goal_postcards",
+                "inherit_codes": false,
+                "name": "Goal - Send all Postcards"
+            },
+            {
+                "img": "/images/settings/ansem.png",
+                "codes": "goal, goal_ansem",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Final Ansem"
+            },
+            {
+                "img": "/images/settings/puppies.png",
+                "codes": "goal, goal_puppies",
+                "inherit_codes": false,
+                "name": "Goal - Return all Puppies"
+            },
+            {
+                "img": "/images/settings/door.png",
+                "codes": "goal, goal_final_rest",
+                "inherit_codes": false,
+                "name": "Goal - Reach the Final Rest"
+            }
+        ]
+    },
+    {
+        "name": "Manual - Superbosses",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/superbosses.png",
+                "img_mods": "@disabled",
                 "codes": "superbosses, superbosses_off",
                 "inherit_codes": false,
                 "name": "Superbosses Off"
@@ -20,13 +65,14 @@
         ]
     },
     {
-        "name": "Olympus Coliseum Cups",
+        "name": "Manual - Olympus Coliseum Cups",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/cups_bw.png",
+                "img": "/images/settings/cups.png",
+                "img_mods": "@disabled",
                 "codes": "cups, cups_off",
                 "inherit_codes": false,
                 "name": "Cups Off"
@@ -46,7 +92,8 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/keyblade_bw.png",
+                "img": "/images/settings/keyblade.png",
+                "img_mods": "@disabled",
                 "codes": "keyblade_locks, keyblades_off",
                 "inherit_codes": false,
                 "name": "Keyblade Locks Off"
@@ -66,7 +113,8 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/100_acre_bw.png",
+                "img": "/images/settings/100_acre.png",
+                "img_mods": "@disabled",
                 "codes": "100_acre_checks, 100_acre_off",
                 "inherit_codes": false,
                 "name": "100 Acre Off"
@@ -86,7 +134,8 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/atlantica_bw.png",
+                "img": "/images/settings/atlantica.png",
+                "img_mods": "@disabled",
                 "codes": "atlantica_checks, atlantica_off",
                 "inherit_codes": false,
                 "name": "Atlantica Off"
@@ -100,13 +149,14 @@
         ]
     },
     {
-        "name": "Missable Checks",
+        "name": "Manual - Missable Checks",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/missables_bw.png",
+                "img": "/images/settings/missables.png",
+                "img_mods": "@disabled",
                 "codes": "missable_checks, missables_off",
                 "inherit_codes": false,
                 "name": "Missables Off"
@@ -120,13 +170,46 @@
         ]
     },
     {
+        "name": "Final Rest Door Unlock",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/report.png",
+                "codes": "door_unlock, door_reports",
+                "inherit_codes": false,
+                "name": "Collect Reports"
+            },
+            {
+                "img": "/images/settings/puppies.png",
+                "codes": "door_unlock, door_puppies",
+                "inherit_codes": false,
+                "name": "Return all Puppies"
+            },
+            {
+                "img": "/images/settings/postcards.png",
+                "codes": "door_unlock, door_postcards",
+                "inherit_codes": false,
+                "name": "Send all Postcards"
+            },
+            {
+                "img": "/images/settings/phantom.png",
+                "codes": "door_unlock, door_superbosses",
+                "inherit_codes": false,
+                "name": "Defeat all Superbosses"
+            }
+        ]
+    },
+    {
         "name": "Advanced Logic",
         "type": "progressive",
         "allow_disabled": false,
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/advanced_logic_bw.png",
+                "img": "/images/settings/advanced_logic.png",
+                "img_mods": "@disabled",
                 "codes": "advanced_logic, advanced_logic_off",
                 "inherit_codes": false,
                 "name": "Advanced Logic Off"
@@ -138,5 +221,23 @@
                 "name": "Advanced Logic On"
             }
         ]
+    },
+    {
+        "name": "End of the World - Reports Requirement",
+        "img": "/images/settings/eotw.png",
+        "codes": "eotw_req",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 13,
+        "initial_quantity": 4
+    },
+    {
+        "name": "Final Rest Door - Reports Requirement",
+        "img": "/images/settings/door.png",
+        "codes": "door_req",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 13,
+        "initial_quantity": 4
     }
 ]

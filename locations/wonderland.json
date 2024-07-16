@@ -328,7 +328,7 @@
         ]
     },
     {
-        "name": "Woderland Events",
+        "name": "Wonderland Events",
         "access_rules":["wonderland, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
