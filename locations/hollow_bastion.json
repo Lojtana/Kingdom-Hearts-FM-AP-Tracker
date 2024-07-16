@@ -336,7 +336,7 @@
             },
             {
                 "name": "Lift Stop - Chest Under High Tower Sliding Blocks",
-                "access_rules":["$has_emblems, $can_glide"],
+                "access_rules":["$has_emblems, $can_glide, gravity:1"],
                 "sections": [
                     {
                         "name": ""
