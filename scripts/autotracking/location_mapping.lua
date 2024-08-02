@@ -135,9 +135,9 @@ LOCATION_MAPPING = {
     [2656024] = {"@Deep Jungle Events/Seal the Keyhole/"},
     [2656384] = {"@Deep Jungle Events/Seal the Keyhole/"},
 
-    [2656361] = {"@Deep Jungle Experiments/Research Table Experiment/1st Experiment"},
-    [2656362] = {"@Deep Jungle Experiments/Research Table Experiment/2nd Experiment"},
-    [2656363] = {"@Deep Jungle Experiments/Oven Experiment/"},
+    [2656361] = {"@Deep Jungle Experiments/Oven Experiment/"},
+    [2656362] = {"@Deep Jungle Experiments/Research Table Experiment/1st Experiment"},
+    [2656363] = {"@Deep Jungle Experiments/Research Table Experiment/2nd Experiment"},
     [2656364] = {"@Deep Jungle Events/Cliff - Save Gorillas/"},
     [2656365] = {"@Deep Jungle Events/Tree House - Save Gorillas/"},
     [2656366] = {"@Deep Jungle Events/Camp - Save Gorillas/"},
@@ -361,7 +361,7 @@ LOCATION_MAPPING = {
     [2656342] = {"@Neverland Clock Tower Chests/Clock Tower 11:00 Door/"},
     [2656343] = {"@Neverland Clock Tower Chests/Clock Tower 12:00 Door/"},
 
-    [2654084] = {"@Hollow Bastion Chests/Rising Falls - Chest on Water Surface/"},
+    [2654054] = {"@Hollow Bastion Chests/Rising Falls - Chest on Water Surface/"},
     [2654091] = {"@Hollow Bastion Chests/Rising Falls - 1st Chest Under Water/"},
     [2654092] = {"@Hollow Bastion Chests/Rising Falls - 2nd Chest Under Water/"},
     [2654093] = {"@Hollow Bastion Chests/Rising Falls - Chest on Floating Platform Near Save Point/"},

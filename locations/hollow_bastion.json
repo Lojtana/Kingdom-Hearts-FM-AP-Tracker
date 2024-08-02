@@ -85,7 +85,7 @@
             },
             {
                 "name": "Rising Falls - High Platform Chest",
-                "access_rules":["$any_glide", "blizzard:1"],
+                "access_rules":["$has_emblems, $any_glide", "$has_emblems, blizzard:1"],
                 "sections": [
                     {
                         "name": ""
