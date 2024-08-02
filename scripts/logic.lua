@@ -59,16 +59,6 @@ function cups_count()
     return count
 end
 
-function reports_count()
-    local count = 0
-    for _, item in pairs(REPORTS) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count
-end
-
 function page_count()
     local count = 0
     for _, item in pairs(PAGES) do

@@ -38,7 +38,7 @@
                     "item_margin": "5,5",
                     "item_size": "40,40",
                     "rows": [
-                        ["high_jump", "glide", "mermaid_kick", "superglide"]
+                        ["high_jump", "glide", "superglide", "mermaid_kick"]
                     ]
                 }
             },
@@ -62,7 +62,7 @@
                     "item_margin": "5,5",
                     "item_size": "40,40",
                     "rows": [
-                        ["postcard", "bottle"]
+                        ["postcard", "bottle", "torn_page"]
                     ]
                 }
             }

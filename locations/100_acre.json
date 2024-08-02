@@ -28,7 +28,7 @@
             },
             {
                 "name": "Bouncing Spot - Chest on Cliff on Left Side",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -44,7 +44,7 @@
             },
             {
                 "name": "Bouncing Spot - Chest in Tree Alcove",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -60,7 +60,7 @@
             },
             {
                 "name": "Bouncing Spot - Chest in Tree Stump",
-                "access_rules":["$page_count:4"],
+                "access_rules":["torn_page:4"],
                 "sections": [
                     {
                         "name": ""
@@ -85,7 +85,7 @@
         "children": [
             {
                 "name": "Turn in Rare Nut 1",
-                "access_rules":["$page_count:4"],
+                "access_rules":["torn_page:4"],
                 "sections": [
                     {
                         "name": ""
@@ -101,7 +101,7 @@
             },
             {
                 "name": "Turn in Rare Nut 2",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -117,7 +117,7 @@
             },
             {
                 "name": "Turn in Rare Nut 3",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -133,7 +133,7 @@
             },
             {
                 "name": "Turn in Rare Nut 4",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -149,7 +149,7 @@
             },
             {
                 "name": "Turn in Rare Nut 5",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -192,7 +192,7 @@
             },
             {
                 "name": "Pooh's House - Talk to Owl",
-                "access_rules":["$page_count:5"],
+                "access_rules":["torn_page:5"],
                 "sections": [
                     {
                         "name": ""
@@ -208,7 +208,7 @@
             },
             {
                 "name": "Pooh's House - Light the Fire",
-                "access_rules":["$page_count:3"],
+                "access_rules":["torn_page:3"],
                 "sections": [
                     {
                         "name": ""
@@ -259,7 +259,7 @@
             },
             {
                 "name": "Bouncing Spot - Break the Log",
-                "access_rules":["$page_count:4"],
+                "access_rules":["torn_page:4"],
                 "sections": [
                     {
                         "name": ""
@@ -275,7 +275,7 @@
             },
             {
                 "name": "Bouncing Spot - Use the Seesaw",
-                "access_rules":["$page_count:4, high_jump", "$page_count:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -328,7 +328,7 @@
             },
             {
                 "name": "Torn Page #1 - Hunny Tree",
-                "access_rules":["$page_count:1"],
+                "access_rules":["torn_page:1"],
                 "sections": [
                     {
                         "name": "Convert Torn Page"
@@ -344,7 +344,7 @@
             },
             {
                 "name": "Torn Page #2 - Rabbit's House",
-                "access_rules":["$page_count:2"],
+                "access_rules":["torn_page:2"],
                 "sections": [
                     {
                         "name": "Convert Torn Page"
@@ -360,7 +360,7 @@
             },
             {
                 "name": "Torn Page #3 - Starry Hill",
-                "access_rules":["$page_count:3"],
+                "access_rules":["torn_page:3"],
                 "sections": [
                     {
                         "name": "Convert Torn Page"
@@ -419,7 +419,7 @@
                     },
                     {
                         "name": "Convert Torn Page",
-                        "access_rules":["$page_count:4"]
+                        "access_rules":["torn_page:4"]
                     }
                 ],
                 "map_locations": [
@@ -432,7 +432,7 @@
             },
             {
                 "name": "Torn Page #5 - Muddy Path",
-                "access_rules":["$page_count:5"],
+                "access_rules":["torn_page:5"],
                 "sections": [
                     {
                         "name": "Convert Torn Page"

@@ -39,8 +39,7 @@
         "type": "consumable",
         "codes": "postcard",
         "img": "images/misc/postcards.png",
-        "max_quantity": 10,
-        "overlay_font_size": 24
+        "max_quantity": 10
     },
     {
         "name": "Empty Bottle",
@@ -50,28 +49,10 @@
         "codes": "bottle"
     },
     {
-        "name": "Torn Page 1",
-        "type": "toggle",
-        "codes": "page_1"
-    },
-    {
-        "name": "Torn Page 2",
-        "type": "toggle",
-        "codes": "page_2"
-    },
-    {
-        "name": "Torn Page 3",
-        "type": "toggle",
-        "codes": "page_3"
-    },
-    {
-        "name": "Torn Page 4",
-        "type": "toggle",
-        "codes": "page_4"
-    },
-    {
-        "name": "Torn Page 5",
-        "type": "toggle",
-        "codes": "page_5"
+        "name": "Torn Pages",
+        "type": "consumable",
+        "img": "images/misc/pages.png",
+        "codes": "torn_page",
+        "max_quantity": 5
     }
 ]

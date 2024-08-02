@@ -42,7 +42,7 @@
         "name": "Halloween Town",
         "type": "toggle",
         "codes": "halloween_town",
-        "img": "images/worlds/Halloween Town.png",
+        "img": "images/worlds/Halloween Town.png"
     },
     {
         "name": "Atlantica",
