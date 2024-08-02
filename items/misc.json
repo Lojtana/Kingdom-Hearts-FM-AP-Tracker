@@ -48,5 +48,30 @@
         "img": "images/misc/bottle.png",
         "max_quantity": 6,
         "codes": "bottle"
+    },
+    {
+        "name": "Torn Page 1",
+        "type": "toggle",
+        "codes": "page_1"
+    },
+    {
+        "name": "Torn Page 2",
+        "type": "toggle",
+        "codes": "page_2"
+    },
+    {
+        "name": "Torn Page 3",
+        "type": "toggle",
+        "codes": "page_3"
+    },
+    {
+        "name": "Torn Page 4",
+        "type": "toggle",
+        "codes": "page_4"
+    },
+    {
+        "name": "Torn Page 5",
+        "type": "toggle",
+        "codes": "page_5"
     }
 ]

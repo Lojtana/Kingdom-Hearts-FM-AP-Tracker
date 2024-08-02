@@ -89,43 +89,6 @@
         "codes": "monstro"
     },
     {
-        "name": "100 Acre",
-        "type": "progressive",
-        "codes": "100_acre",
-        "loop": false,
-        "stages": [
-            {
-                "name": "100 Acre",
-                "codes": "page_1",
-                "img": "images/worlds/100 Acre Wood.png"
-            },
-            {
-                "name": "100 Acre",
-                "codes": "page_2",
-                "img": "images/worlds/100 Acre Wood.png",
-                "img_mods": "overlay|images/settings/2.png"
-            },
-            {
-                "name": "100 Acre",
-                "codes": "page_3",
-                "img": "images/worlds/100 Acre Wood.png",
-                "img_mods": "overlay|images/settings/3.png"
-            },
-            {
-                "name": "100 Acre",
-                "codes": "page_4",
-                "img": "images/worlds/100 Acre Wood.png",
-                "img_mods": "overlay|images/settings/4.png"
-            },
-            {
-                "name": "100 Acre",
-                "codes": "page_5",
-                "img": "images/worlds/100 Acre Wood.png",
-                "img_mods": "overlay|images/settings/5.png"
-            }
-        ]
-    },
-    {
         "name": "End of the World",
         "img": "images/worlds/End of the World.png",
         "type": "toggle",
