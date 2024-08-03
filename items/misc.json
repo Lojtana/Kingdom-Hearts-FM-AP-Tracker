@@ -61,5 +61,22 @@
         "img": "images/misc/report.png",
         "codes": "report",
         "max_quantity": 13
+    },
+    {
+        "name": "Single Puppies",
+        "type": "consumable",
+        "max_quantity": 99,
+        "codes": "puppies_single"
+    },
+    {
+        "name": "Triplet Puppies",
+        "type": "consumable",
+        "max_quantity": 33,
+        "codes": "puppies_triplets"
+    },
+    {
+        "name": "All Puppies",
+        "type": "toggle",
+        "codes": "puppies_all"
     }
 ]
