@@ -54,5 +54,12 @@
         "img": "images/misc/pages.png",
         "codes": "torn_page",
         "max_quantity": 5
+    },
+    {
+        "name": "Ansem's Reports",
+        "type": "consumable",
+        "img": "images/misc/report.png",
+        "codes": "report",
+        "max_quantity": 13
     }
 ]

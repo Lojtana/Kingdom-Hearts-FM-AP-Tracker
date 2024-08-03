@@ -6,10 +6,20 @@
         "img": "images/worlds/Wonderland.png"
     },
     {
+        "name": "Footrpints",
+        "type": "toggle",
+        "codes": "footprints"
+    },
+    {
         "name": "Deep Jungle",
         "type": "toggle",
         "codes": "deep_jungle",
         "img": "images/worlds/Deep Jungle.png"
+    },
+    {
+        "name": "Slides",
+        "type": "toggle",
+        "codes": "slides"
     },
     {
         "name": "Olympus Coliseum",
@@ -17,6 +27,12 @@
         "img": "images/worlds/Olympus Coliseum KH1.png",
         "codes": "olympus_coliseum"
     },
+    {
+        "name": "Entry Pass",
+        "type": "toggle",
+        "codes": "entry_pass"
+    }
+    ,
     {
         "name": "Phil Cup",
         "type": "toggle",
@@ -45,10 +61,25 @@
         "img": "images/worlds/Halloween Town.png"
     },
     {
+        "name": "Forget-Me-Not",
+        "type": "toggle",
+        "codes": "forget_me_not"
+    },
+    {
+        "name": "Jack-In-The-Box",
+        "type": "toggle",
+        "codes": "jack_box"
+    },
+    {
         "name": "Atlantica",
         "type": "toggle",
         "img": "images/worlds/Atlantica KH1.png",
         "codes": "atlantica"
+    },
+    {
+        "name": "Crystal Trident",
+        "type": "toggle",
+        "codes": "trident"
     },
     {
         "name": "Neverland",
@@ -81,6 +112,11 @@
         "name": "Fountain Emblem",
         "type": "toggle",
         "codes": "emblem_fountain"
+    },
+    {
+        "name": "Theon Vol. 6",
+        "type": "toggle",
+        "codes": "theon_6"
     },
     {
         "name": "Monstro",
