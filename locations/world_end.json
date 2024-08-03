@@ -1,7 +1,7 @@
 [
     {
         "name": "End of the World",
-        "access_rules":["end_of_the_world"],
+        "access_rules":["$eotw_access"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [

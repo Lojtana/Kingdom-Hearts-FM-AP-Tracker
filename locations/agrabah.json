@@ -1,7 +1,7 @@
 [
     {
         "name": "Agrabah Chests",
-        "access_rules":["agrabah, [$world_count:2]"],
+        "access_rules":["$access_chests|4, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -269,7 +269,7 @@
     },
     {
         "name": "Cave of Wonders Chests",
-        "access_rules":["agrabah, [$world_count:2]"],
+        "access_rules":["$access_chests|4, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [

@@ -1,7 +1,7 @@
 [
     {
         "name": "100 Acre Chests",
-        "access_rules":["fire:1"],
+        "access_rules":["fire:1, $haw_chests"],
         "visibility_rules":["100_acre_on"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",

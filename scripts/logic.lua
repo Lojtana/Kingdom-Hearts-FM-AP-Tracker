@@ -1,5 +1,5 @@
-WORLDS = {"wonderland", "olympus_coliseum", "deep_jungle", "agrabah", "monstro", "halloween_town", "atlantica", "neverland", "hollow_bastion", "end_of_the_world"}
-KEYBLADES = {"lady_luck", "olympia", "jungle_king", "three_wishes", "wishing_star", "pumpkinhead", "crabclaw", "fairy_harp", "divine_rose", "oblivion"}
+WORLDS = {"wonderland", "olympus_coliseum", "deep_jungle", "agrabah", "monstro", "halloween_town", "neverland", "hollow_bastion", "end_of_the_world"}
+KEYBLADES = {"lady_luck", "olympia", "jungle_king", "three_wishes", "wishing_star", "pumpkinhead", "fairy_harp", "divine_rose", "oblivion"}
 PUPPIES = {"puppies_single", "puppies_triplets"}
 CUPS = {"phil_cup,", "pegasus_cup", "hercules_cup"}
 SLOT_DATA = slot_data
@@ -20,6 +20,9 @@ function world_count()
                     count = count + 0.5
                 end
                 if has(KEYBLADES[i]) then
+                    count = count + 0.5
+                end
+                if has("atlantica") then
                     count = count + 0.5
                 end
             end
@@ -78,3 +81,74 @@ end
 
 --- world access
 
+function access_chests(world_id)
+    local world_id_n = tonumber(world_id)
+    local accessible = false
+
+    for key, value in pairs(SLOT_DATA) do
+        if key == "chestsunlocked" then
+            if has(WORLDS[world_id_n]) then
+                accessible = true
+            end
+        elseif key == "chestslocked" then
+            if has(WORLDS[world_id_n]) and has(KEYBLADES[world_id_n]) then
+                accessible = true
+            end
+        end
+    end
+    return accessible
+end
+
+function eotw_access()
+    local accessible = false
+
+    for key, value in pairs(SLOT_DATA) do
+        if key == "chestsunlocked" then
+            if has("end_of_the_world") then
+                accessible = true
+            elseif Tracker:FindObjectForCode("report").AcquiredCount == SLOT_DATA["required_reports_eotw"]then
+                accessible = true
+            end
+        elseif key == "chestslocked" then
+            if has("end_of_the_world") and has("oblivion") then
+                accessible = true
+            elseif Tracker:FindObjectForCode("report").AcquiredCount == SLOT_DATA["required_reports_eotw"] and has("oblivion") then
+                accessible = true
+            end
+        end
+    end
+
+    return accessible
+end
+
+function tt_chests()
+    local accessible = false
+
+    for key, value in pairs(SLOT_DATA) do
+        if key == "chestsunlocked" then
+            accessible = true
+        elseif key == "chestslocked" then
+            if has("lionheart") then
+                accessible = true
+            end
+        end
+    end
+
+    return accessible
+end
+
+function haw_chests()
+    local accessible = false
+
+    for key, value in pairs(SLOT_DATA) do
+        if key == "chestsunlocked" then
+            accessible = true
+        elseif key == "chestslocked" then
+            if has("oathkeeper") then
+                accessible = true
+            end
+        end
+    end
+
+    return accessible
+end

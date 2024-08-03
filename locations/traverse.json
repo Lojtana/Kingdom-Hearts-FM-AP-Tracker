@@ -1,6 +1,7 @@
 [
     {
         "name": "Traverse Town Chests",
+        "access_rules":["$tt_chests"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [

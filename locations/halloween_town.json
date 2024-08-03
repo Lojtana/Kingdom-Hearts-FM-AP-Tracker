@@ -1,7 +1,7 @@
 [
     {
         "name": "Halloween Town Chests",
-        "access_rules":["halloween_town, [$world_count:2]"],
+        "access_rules":["$access_chests|6, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -110,7 +110,7 @@
     },
     {
         "name": "Halloween Town Chests - 2nd Visit",
-        "access_rules":["halloween_town, [$world_count:2], jack_box, forget_me_not"],
+        "access_rules":["$access_chests|6, [$world_count:2], jack_box, forget_me_not"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [

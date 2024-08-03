@@ -1,7 +1,7 @@
 [
     {
         "name": "Hollow Bastion Chests",
-        "access_rules":["hollow_bastion, [$world_count:5]"],
+        "access_rules":["$access_chests|8, [$world_count:5]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
