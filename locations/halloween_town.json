@@ -148,7 +148,7 @@
                 ]
             },
             {
-                "name": "Cemetary - Chest Behind Grave",
+                "name": "Cemetery - Chest Behind Grave",
                 "access_rules":["fire:1"],
                 "sections": [
                     {
@@ -165,7 +165,7 @@
                 ]
             },
             {
-                "name": "Cemetary - Chest By Cat Shaped Grave",
+                "name": "Cemetery - Chest By Cat Shaped Grave",
                 "access_rules":["fire:1"],
                 "sections": [
                     {
@@ -182,7 +182,7 @@
                 ]
             },
             {
-                "name": "Cemetary - Chest Between Graves",
+                "name": "Cemetery - Chest Between Graves",
                 "access_rules":["fire:1"],
                 "sections": [
                     {
@@ -357,7 +357,7 @@
                 ]
             },
             {
-                "name": "Cemetary - Chest by Striped Grave",
+                "name": "Cemetery - Chest by Striped Grave",
                 "access_rules":["fire:1"],
                 "sections": [
                     {
