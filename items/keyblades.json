@@ -53,5 +53,10 @@
         "name": "Wishing Star",
         "type": "toggle",
         "codes": "wishing_star"
+    },
+    {
+        "name": "Oathkeeper",
+        "type": "toggle",
+        "codes": "oathkeeper"
     }
 ]
