@@ -1,7 +1,30 @@
 [
     {
-        "name": "End of the World",
+        "name": "End of the World - Atlantica Chest",
         "access_rules":["$eotw_access"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
+            {
+                "name": "World Terminus - Atlantica Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 359,
+                        "y": 449
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "End of the World",
+        "access_rules":["$eotw_access, $eotw_chests"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -157,7 +180,7 @@
             },
             {
                 "name": "Giant Crevasse - 1st Chest",
-                "access_rules":["$any_glide", "high_jump"],
+                "access_rules":["glide", "high_jump"],
                 "sections": [
                     {
                         "name": ""
@@ -203,7 +226,7 @@
             },
             {
                 "name": "Giant Crevasse - 4th Chest",
-                "access_rules":["$any_glide"],
+                "access_rules":["$glide_or_jump_combo_master"],
                 "sections": [
                     {
                         "name": ""
@@ -219,7 +242,7 @@
             },
             {
                 "name": "Giant Crevasse - 5th Chest",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["high_jump", "glide"],
                 "sections": [
                     {
                         "name": ""
@@ -295,7 +318,7 @@
             },
             {
                 "name": "World Terminus - Agrabah Chest",
-                "access_rules":["high_jump"],
+                "access_rules":["$jump_or_glide_dumbo"],
                 "sections": [
                     {
                         "name": ""
@@ -306,21 +329,6 @@
                         "map": "EOTW",
                         "x": 391,
                         "y": 450
-                    }
-                ]
-            },
-            {
-                "name": "World Terminus - Atlantica Chest",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "EOTW",
-                        "x": 359,
-                        "y": 449
                     }
                 ]
             },

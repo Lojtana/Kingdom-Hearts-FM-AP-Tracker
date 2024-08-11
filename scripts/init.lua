@@ -16,6 +16,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/advanced_logic.lua")
 
 -- Items
 ScriptHost:LoadScript("scripts/items.lua")
@@ -34,7 +35,6 @@ Tracker:AddLayouts("layouts/shared_item_grid.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/visit_locks.json")
 Tracker:AddLayouts("layouts/settings.json")
-
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

@@ -28,7 +28,7 @@
             },
             {
                 "name": "Bouncing Spot - Chest on Cliff on Left Side",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -44,7 +44,7 @@
             },
             {
                 "name": "Bouncing Spot - Chest in Tree Alcove",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -101,7 +101,7 @@
             },
             {
                 "name": "Turn in Rare Nut 2",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -117,7 +117,7 @@
             },
             {
                 "name": "Turn in Rare Nut 3",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -133,7 +133,7 @@
             },
             {
                 "name": "Turn in Rare Nut 4",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -149,7 +149,7 @@
             },
             {
                 "name": "Turn in Rare Nut 5",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""
@@ -275,7 +275,7 @@
             },
             {
                 "name": "Bouncing Spot - Use the Seesaw",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, $any_glide"],
+                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
                 "sections": [
                     {
                         "name": ""

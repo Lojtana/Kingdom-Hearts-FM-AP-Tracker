@@ -71,7 +71,7 @@
             },
             {
                 "name": "Hippo's Lagoon - Right Chest",
-                "access_rules":["[high_jump]", "[$any_glide]"],
+                "access_rules":["[$jump_glide_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -303,7 +303,7 @@
             },
             {
                 "name": "Tree House - Suspended Boat Chest",
-                "access_rules":["[$any_glide]"],
+                "access_rules":["[$glide_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -321,13 +321,13 @@
         ]
     },
     {
-        "name": "Deep Jungle Events",
-        "access_rules":["deep_jungle, slides, [$world_count:2]"],
+        "name": "Deep Jungle Tent Event",
+        "access_rules":["deep_jungle, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Collect All Slides",
+                "name": "Meet Jane",
                 "sections": [
                     {
                         "name": ""
@@ -345,7 +345,15 @@
                         "y": 710
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Deep Jungle Events",
+        "access_rules":["deep_jungle, slides, [$world_count:2]"],
+        "chest_unopened_img": "/images/misc/emblem.png",
+        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "children": [
             {
                 "name": "Defeat Sabor",
                 "sections": [
@@ -476,7 +484,7 @@
             },
             {
                 "name": "Jungle Slider",
-                "access_rules":["seal_jungle"],
+                "access_rules":["$finished_deepjungle"],
                 "sections": [
                     {
                         "name": "Green Serpent",

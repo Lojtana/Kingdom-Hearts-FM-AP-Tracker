@@ -25,6 +25,11 @@
         "codes": "guard"
     },
     {
+        "name": "Combo Master",
+        "type": "toggle",
+        "codes": "combo_master"
+    },
+    {
         "name": "High Jump",
         "img": "images/misc/High Jump.png",
         "type": "consumable",
@@ -37,16 +42,10 @@
         "codes": "mermaid_kick"
     },
     {
-        "name": "Glide",
+        "name": "Progressive Glide",
         "img": "images/misc/Glide.png",
         "type": "consumable",
         "codes": "glide"
-    },
-    {
-        "name": "Superglide",
-        "img": "images/misc/superglide.png",
-        "type": "consumable",
-        "codes": "superglide"
     },
     {
         "name": "Blue Trinity",

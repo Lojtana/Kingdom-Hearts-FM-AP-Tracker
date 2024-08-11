@@ -90,7 +90,7 @@
             },
             {
                 "name": "Queen's Castle - Left Hedge Chest",
-                "access_rules":["footprints", "high_jump","$any_glide"],
+                "access_rules":["footprints", "high_jump","glide"],
                 "sections": [
                     {
                         "name": "",
@@ -107,7 +107,7 @@
             },
             {
                 "name": "Queen's Castle - Right Hedge Blue Chest",
-                "access_rules":["footprints", "high_jump","$any_glide"],
+                "access_rules":["footprints", "high_jump","glide"],
                 "sections": [
                     {
                         "name": "",
@@ -124,7 +124,7 @@
             },
             {
                 "name": "Queen's Castle - Right Hedge Red Chest",
-                "access_rules":["footprints", "high_jump","$any_glide"],
+                "access_rules":["footprints", "high_jump","glide"],
                 "sections": [
                     {
                         "name": "",
@@ -175,7 +175,7 @@
             },
             {
                 "name": "Lotus Forest - Southwest Corner Chest",
-                "access_rules":["$any_glide"],
+                "access_rules":["$wonderland_glide_or_dumbo"],
                 "sections": [
                     {
                         "name": "",
@@ -208,7 +208,7 @@
             },
             {
                 "name": "Lotus Forest - Northeast Corner Chest",
-                "access_rules":["[high_jump]","[$any_glide]"],
+                "access_rules":["[$jump_glide_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -242,7 +242,7 @@
             },
             {
                 "name": "Tea Party Garden - 2nd Chest Above Lotus Forest Entrance",
-                "access_rules":["$any_glide"],
+                "access_rules":["$wonderland_glide_or_jump"],
                 "sections": [
                     {
                         "name": "",
@@ -259,7 +259,7 @@
             },
             {
                 "name": "Tea Party Garden - 1st Chest Above Lotus Forest Entrance",
-                "access_rules":["$any_glide"],
+                "access_rules":["$wonderland_glide_or_jump"],
                 "sections": [
                     {
                         "name": "",
@@ -276,7 +276,7 @@
             },
             {
                 "name": "Tea Party Garden - Bear and Clock Puzzle Chest",
-                "access_rules":["footprints", "high_jump:2"],
+                "access_rules":["$wonderland_doublejump_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -293,7 +293,7 @@
             },
             {
                 "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
-                "access_rules":["$any_glide", "footprints, high_jump:3"],
+                "access_rules":["$wonderland_teaparty_high_hedge_access"],
                 "sections": [
                     {
                         "name": "",
@@ -329,13 +329,12 @@
     },
     {
         "name": "Wonderland Events",
-        "access_rules":["wonderland, [$world_count:2]"],
+        "access_rules":["wonderland, footprints, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
                 "name": "Defeat Trickmaster",
-                "access_rules":["footprints"],
                 "sections": [
                     {
                         "name": "Defeat Trickmaster",
@@ -355,7 +354,6 @@
             },
             {
                 "name": "Bizarre Room - Read Book",
-                "access_rules":["footprints"],
                 "sections": [
                     {
                         "name": "",

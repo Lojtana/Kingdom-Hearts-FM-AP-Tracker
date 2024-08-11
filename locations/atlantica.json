@@ -104,7 +104,7 @@
             },
             {
                 "name": "Ursula's Lair - Use Fire on Urchin Chest",
-                "access_rules":["fire:1, trident"],
+                "access_rules":["fire, trident"],
                 "sections": [
                     {
                         "name": "",
@@ -163,7 +163,7 @@
         "children": [
             {
                 "name": "Undersea Gorge - Blizzard Clam",
-                "access_rules":["blizzard:1"],
+                "access_rules":["blizzard"],
                 "sections": [
                     {
                         "name": "",
@@ -228,7 +228,7 @@
             },
             {
                 "name": "Undersea Valley - Fire Clam",
-                "access_rules":["fire:1"],
+                "access_rules":["fire"],
                 "sections": [
                     {
                         "name": "",
@@ -293,7 +293,7 @@
             },
             {
                 "name": "Triton's Palace - Thunder Clam",
-                "access_rules":["thunder:1"],
+                "access_rules":["thunder"],
                 "sections": [
                     {
                         "name": "",

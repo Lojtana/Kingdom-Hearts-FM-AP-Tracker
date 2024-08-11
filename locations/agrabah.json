@@ -135,7 +135,7 @@
             },
             {
                 "name": "Main Street - Chest High Above Palace Entrance",
-                "access_rules":["high_jump","$any_glide"],
+                "access_rules":["$jump_glide_or_dumbo"],
                 "sections": [
                     {
                         "name": "",
@@ -168,7 +168,7 @@
             },
             {
                 "name": "Palace Gates - High Chest Opposite Palace",
-                "access_rules":["high_jump"],
+                "access_rules":["[$jump_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -185,7 +185,7 @@
             },
             {
                 "name": "Palace Gates - High Chest Close to Palace",
-                "access_rules":["high_jump, $any_glide", "high_jump:3"],
+                "access_rules":["$triplejump_or_glide_or_master_or_dumbo"],
                 "sections": [
                     {
                         "name": "",
@@ -291,7 +291,7 @@
             },
             {
                 "name": "Cave Entrance - Tall Tower Chest",
-                "access_rules":["$any_glide", "high_jump:2"],
+                "access_rules":["$doublejump_glide_or_master_or_dumbo"],
                 "sections": [
                     {
                         "name": "",
@@ -356,7 +356,7 @@
             },
             {
                 "name": "Bottomless Hall - Pillar Chest",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["[$jump_glide_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -566,7 +566,7 @@
             },
             {
                 "name": "Hidden Room - Right Chest",
-                "access_rules":["yellow_trinity", "high_jump"],
+                "access_rules":["$yellow_trinity_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -583,7 +583,7 @@
             },
             {
                 "name": "Hidden Room - Left Chest",
-                "access_rules":["yellow_trinity", "high_jump"],
+                "access_rules":["$yellow_trinity_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -677,8 +677,8 @@
             },
             {
                 "name": "Defeat Kurt Zisa",
-                "access_rules":["$has_emblems, [$world_count:7], [$has_defenses]"],
-                "visibility_rules":["superbosses_on", "superbosses_door"],
+                "access_rules":["$finished_hollowbastion, [$world_count:7], [$has_defenses]"],
+                "visibility_rules":["superbosses_on", "door_superbosses"],
                 "sections": [
                     {
                         "name": "",

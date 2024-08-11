@@ -7,11 +7,11 @@
         "children": [
             {
                 "name": "1st District - Candle Puzzle Chest",
+                "access_rules": ["blizzard:1"],
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1,
-                        "access_rules": "blizzard:1"
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -184,7 +184,7 @@
             },
             {
                 "name": "Mystical House - Yellow Trinity Chest",
-                "access_rules": ["fire:1, yellow_trinity", "fire:1, high_jump:2"],
+                "access_rules": ["fire:1, $yellow_trinity_or_jump"],
                 "sections": [
                     {
                         "name": "",
@@ -234,7 +234,7 @@
             },
             {
                 "name": "Gepetto's House Chest",
-                "access_rules": ["monstro, high_jump"],
+                "access_rules": ["$finished_monstro"],
                 "sections": [
                     {
                         "name": "",
@@ -268,7 +268,7 @@
             },
             {
                 "name": "1st District - Blue Trinity Balcony Chest",
-                "access_rules": ["blue_trinity"],
+                "access_rules": ["$blue_trinity_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -285,7 +285,7 @@
             },
             {
                 "name": "Mystical House - Glide Chest",
-                "access_rules": ["fire:1, $any_glide"],
+                "access_rules": ["fire:1, $glide_or_jump_or_mermaidkick"],
                 "sections": [
                     {
                         "name": "",
@@ -396,7 +396,7 @@
                     {
                         "name": "Kairi",
                         "item_count": 1,
-                        "access_rules": ["hollow_bastion, $world_count:5, $has_emblems"]
+                        "access_rules": ["$rescue_kairi"]
                     }
                 ],
                 "map_locations": [
@@ -440,7 +440,7 @@
                 ]
             },
             {
-                "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE",
+                "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE", 
                 "visibility_rules":["missables_on"],
                 "sections": [
                     {
@@ -475,7 +475,7 @@
             },
             {
                 "name": "Gepetto's House - Gepetto",
-                "access_rules": ["monstro, high_jump"],
+                "access_rules": ["$finished_monstro"],
                 "sections": [
                     {
                         "name": "Rewards",
@@ -497,7 +497,7 @@
             },
             {
                 "name": "Gepetto's House - Pinocchio",
-                "access_rules": ["monstro, high_jump"],
+                "access_rules": ["$finished_monstro"],
                 "sections": [
                     {
                         "name": "",
@@ -519,17 +519,17 @@
                     {
                         "name": "All Arts Items",
                         "item_count": 1,
-                        "access_rules": ["fire_arts, blizzard_arts, thunder_arts, cure_arts, gravity_arts, stop_arts, aero_arts, fire:1, blizzard:1, thunder:1, cure:1, gravity:1, stop:1, aero:1"]
+                        "access_rules": ["$has_all_arts,[$$has_lv_magic|1],[$world_count:7]"]
                     },
                     {
                         "name": "All LV1 Magic",
                         "item_count": 1,
-                        "access_rules": ["fire:1, blizzard:1, thunder:1, cure:1, gravity:1, stop:1, aero:1"]
+                        "access_rules": ["$has_lv_magic|1"]
                     },
                     {
                         "name": "All LV3 Magic",
                         "item_count": 1,
-                        "access_rules": ["fire:3, blizzard:3, thunder:3, cure:3, gravity:3, stop:3, aero:3"]
+                        "access_rules": ["$has_lv_magic|3"]
                     }
                 ],
                 "map_locations": [
@@ -608,27 +608,27 @@
                 "sections": [
                     {
                         "name": "Synth Log",
-                        "access_rules":["bottle:1"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     },
                     {
                         "name": "Synth Cloth",
-                        "access_rules":["bottle:2"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     },
                     {
                         "name": "Synth Rope",
-                        "access_rules":["bottle:3"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     },
                     {
                         "name": "Synth Seagull Egg",
-                        "access_rules":["bottle:4"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     },
                     {
                         "name": "Synth Fish",
-                        "access_rules":["bottle:5"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     },
                     {
                         "name": "Synth Mushroom",
-                        "access_rules":["bottle:6"]
+                        "access_rules":["bottle:1, [bottle:6]"]
                     }
                 ],
                 "map_locations": [
@@ -731,7 +731,7 @@
             },
             {
                 "name": "Postcard - Bowl in Gepetto's House",
-                "access_rules":["monstro, high_jump"],
+                "access_rules":["$finished_monstro"],
                 "sections": [
                     {
                         "name": "",

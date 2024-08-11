@@ -7,7 +7,7 @@
         "children": [
             {
                 "name": "Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance",
-                "access_rules":["high_jump"],
+                "access_rules":["$jump_or_combo_master"],
                 "sections": [
                     {
                         "name": "",
@@ -24,7 +24,7 @@
             },
             {
                 "name": "Chamber 6 - Chest on Platform Near Chamber 5 Entrance",
-                "access_rules":["high_jump"],
+                "access_rules":["[$jump_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -41,7 +41,7 @@
             },
             {
                 "name": "Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance",
-                "access_rules":["high_jump"],
+                "access_rules":["$jump_or_combo_master"],
                 "sections": [
                     {
                         "name": "",
@@ -91,7 +91,7 @@
             ,
             {
                 "name": "Mouth - Chest on High Platform Boat Side",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["high_jump", "glide"],
                 "sections": [
                     {
                         "name": "",
@@ -108,7 +108,7 @@
             },
             {
                 "name": "Mouth - Chest on High Platform Across from Boat",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["high_jump", "glide"],
                 "sections": [
                     {
                         "name": "",
@@ -141,7 +141,7 @@
             },
             {
                 "name": "Mouth - Green Trinity Chest",
-                "access_rules":["green_trinity, high_jump", "green_trinity, $any_glide"],
+                "access_rules":["green_trinity, high_jump", "green_trinity, glide"],
                 "sections": [
                     {
                         "name": "",
@@ -223,7 +223,7 @@
             },
             {
                 "name": "Chamber 3 - Chest on Platform Above Chamber 2 Entrance",
-                "access_rules":["high_jump"],
+                "access_rules":["[$jump_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -256,7 +256,7 @@
             },
             {
                 "name": "Chamber 3 - Chest on Platform Near Chamber 6 Entrance",
-                "access_rules":["high_jump"],
+                "access_rules":["[$jump_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -289,7 +289,7 @@
             },
             {
                 "name": "Chamber 5 - Chest Atop Barrel",
-                "access_rules":["high_jump"],
+                "access_rules":["[$jump_or_nothing]"],
                 "sections": [
                     {
                         "name": "",
@@ -379,7 +379,7 @@
             },
             {
                 "name": "Defeat Parasite Cage II",
-                "access_rules":["high_jump"],
+                "access_rules":["$jump_or_glide"],
                 "sections": [
                     {
                         "name": "",

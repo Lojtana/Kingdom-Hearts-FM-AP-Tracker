@@ -102,7 +102,7 @@
             },
             {
                 "name": "Hold - 1st Chest on Beam",
-                "access_rules":["green_trinity", "$any_glide", "high_jump:3"],
+                "access_rules":["green_trinity", "glide", "high_jump:3"],
 
                 "sections": [
                     {
@@ -119,10 +119,10 @@
             },
             {
                 "name": "Clock Tower - Chest",
-                "access_rules":["green_trinity, $has_lv2_magic"],
+                "access_rules":["$clocktower_access", "green_trinity, $finished_hollowbastion, [$has_defenses], [$has_lv_magic|2]"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Phantom if Missed Before Sealing Hollow Bastion Keyhole"
                     }
                 ],
                 "map_locations": [
@@ -135,7 +135,7 @@
             },
             {
                 "name": "Hold - 2nd Chest on Beam",
-                "access_rules":["green_trinity", "$any_glide", "high_jump:3"],
+                "access_rules":["green_trinity", "glide", "high_jump:3"],
                 "sections": [
                     {
                         "name": ""
@@ -253,8 +253,8 @@
             },
             {
                 "name": "Defeat Phantom",
-                "access_rules":["$has_lv2_magic, $has_defenses, $has_emblems"],
-                "visibility_rules":["superbosses_on", "superbosses_door"],
+                "access_rules":["[$has_lv_magic|2], [$has_defenses], $finished_hollowbastion"],
+                "visibility_rules":["superbosses_on", "door_superbosses"],
                 "sections": [
                     {
                         "name": ""
@@ -288,7 +288,8 @@
     },
     {
         "name": "Neverland Clock Tower Chests",
-        "access_rules":["$access_chests|7, [$world_count:3], green_trinity, $has_lv2_magic, [$has_defenses], $has_emblems"],
+        "access_rules":["$access_chests|7, [$world_count:3], $clocktower_access", 
+                        "$access_chests|7, [$world_count:3], green_trinity, $finished_hollowbastion, [$has_defenses], [$has_lv_magic|2]"],
         "visibility_rules":["missables_on"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",

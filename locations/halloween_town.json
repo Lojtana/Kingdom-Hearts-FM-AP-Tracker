@@ -41,7 +41,7 @@
             },
             {
                 "name": "Guillotine Square - High Tower Chest",
-                "access_rules":["high_jump"],
+                "access_rules":["$jump_or_glide_or_dumbo"],
                 "sections": [
                     {
                         "name": "",
@@ -58,7 +58,7 @@
             },
             {
                 "name": "Guillotine Square - Left Chest in Pumpkin Structure",
-                "access_rules":["high_jump, $any_glide", "high_jump:2"],
+                "access_rules":["$halloweentown_pumpkin_structure_access"],
                 "sections": [
                     {
                         "name": "",
@@ -91,7 +91,7 @@
             },
             {
                 "name": "Guillotine Square - Right Side in Pumpkin Structure",
-                "access_rules":["high_jump, $any_glide", "high_jump:2"],
+                "access_rules":["$halloweentown_pumpkin_structure_access"],
                 "sections": [
                     {
                         "name": "",
@@ -132,7 +132,7 @@
             },
             {
                 "name": "Bridge - Chest Right of Gate",
-                "access_rules":["$any_glide"],
+                "access_rules":["$glide_or_nothing"],
                 "sections": [
                     {
                         "name": "",
@@ -149,7 +149,7 @@
             },
             {
                 "name": "Cemetery - Chest Behind Grave",
-                "access_rules":["fire:1"],
+                "access_rules":["$finished_halloweentown"],
                 "sections": [
                     {
                         "name": "",
@@ -166,7 +166,7 @@
             },
             {
                 "name": "Cemetery - Chest By Cat Shaped Grave",
-                "access_rules":["fire:1"],
+                "access_rules":["$finished_halloweentown"],
                 "sections": [
                     {
                         "name": "",
@@ -183,7 +183,7 @@
             },
             {
                 "name": "Cemetery - Chest Between Graves",
-                "access_rules":["fire:1"],
+                "access_rules":["$finished_halloweentown"],
                 "sections": [
                     {
                         "name": "",
@@ -200,7 +200,7 @@
             },
             {
                 "name": "Oogie's Manor - Chest in Lower Iron Cage",
-                "access_rules":["fire:1"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -217,7 +217,7 @@
             },
             {
                 "name": "Oogie's Manor - Chest in Upper Iron Cage",
-                "access_rules":["fire:1"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -234,7 +234,7 @@
             },
             {
                 "name": "Oogie's Manor - Hollow Chest",
-                "access_rules":["fire:1"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -341,7 +341,7 @@
             },
             {
                 "name": "Bridge - Chest Left of Gate",
-                "access_rules":["high_jump", "$any_glide"],
+                "access_rules":["$jump_glide_or_nothing"],
                 "sections": [
                     {
                         "name": "",
@@ -358,7 +358,7 @@
             },
             {
                 "name": "Cemetery - Chest by Striped Grave",
-                "access_rules":["fire:1"],
+                "access_rules":["$finished_halloweentown"],
                 "sections": [
                     {
                         "name": "",
@@ -429,7 +429,7 @@
             },
             {
                 "name": "Defeat Oogie Boogie",
-                "access_rules":["jack_box, forget_me_not, fire:1"],
+                "access_rules":["jack_box, forget_me_not, $oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -446,7 +446,7 @@
             },
             {
                 "name": "Defeat Oogie's Manor",
-                "access_rules":["jack_box, forget_me_not, fire:1"],
+                "access_rules":["jack_box, forget_me_not, $oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",

@@ -37,7 +37,7 @@
             },
             {
                 "name": "Rising Falls - 2nd Chest Under Water",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -53,7 +53,7 @@
             },
             {
                 "name": "Rising Falls - Chest on Floating Platform Near Save Point",
-                "access_rules":["high_jump", "$any_glide", "blizzard:1"],
+                "access_rules":["high_jump", "glide", "blizzard:1"],
                 "sections": [
                     {
                         "name": ""
@@ -69,7 +69,7 @@
             },
             {
                 "name": "Rising Falls - Chest on Floating Platform Near Bubble",
-                "access_rules":["high_jump", "$any_glide", "blizzard:1"],
+                "access_rules":["high_jump", "glide", "blizzard:1"],
                 "sections": [
                     {
                         "name": ""
@@ -85,7 +85,7 @@
             },
             {
                 "name": "Rising Falls - High Platform Chest",
-                "access_rules":["$has_emblems, $any_glide", "$has_emblems, blizzard:1"],
+                "access_rules":["$hb_glide_blizzard_or_combo_master"],
                 "sections": [
                     {
                         "name": ""
@@ -101,7 +101,7 @@
             },
             {
                 "name": "Castle Gates - Gravity Chest",
-                "access_rules":["gravity:1, $has_emblems"],
+                "access_rules":["gravity, $has_emblems", "gravity, $doublejump_glide_or_dumbo_glide"],
                 "sections": [
                     {
                         "name": ""
@@ -117,7 +117,7 @@
             },
             {
                 "name": "Castle Gates - Chest on Freestanding Pillar",
-                "access_rules":["$has_emblems", "high_jump:2"],
+                "access_rules":["$has_emblems", "$doublejump_or_dumbo"],
                 "sections": [
                     {
                         "name": ""
@@ -133,7 +133,7 @@
             },
             {
                 "name": "Caste Gates - Chest on High Pillar",
-                "access_rules":["$has_emblems", "high_jump:2"],
+                "access_rules":["$has_emblems", "$doublejump_or_dumbo"],
                 "sections": [
                     {
                         "name": ""
@@ -181,7 +181,7 @@
             },
             {
                 "name": "High Tower - 2nd Gravity Chest",
-                "access_rules":["$has_emblems, gravity:1"],
+                "access_rules":["$has_emblems, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -197,7 +197,7 @@
             },
             {
                 "name": "High Tower - 1st Gravity Chest",
-                "access_rules":["$has_emblems, gravity:1"],
+                "access_rules":["$has_emblems, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -304,7 +304,7 @@
             },
             {
                 "name": "Lift Stop - Gravity Chest in Library Node After High Tower Switch",
-                "access_rules":["$has_emblems, gravity:1"],
+                "access_rules":["$has_emblems, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -320,7 +320,7 @@
             },
             {
                 "name": "Lift Stop - Gravity Chest in Library Node",
-                "access_rules":["$has_emblems, gravity:1"],
+                "access_rules":["$has_emblems, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -335,8 +335,8 @@
                 ]
             },
             {
-                "name": "Lift Stop - Chest Under High Tower Sliding Blocks",
-                "access_rules":["$has_emblems, $can_glide, gravity:1"],
+                "name": "Lift Stop - Gravity Chest Under High Tower Sliding Blocks",
+                "access_rules":["$has_emblems, glide, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -357,7 +357,7 @@
             },
             {
                 "name": "Lift Stop - Gravity Chest Behind Library Bookshelf",
-                "access_rules":["gravity:1"],
+                "access_rules":["gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -373,7 +373,7 @@
             },
             {
                 "name": "Lift Stop - Gravity Chest Behind Heartless Sigil Door",
-                "access_rules":["$has_emblems, gravity:1"],
+                "access_rules":["$has_emblems, gravity"],
                 "sections": [
                     {
                         "name": ""
@@ -449,7 +449,7 @@
             },
             {
                 "name": "Waterway - Chest Atop Passageway",
-                "access_rules":["blizzard:1, high_jump", "high_jump:3"],
+                "access_rules":["blizzard, high_jump", "high_jump:3"],
                 "sections": [
                     {
                         "name": "Freeze Bubble"
@@ -558,7 +558,7 @@
             },
             {
                 "name": "Entrance Hall - Chest on Pillar Before Emblem Door",
-                "access_rules":["high_jump"],
+                "access_rules":["$hb_jump_or_dumbo"],
                 "sections": [
                     {
                         "name": ""
@@ -694,7 +694,7 @@
             },
             {
                 "name": "Defeat Unknown",
-                "visibility_rules":["superbosses_on", "superbosses_door", "unknown_goal"],
+                "visibility_rules":["superbosses_on", "door_superbosses", "goal_unknown"],
                 "access_rules":["$has_emblems, [$world_count:7], [$has_defenses]"],
                 "sections": [
                     {
@@ -712,7 +712,7 @@
             },
             {
                 "name": "Entrance Hall - Emblem Piece (Flame)",
-                "access_rules":["$can_get_fire_emblem"],
+                "access_rules":["$flame_emblem_access"],
                 "sections": [
                     {
                         "name": "Light the Candles"
