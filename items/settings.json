@@ -50,14 +50,14 @@
         "loop": true,
         "stages": [
             {
-                "img": "/images/settings/superbosses.png",
+                "img": "/images/settings/phantom.png",
                 "img_mods": "@disabled",
                 "codes": "superbosses, superbosses_off",
                 "inherit_codes": false,
                 "name": "Superbosses Off"
             },
             {
-                "img": "/images/settings/superbosses.png",
+                "img": "/images/settings/phantom.png",
                 "codes": "superbosses, superbosses_on",
                 "inherit_codes": false,
                 "name": "Superbosses On"
