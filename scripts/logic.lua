@@ -188,6 +188,14 @@ function finished_monstro()
     return false
 end
 
+function defeat_parasite()
+    if Tracker:FindObjectForCode("@Monstro Events/Defeat Parasite Cage/").AvailableChestCount == 0 then
+        return true
+    end
+    
+    return false
+end
+
 function finished_deepjungle()
     if Tracker:FindObjectForCode("@Deep Jungle Events/Seal the Keyhole/").AvailableChestCount == 0 then
         return true

@@ -74,6 +74,7 @@
             },
             {
                 "name": "Mouth - Boat Deck Chest",
+                "access_rules":["$defeat_parasite"],
                 "sections": [
                     {
                         "name": "",
@@ -141,7 +142,7 @@
             },
             {
                 "name": "Mouth - Green Trinity Chest",
-                "access_rules":["green_trinity, high_jump", "green_trinity, glide"],
+                "access_rules":["green_trinity, high_jump, $defeat_parasite", "green_trinity, glide, $defeat_parasite"],
                 "sections": [
                     {
                         "name": "",
