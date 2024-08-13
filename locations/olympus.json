@@ -109,6 +109,7 @@
             {
                 "name": "Coliseum Gates - Purple Jar",
                 "access_rules":["$defeat_hades"],
+                "visibility_rules":["cups_on"],
                 "sections": [
                     {
                         "name": "",
