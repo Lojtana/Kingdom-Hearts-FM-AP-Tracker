@@ -189,28 +189,13 @@
                 "map_locations": [
                     {
                         "map": "EOTW",
-                        "x": 342,
-                        "y": 52
-                    }
-                ]
-            },
-            {
-                "name": "Giant Crevasse - 2nd Chest",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "EOTW",
                         "x": 405,
                         "y": 98
                     }
                 ]
             },
             {
-                "name": "Giant Crevasse - 3rd Chest",
+                "name": "Giant Crevasse - 2nd Chest",
                 "sections": [
                     {
                         "name": ""
@@ -225,6 +210,21 @@
                 ]
             },
             {
+                "name": "Giant Crevasse - 3rd Chest",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "EOTW",
+                        "x": 358,
+                        "y": 164
+                    }
+                ]
+            },
+            {
                 "name": "Giant Crevasse - 4th Chest",
                 "access_rules":["$glide_or_jump_combo_master"],
                 "sections": [
@@ -235,8 +235,8 @@
                 "map_locations": [
                     {
                         "map": "EOTW",
-                        "x": 296,
-                        "y": 126
+                        "x": 342,
+                        "y": 52
                     }
                 ]
             },
@@ -251,8 +251,8 @@
                 "map_locations": [
                     {
                         "map": "EOTW",
-                        "x": 358,
-                        "y": 164
+                        "x": 296,
+                        "y": 126
                     }
                 ]
             },
