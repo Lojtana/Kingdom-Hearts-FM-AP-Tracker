@@ -10,7 +10,7 @@ The settings are divided into two tabs. The first one shows the following settin
 - An activated **keyblade** indicates that world-specific keyblades are needed to open chests
 - **Anti Sora** is the toggle for **Advanced Logic**
 
-These four settings are all loaded automatically when connecting the tracker to the AP server. Advanced Logic can be toggled on even if it was not considered when creating the multiworld. It then shows the checks that can be ontained OoL.
+These four settings are all loaded automatically when connecting the tracker to the AP server. Advanced Logic can be toggled on even if it was not considered when creating the multiworld. It then shows the checks that can be obtained OoL.
 
 **Hades** and the **Phantom** silhouette indicate wheter checks for **Cups** and **Superbosses** are included. These settings are currently not tracked automatically and therefore need to be adjusted *manually*. If you randomized these settings or are playing a mystery YAML, you can search for the cup and superboss checks in the multiworld tracker. If they are not listed, then these settings are off.
 
