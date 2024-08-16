@@ -36,7 +36,7 @@ Similarly, the **Final Rest Door** can be opened by:
 - Sending all 10 Postcards ![Postcards](images/settings/postcards.png) or
 - Defeating all Superbosses ![Superbosses](images/settings/phantom.png)
 
-These settings are all tracked automatically and will be loaded once conencted to the AP server.
+These settings are all tracked automatically and will be loaded once connected to the AP server.
 
 ## Known Issues
 Currently story events like rescuing Gepetto and Pinocchio from Monstro or saving Kairi in Hollow Bastion are tracked by assessing whether the corresponding checks (here defeating Parasite Cage II or Riku II) have been collected. This can cause issues with multiworlds where collect is turned on. In these cases it can happen that the tracker shows checks as available, because the checks of the aformentioned story events have been automatically collected, when the player did not actively collect them.
