@@ -62,7 +62,8 @@
                     "item_margin": "5,5",
                     "item_size": "40,40",
                     "rows": [
-                        ["postcard", "bottle", "torn_page", "report"]
+                        ["postcard", "bottle", "torn_page", "report"],
+                        ["emblem_fountain", "emblem_flame", "emblem_chest", "emblem_statue"]
                     ]
                 }
             }

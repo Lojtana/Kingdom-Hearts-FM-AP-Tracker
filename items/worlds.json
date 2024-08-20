@@ -95,26 +95,31 @@
     },
     {
         "name": "Flame Emblem",
+        "img": "images/misc/emblem_flame.png",
         "type": "toggle",
         "codes": "emblem_flame"
     },
     {
         "name": "Chest Emblem",
+        "img": "images/misc/emblem_chest.png",
         "type": "toggle",
         "codes": "emblem_chest"
     },
     {
         "name": "Statue Emblem",
+        "img": "images/misc/emblem_statue.png",
         "type": "toggle",
         "codes": "emblem_statue"
     },
     {
         "name": "Fountain Emblem",
+        "img": "images/misc/emblem_fountain.png",
         "type": "toggle",
         "codes": "emblem_fountain"
     },
     {
         "name": "Theon Vol. 6",
+        "img": "images/misc/emblem_fountain.png",
         "type": "toggle",
         "codes": "theon_6"
     },
