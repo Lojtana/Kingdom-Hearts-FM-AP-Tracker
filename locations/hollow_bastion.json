@@ -158,8 +158,8 @@
                 "map_locations": [
                     {
                         "map": "HB",
-                        "x": 843,
-                        "y": 938
+                        "x": 875,
+                        "y": 916
                     }
                 ]
             },
@@ -174,8 +174,8 @@
                 "map_locations": [
                     {
                         "map": "HB",
-                        "x": 875,
-                        "y": 916
+                        "x": 843,
+                        "y": 938
                     }
                 ]
             },
@@ -510,7 +510,7 @@
             },
             {
                 "name": "Grand Hall - Chest on Right Side Steps",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -526,7 +526,7 @@
             },
             {
                 "name": "Grand Hall - Oblivion Chest",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -542,7 +542,7 @@
             },
             {
                 "name": "Grand Hall - Chest Left of Gate",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -662,7 +662,7 @@
             },
             {
                 "name": "Defeat Behemoth",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -678,7 +678,7 @@
             },
             {
                 "name": "Talk to the Princesses",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $finished_hollowbastion"],
                 "sections": [
                     {
                         "name": ""
@@ -769,7 +769,7 @@
             },
             {
                 "name": "Talk to Belle",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $rescue_kairi"],
                 "sections": [
                     {
                         "name": ""
@@ -785,7 +785,7 @@
             },
             {
                 "name": "Talk to Aerith",
-                "access_rules":["$has_emblems"],
+                "access_rules":["$has_emblems, $finished_hollowbastion"],
                 "sections": [
                     {
                         "name": "",

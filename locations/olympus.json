@@ -127,6 +127,7 @@
             {
                 "name": "Olympia Chest",
                 "access_rules":["$defeat_hercules"],
+                "visibility_rules":["cups_on"],
                 "sections": [
                     {
                         "name": "",
