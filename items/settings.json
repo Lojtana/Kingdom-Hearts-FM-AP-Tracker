@@ -21,7 +21,7 @@
                 "img": "/images/settings/postcards.png",
                 "codes": "goal, goal_postcards",
                 "inherit_codes": false,
-                "name": "Goal - Send all Postcards"
+                "name": "Goal - Send Postcards"
             },
             {
                 "img": "/images/settings/ansem.png",
@@ -33,7 +33,7 @@
                 "img": "/images/settings/puppies.png",
                 "codes": "goal, goal_puppies",
                 "inherit_codes": false,
-                "name": "Goal - Return all Puppies"
+                "name": "Goal - Return Puppies"
             },
             {
                 "img": "/images/settings/door.png",
@@ -179,25 +179,25 @@
                 "img": "/images/settings/report.png",
                 "codes": "door_unlock, door_reports",
                 "inherit_codes": false,
-                "name": "Collect Reports"
+                "name": "Final Rest Door - Collect Reports"
             },
             {
                 "img": "/images/settings/puppies.png",
                 "codes": "door_unlock, door_puppies",
                 "inherit_codes": false,
-                "name": "Return all Puppies"
+                "name": "Final Rest Door - Return all Puppies"
             },
             {
                 "img": "/images/settings/postcards.png",
                 "codes": "door_unlock, door_postcards",
                 "inherit_codes": false,
-                "name": "Send all Postcards"
+                "name": "Final Rest Door - Send all Postcards"
             },
             {
                 "img": "/images/settings/phantom.png",
                 "codes": "door_unlock, door_superbosses",
                 "inherit_codes": false,
-                "name": "Defeat all Superbosses"
+                "name": "Final Rest Door - Defeat all Superbosses"
             }
         ]
     },
@@ -228,8 +228,7 @@
         "codes": "eotw_req",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 14,
-        "initial_quantity": 4
+        "max_quantity": 14
     },
     {
         "name": "Final Rest Door - Reports Requirement",
@@ -237,7 +236,22 @@
         "codes": "door_req",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 14,
-        "initial_quantity": 4
+        "max_quantity": 14
+    },
+    {
+        "name": "Puppies Goal - Requirement",
+        "img": "/images/settings/puppies.png",
+        "codes": "puppies_req",
+        "type": "consumable",
+        "min_quantity": 10,
+        "max_quantity": 99
+    },
+    {
+        "name": "Postcards Goal - Requirement",
+        "img": "/images/settings/postcards.png",
+        "codes": "postcards_req",
+        "type": "consumable",
+        "min_quantity": 1,
+        "max_quantity": 10
     }
 ]

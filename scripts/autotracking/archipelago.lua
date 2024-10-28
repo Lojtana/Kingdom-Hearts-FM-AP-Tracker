@@ -61,6 +61,10 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("eotw_req").AcquiredCount = value
         elseif key == "required_reports_door" then
             Tracker:FindObjectForCode("door_req").AcquiredCount = value
+        elseif key == "required_postcards" then
+            Tracker:FindObjectForCode("postcards_req").AcquiredCount = value
+        elseif key == "required_puppies" then
+            Tracker:FindObjectForCode("puppies_req").AcquiredCount = value
         elseif key == "chestslocked" then
             Tracker:FindObjectForCode("keyblade_locks").CurrentStage = 1
         elseif key == "chestsunlocked" then

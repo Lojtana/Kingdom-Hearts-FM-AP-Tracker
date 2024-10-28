@@ -43,7 +43,8 @@
                 "h_alignment": "center",
                 "rows":
                 [
-                  ["goal", "eotw_req", "door_unlock", "door_req"]
+                  ["goal", "puppies_req", "postcards_req"],
+                  ["eotw_req", "door_unlock", "door_req"]
                 ]
               }
             ]
