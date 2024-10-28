@@ -1,0 +1,10 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Lojtana/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v1.0.0.zip",
+            "sha256": "4E387CCB789522755881C9D3DE45CBC5A6D9FD89EFE7A210D632C5EE7D4DD5A4",
+            "changelog": ["Initial Release"]
+        }
+    ]
+}
