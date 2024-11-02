@@ -244,7 +244,8 @@
         "codes": "puppies_req",
         "type": "consumable",
         "min_quantity": 10,
-        "max_quantity": 99
+        "max_quantity": 99,
+        "initial_quantity": 99
     },
     {
         "name": "Postcards Goal - Requirement",
@@ -252,6 +253,7 @@
         "codes": "postcards_req",
         "type": "consumable",
         "min_quantity": 1,
-        "max_quantity": 10
+        "max_quantity": 10,
+        "initial_quantity": 10
     }
 ]
