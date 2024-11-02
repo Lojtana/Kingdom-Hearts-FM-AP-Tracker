@@ -38,7 +38,7 @@
     {
         "name": "Mermaid Kick",
         "img": "images/misc/Mermaid Kick.png",
-        "type": "toggle",
+        "type": "consumable",
         "codes": "mermaid_kick"
     },
     {
