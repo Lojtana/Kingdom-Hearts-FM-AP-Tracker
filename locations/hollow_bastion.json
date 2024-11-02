@@ -243,66 +243,6 @@
                 ]
             },
             {
-                "name": "Library - Turning Carousel Chest on 1st Floor",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "HB",
-                        "x": 68,
-                        "y": 390
-                    }
-                ]
-            },
-            {
-                "name": "Library - Turning Carousel Chest on Top of Bookshelf",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "HB",
-                        "x": 79,
-                        "y": 380
-                    }
-                ]
-            },
-            {
-                "name": "Library - 1st Turning Carousel Chest on 2nd Floor",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "HB",
-                        "x": 104,
-                        "y": 210
-                    }
-                ]
-            },
-            {
-                "name": "Library - 2nd Turning Carousel Chest on 2nd Floor",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "HB",
-                        "x": 153,
-                        "y": 232
-                    }
-                ]
-            },
-            {
                 "name": "Lift Stop - Gravity Chest in Library Node After High Tower Switch",
                 "access_rules":["$has_emblems, gravity"],
                 "sections": [
@@ -591,6 +531,74 @@
         ]
     },
     {
+        "name": "Hollow Bastion Carousel Chests",
+        "access_rules":["hollow_bastion, [$world_count:5]"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
+            {
+                "name": "Library - Turning Carousel Chest on 1st Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 68,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Library - Turning Carousel Chest on Top of Bookshelf",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 79,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Library - 1st Turning Carousel Chest on 2nd Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 104,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "Library - 2nd Turning Carousel Chest on 2nd Floor",
+                "sections": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 153,
+                        "y": 232
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
         "name": "Hollow Bastion Events",
         "access_rules":["hollow_bastion, [$world_count:5]"],
         "chest_unopened_img": "/images/misc/emblem.png",
@@ -788,8 +796,12 @@
                 "access_rules":["$has_emblems, $finished_hollowbastion"],
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 5
+                        "name": "Talk to Aerith once",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Talk to Aerith twice more",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [

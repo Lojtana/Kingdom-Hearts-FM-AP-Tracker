@@ -177,7 +177,7 @@ function yellow_trinity_or_glide()
     local stage = Tracker:FindObjectForCode("advanced_logic").CurrentStage
 
     if (has("yellow_trinity")) or
-       (has("high_jump"))
+       (has("high_jump")) or
        (stage == 1 and has("glide")) then
        return true
     end
