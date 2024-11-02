@@ -244,8 +244,8 @@
                 "map_locations": [
                     {
                         "map": "HT",
-                        "x": 466,
-                        "y": 180
+                        "x": 464,
+                        "y": 96
                     }
                 ]
             },
@@ -282,8 +282,8 @@
                 "map_locations": [
                     {
                         "map": "HT",
-                        "x": 491,
-                        "y": 151
+                        "x": 466,
+                        "y": 180
                     }
                 ]
             },
@@ -298,8 +298,8 @@
                 "map_locations": [
                     {
                         "map": "HT",
-                        "x": 464,
-                        "y": 96
+                        "x": 491,
+                        "y": 151
                     }
                 ]
             },
@@ -317,10 +317,6 @@
                     {
                         "name": "Oogie's Manor - Hollow Chest",
                         "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Hollow Chest/"
-                    },
-                    {
-                        "name": "Oogie's Manor - Red Trinity Chest",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Red Trinity Chest/"
                     },
                     {
                         "name": "Oogie's Manor - Chest at Entrance Steps",
