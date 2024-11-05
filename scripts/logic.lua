@@ -13,6 +13,9 @@ function world_count()
                 if has(item) then
                     count = count + 1
                 end
+                if has("atlantica") then
+                    count = count + 1
+                end
             end
         elseif key == "chestslocked" then
             for i, item in ipairs(WORLDS) do
