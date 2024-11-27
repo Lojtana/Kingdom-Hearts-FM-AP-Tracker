@@ -1,6 +1,12 @@
 {
     "versions": [
         {
+            "package_version": "1.1.2",
+            "download_url": "https://github.com/Lojtana/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v1.1.2.zip",
+            "sha256": "4E023B527249881ACD6464AADEF2B1DE936F2B694C42FEF4547E0070EFAD8E55",
+            "changelog": ["Logic fixes"]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/Lojtana/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v1.1.1.zip",
             "sha256": "772EC8E909FC61AFD403F90F762B168A76C0DEF48265531797E211035F355912",
