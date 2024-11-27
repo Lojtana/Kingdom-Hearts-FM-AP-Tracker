@@ -242,7 +242,7 @@
             },
             {
                 "name": "Tea Party Garden - 2nd Chest Above Lotus Forest Entrance",
-                "access_rules":["$wonderland_glide_or_jump"],
+                "access_rules":["$wonderland_tea_party_entrance_access"],
                 "sections": [
                     {
                         "name": "",
@@ -259,7 +259,7 @@
             },
             {
                 "name": "Tea Party Garden - 1st Chest Above Lotus Forest Entrance",
-                "access_rules":["$wonderland_glide_or_jump"],
+                "access_rules":["$wonderland_tea_party_entrance_access"],
                 "sections": [
                     {
                         "name": "",
@@ -276,7 +276,7 @@
             },
             {
                 "name": "Tea Party Garden - Bear and Clock Puzzle Chest",
-                "access_rules":["$wonderland_doublejump_or_glide"],
+                "access_rules":["$wonderland_tea_party_bear_access"],
                 "sections": [
                     {
                         "name": "",

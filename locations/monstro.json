@@ -7,7 +7,7 @@
         "children": [
             {
                 "name": "Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance",
-                "access_rules":["$jump_or_combo_master"],
+                "access_rules":["$jump_and_glide_or_combo_master"],
                 "sections": [
                     {
                         "name": "",
@@ -41,7 +41,7 @@
             },
             {
                 "name": "Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance",
-                "access_rules":["$jump_or_combo_master"],
+                "access_rules":["$jump_and_glide_or_combo_master"],
                 "sections": [
                     {
                         "name": "",

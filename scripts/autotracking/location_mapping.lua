@@ -337,7 +337,7 @@ LOCATION_MAPPING = {
     [2654051] = {"@Neverland Chests/Hold - 2nd Chest on Beam/"},
     [2654052] = {"@Neverland Chests/Hold - Green Chest/"},
     [2654053] = {"@Neverland Chests/Captain's Cabin - Chest/"},
-    [2656344] = {"@Neverland Chests/Hold - Red Chest/"},
+    [2656344] = {"@Neverland Urn/Hold - Red Chest/"},
 
     [2656091] = {"@Neverland Events/Defeat Anti Sora/"},
     [2656092] = {"@Neverland Events/Encounter Captain Hook/"},

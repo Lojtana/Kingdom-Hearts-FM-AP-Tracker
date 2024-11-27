@@ -180,7 +180,15 @@
                         "y": 258
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Neverland Urn",
+        "access_rules":["neverland, [$world_count:3]"],
+        "chest_unopened_img": "/images/misc/chest.png",
+        "chest_opened_img": "/images/misc/chest_bw.png",
+        "children": [
             {
                 "name": "Hold - Red Chest",
                 "access_rules":["yellow_trinity"],

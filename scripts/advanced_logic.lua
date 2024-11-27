@@ -64,10 +64,11 @@ end
 
 -- Wonderland Tea Party Garden Above Lotus Forest Entrance 2nd Chest
 -- Wonderland Tea Party Garden Above Lotus Forest Entrance 1st Chest
-function wonderland_glide_or_jump()
+function wonderland_tea_party_entrance_access()
     local stage = Tracker:FindObjectForCode("advanced_logic").CurrentStage
 
     if (has("glide")) or
+       (has("footprints") and has("high_jump", 2)) or
        (stage == 1 and has("high_jump") and has("footprints")) then
        return true
     end
@@ -76,11 +77,10 @@ function wonderland_glide_or_jump()
 end
 
 -- Wonderland Tea Party Garden Bear and Clock Puzzle Chest
-function wonderland_doublejump_or_glide()
+function wonderland_tea_party_bear_access()
     local stage = Tracker:FindObjectForCode("advanced_logic").CurrentStage
 
     if (has("footprints")) or
-       (has("high_jump", 2)) or
        (stage == 1 and has("glide")) then
        return true
     end
@@ -89,7 +89,7 @@ function wonderland_doublejump_or_glide()
 end
 
 -- Wonderland Tea Party Garden Across From Bizarre Room Entrance Chest
-function wonderland_teaparty_high_hedge_access()
+function wonderland_tea_party_high_hedge_access()
     local stage = Tracker:FindObjectForCode("advanced_logic").CurrentStage
 
     if (has("glide")) or
@@ -187,10 +187,10 @@ end
 
 -- Monstro Chamber 6 Other Platform Chest
 -- Monstro Chamber 6 Raised Area Near Chamber 1 Entrance Chest
-function jump_or_combo_master()
+function jump_and_glide_or_combo_master()
     local stage = Tracker:FindObjectForCode("advanced_logic").CurrentStage
 
-    if (has("high_jump")) or
+    if (has("high_jump") and has("glide")) or
        (stage == 1 and has("combo_master")) then
        return true
     end
