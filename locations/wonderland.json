@@ -293,7 +293,7 @@
             },
             {
                 "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
-                "access_rules":["$wonderland_teaparty_high_hedge_access"],
+                "access_rules":["$wonderland_tea_party_high_hedge_access"],
                 "sections": [
                     {
                         "name": "",
