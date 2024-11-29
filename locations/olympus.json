@@ -108,11 +108,11 @@
             },
             {
                 "name": "Coliseum Gates - Purple Jar",
-                "access_rules":["$defeat_hades"],
+                "access_rules":["phil_cup, pegasus_cup, hercules_cup"],
                 "visibility_rules":["cups_on"],
                 "sections": [
                     {
-                        "name": "",
+                        "name": "After defeating Hades",
                         "item_count": 1
                     }
                 ],
@@ -126,11 +126,11 @@
             },
             {
                 "name": "Olympia Chest",
-                "access_rules":["$defeat_hercules"],
+                "access_rules":["hercules_cup"],
                 "visibility_rules":["cups_on"],
                 "sections": [
                     {
-                        "name": "",
+                        "name": "After defeating Hercules",
                         "item_count": 1
                     }
                 ],
@@ -256,25 +256,25 @@
                     {
                         "name": "Hades Cup",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses]"],
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
                         "item_count": 7
                     },
                     {
                         "name": "Defeat Hades",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses]"],
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
                         "item_count": 2
                     },
                     {
                         "name": "Defeat Sephiroth",
                         "visibility_rules":["superbosses_on", "door_superbosses", "goal_sephiroth"],
-                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses]"],
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
                         "item_count": 2
                     },
                     {
                         "name": "Defeat Ice Titan",
                         "visibility_rules":["cups_on"],
-                        "access_rules":["$cups_count:3, [$world_count:7], [$has_defenses], [guard]"],
+                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses], [guard]"],
                         "item_count": 1
                     }
                 ],

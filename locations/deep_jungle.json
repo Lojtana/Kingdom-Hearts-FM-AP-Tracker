@@ -483,8 +483,7 @@
                 ]
             },
             {
-                "name": "Jungle Slider",
-                "access_rules":["$finished_deepjungle"],
+                "name": "Jungle Slider - After Defeating Clayton",
                 "sections": [
                     {
                         "name": "Green Serpent",

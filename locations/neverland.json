@@ -119,7 +119,7 @@
             },
             {
                 "name": "Clock Tower - Chest",
-                "access_rules":["$clocktower_access", "green_trinity, $finished_hollowbastion, [$has_defenses], [$has_lv_magic|2]"],
+                "access_rules":["$clocktower_access", "green_trinity, hollow_bastion, [$world_count:5], $has_emblems, [$has_defenses], [$has_lv_magic|2]"],
                 "sections": [
                     {
                         "name": "Defeat Phantom if Missed Before Sealing Hollow Bastion Keyhole"
@@ -261,7 +261,7 @@
             },
             {
                 "name": "Defeat Phantom",
-                "access_rules":["[$has_lv_magic|2], [$has_defenses], $finished_hollowbastion"],
+                "access_rules":["[$has_lv_magic|2], [$has_defenses], hollow_bastion, [$world_count:5], $has_emblems"],
                 "visibility_rules":["superbosses_on", "door_superbosses"],
                 "sections": [
                     {
@@ -297,7 +297,7 @@
     {
         "name": "Neverland Clock Tower Chests",
         "access_rules":["$access_chests|7, [$world_count:3], $clocktower_access", 
-                        "$access_chests|7, [$world_count:3], green_trinity, $finished_hollowbastion, [$has_defenses], [$has_lv_magic|2]"],
+                        "$access_chests|7, [$world_count:3], green_trinity, hollow_bastion, [$world_count:5], $has_emblems, [$has_defenses], [$has_lv_magic|2]"],
         "visibility_rules":["missables_on"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",

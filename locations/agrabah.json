@@ -677,7 +677,7 @@
             },
             {
                 "name": "Defeat Kurt Zisa",
-                "access_rules":["$finished_hollowbastion, [$world_count:7], [$has_defenses], [blizzard:3]"],
+                "access_rules":["hollow_bastion, $has_emblems, [$world_count:7], [$has_defenses], [blizzard:3]"],
                 "visibility_rules":["superbosses_on", "door_superbosses"],
                 "sections": [
                     {

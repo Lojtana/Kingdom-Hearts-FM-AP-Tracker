@@ -234,7 +234,7 @@
             },
             {
                 "name": "Gepetto's House Chest",
-                "access_rules": ["$finished_monstro"],
+                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -396,7 +396,7 @@
                     {
                         "name": "Kairi",
                         "item_count": 1,
-                        "access_rules": ["$rescue_kairi"]
+                        "access_rules": ["hollow_bastion, [$world_count:5], $has_emblems"]
                     }
                 ],
                 "map_locations": [
@@ -475,7 +475,7 @@
             },
             {
                 "name": "Gepetto's House - Gepetto",
-                "access_rules": ["$finished_monstro"],
+                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
                 "sections": [
                     {
                         "name": "Rewards",
@@ -497,7 +497,7 @@
             },
             {
                 "name": "Gepetto's House - Pinocchio",
-                "access_rules": ["$finished_monstro"],
+                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
                 "sections": [
                     {
                         "name": "",
@@ -731,7 +731,7 @@
             },
             {
                 "name": "Postcard - Bowl in Gepetto's House",
-                "access_rules":["$finished_monstro"],
+                "access_rules":["monstro, [$world_count:2], $jump_or_glide"],
                 "sections": [
                     {
                         "name": "",

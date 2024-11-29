@@ -37,10 +37,10 @@
             },
             {
                 "name": "Rising Falls - 2nd Chest Under Water",
-                "access_rules":["$rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Return after Rescuing Kairi"
                     }
                 ],
                 "map_locations": [
@@ -450,7 +450,7 @@
             },
             {
                 "name": "Grand Hall - Chest on Right Side Steps",
-                "access_rules":["$has_emblems, $rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
                         "name": ""
@@ -466,7 +466,7 @@
             },
             {
                 "name": "Grand Hall - Oblivion Chest",
-                "access_rules":["$has_emblems, $rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
                         "name": ""
@@ -482,7 +482,7 @@
             },
             {
                 "name": "Grand Hall - Chest Left of Gate",
-                "access_rules":["$has_emblems, $rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
                         "name": ""
@@ -670,10 +670,10 @@
             },
             {
                 "name": "Defeat Behemoth",
-                "access_rules":["$has_emblems, $rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "After Returning from Traverse Town"
                     }
                 ],
                 "map_locations": [
@@ -686,10 +686,10 @@
             },
             {
                 "name": "Talk to the Princesses",
-                "access_rules":["$has_emblems, $finished_hollowbastion"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "After Defeating Behemoth"
                     }
                 ],
                 "map_locations": [
@@ -777,10 +777,10 @@
             },
             {
                 "name": "Talk to Belle",
-                "access_rules":["$has_emblems, $rescue_kairi"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
-                        "name": ""
+                        "name": "After Rescuing Kairi"
                     }
                 ],
                 "map_locations": [
@@ -793,7 +793,7 @@
             },
             {
                 "name": "Talk to Aerith",
-                "access_rules":["$has_emblems, $finished_hollowbastion"],
+                "access_rules":["$has_emblems"],
                 "sections": [
                     {
                         "name": "Talk to Aerith once",

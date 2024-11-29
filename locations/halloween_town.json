@@ -149,7 +149,7 @@
             },
             {
                 "name": "Cemetery - Chest Behind Grave",
-                "access_rules":["$finished_halloweentown"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -166,7 +166,7 @@
             },
             {
                 "name": "Cemetery - Chest By Cat Shaped Grave",
-                "access_rules":["$finished_halloweentown"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -183,7 +183,7 @@
             },
             {
                 "name": "Cemetery - Chest Between Graves",
-                "access_rules":["$finished_halloweentown"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
@@ -354,7 +354,7 @@
             },
             {
                 "name": "Cemetery - Chest by Striped Grave",
-                "access_rules":["$finished_halloweentown"],
+                "access_rules":["$oogie_manor_access"],
                 "sections": [
                     {
                         "name": "",
