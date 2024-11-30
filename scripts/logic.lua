@@ -79,7 +79,7 @@ function eotw_access()
     for key, value in pairs(SLOT_DATA) do
         if has("end_of_the_world") then
             return true
-        elseif Tracker:FindObjectForCode("report").AcquiredCount == SLOT_DATA["required_reports_eotw"]then
+        elseif Tracker:FindObjectForCode("report").AcquiredCount >= SLOT_DATA["required_reports_eotw"]then
             return true
         end
     end
