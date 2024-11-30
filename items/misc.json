@@ -39,28 +39,32 @@
         "type": "consumable",
         "codes": "postcard",
         "img": "images/misc/postcards.png",
-        "max_quantity": 10
+        "max_quantity": 10,
+        "overlay_font_size": 15
     },
     {
         "name": "Empty Bottle",
         "type": "consumable",
         "img": "images/misc/bottle.png",
         "max_quantity": 6,
-        "codes": "bottle"
+        "codes": "bottle",
+        "overlay_font_size": 15
     },
     {
         "name": "Torn Pages",
         "type": "consumable",
         "img": "images/misc/pages.png",
         "codes": "torn_page",
-        "max_quantity": 5
+        "max_quantity": 5,
+        "overlay_font_size": 15
     },
     {
         "name": "Ansem's Reports",
         "type": "consumable",
         "img": "images/misc/report.png",
         "codes": "report",
-        "max_quantity": 13
+        "max_quantity": 13,
+        "overlay_font_size": 15
     },
     {
         "name": "Single Puppies",

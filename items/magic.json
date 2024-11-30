@@ -40,48 +40,55 @@
         "img": "images/magic/Fire Magic.png",
         "type": "consumable",
         "codes": "fire",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Blizzard",
         "img": "images/magic/Blizzard Magic.png",
         "type": "consumable",
         "codes": "blizzard",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Thunder",
         "img": "images/magic/Thunder Magic.png",
         "type": "consumable",
         "codes": "thunder",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Cure",
         "img": "images/magic/Cure Magic.png",
         "type": "consumable",
         "codes": "cure",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Gravity",
         "img": "images/magic/Gravity Magic.png",
         "type": "consumable",
         "codes": "gravity",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Stop",
         "img": "images/magic/Stop Magic.png",
         "type": "consumable",
         "codes": "stop",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Aero",
         "img": "images/magic/Aero Magic.png",
         "type": "consumable",
         "codes": "aero",
-        "max_quantity": 3
+        "max_quantity": 3,
+        "overlay_font_size": 15
     }
 ]

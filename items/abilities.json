@@ -33,19 +33,22 @@
         "name": "High Jump",
         "img": "images/misc/High Jump.png",
         "type": "consumable",
-        "codes": "high_jump"
+        "codes": "high_jump",
+        "overlay_font_size": 15
     },
     {
         "name": "Mermaid Kick",
         "img": "images/misc/Mermaid Kick.png",
         "type": "consumable",
-        "codes": "mermaid_kick"
+        "codes": "mermaid_kick",
+        "overlay_font_size": 15
     },
     {
         "name": "Progressive Glide",
         "img": "images/misc/Glide.png",
         "type": "consumable",
-        "codes": "glide"
+        "codes": "glide",
+        "overlay_font_size": 15
     },
     {
         "name": "Blue Trinity",
