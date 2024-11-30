@@ -8,7 +8,8 @@
     {
         "name": "Footrpints",
         "type": "toggle",
-        "codes": "footprints"
+        "codes": "footprints",
+        "img": "images/worlds/Evidence.png"
     },
     {
         "name": "Deep Jungle",
@@ -19,7 +20,8 @@
     {
         "name": "Slides",
         "type": "toggle",
-        "codes": "slides"
+        "codes": "slides",
+        "img": "images/worlds/Slides.png"
     },
     {
         "name": "Olympus Coliseum",
@@ -30,22 +32,25 @@
     {
         "name": "Entry Pass",
         "type": "toggle",
+        "img": "images/worlds/Barrels.png",
         "codes": "entry_pass"
-    }
-    ,
+    },
     {
         "name": "Phil Cup",
         "type": "toggle",
+        "img": "images/worlds/Phil Cup.png",
         "codes": "phil_cup"
     },
     {
         "name": "Pegasus Cup",
         "type": "toggle",
+        "img": "images/worlds/Pegasus Cup.png",
         "codes": "pegasus_cup"
     },
     {
         "name": "Hercules Cup",
         "type": "toggle",
+        "img": "images/worlds/Hercules Cup.png",
         "codes": "hercules_cup"
     },
     {
@@ -63,12 +68,14 @@
     {
         "name": "Forget-Me-Not",
         "type": "toggle",
-        "codes": "forget_me_not"
+        "codes": "forget_me_not",
+        "img": "images/worlds/Mushrooms.png"
     },
     {
         "name": "Jack-In-The-Box",
         "type": "toggle",
-        "codes": "jack_box"
+        "codes": "jack_box",
+        "img": "images/worlds/Jack in the Box.png"
     },
     {
         "name": "Atlantica",
@@ -79,7 +86,8 @@
     {
         "name": "Crystal Trident",
         "type": "toggle",
-        "codes": "trident"
+        "codes": "trident",
+        "img": "images/worlds/Crystal Trident.png"
     },
     {
         "name": "Neverland",
@@ -119,7 +127,7 @@
     },
     {
         "name": "Theon Vol. 6",
-        "img": "images/misc/emblem_fountain.png",
+        "img": "images/worlds/Library Books.png",
         "type": "toggle",
         "codes": "theon_6"
     },
