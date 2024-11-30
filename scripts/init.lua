@@ -30,11 +30,10 @@ end
 
 -- Layout
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/progressive_items.json")
-Tracker:AddLayouts("layouts/shared_item_grid.json")
 Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/visit_locks.json")
 Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/tabs.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

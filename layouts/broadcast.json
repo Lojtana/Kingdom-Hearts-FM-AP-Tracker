@@ -1,5 +1,4 @@
-﻿//sets the layout for the broadcast view
-{
+﻿{
     "tracker_broadcast": {
         "type": "array",
         "orientation": "vertical",
@@ -12,7 +11,11 @@
                 "content": [
                     {
                         "type": "layout",
-                        "key": "shared_item_grid"
+                        "key": "visits"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "abilities"
                     }
                 ]
             }

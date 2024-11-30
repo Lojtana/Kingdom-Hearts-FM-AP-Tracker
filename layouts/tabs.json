@@ -1,0 +1,98 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Traverse Town",
+                "content": {
+                    "type": "map",
+                    "maps": ["TT"]
+                }
+            },
+            {
+                "title": "Wonderland",
+                "content": {
+                    "type": "map",
+                    "maps": ["WL"]
+                }
+            },
+            {
+                "title": "Olympus Coliseum",
+                "content": {
+                    "type": "map",
+                    "maps": ["OC"]
+                }
+            },
+            {
+                "title": "Deep Jungle",
+                "content": {
+                    "type": "map",
+                    "maps": ["DJ"]
+                }
+            },
+            {
+                "title": "Agrabah",
+                "content": {
+                    "type": "map",
+                    "maps": ["AG"]
+                }
+            },
+            {
+                "title": "Agrabah - Cave of Wonders",
+                "content": {
+                    "type": "map",
+                    "maps": ["AG_Cave"]
+                }
+            },
+            {
+                "title": "Monstro",
+                "content": {
+                    "type": "map",
+                    "maps": ["Mon"]
+                }
+            },
+            {
+                "title": "Atlantica",
+                "content": {
+                    "type": "map",
+                    "maps": ["AT"]
+                }
+            },
+            {
+                "title": "Halloween Town",
+                "content": {
+                    "type": "map",
+                    "maps": ["HT"]
+                }
+            },
+            {
+                "title": "Neverland",
+                "content": {
+                    "type": "map",
+                    "maps": ["NL"]
+                }
+            },
+            {
+                "title": "Hollow Bastion",
+                "content": {
+                    "type": "map",
+                    "maps": ["HB"]
+                }
+            },
+            {
+                "title": "End of the World",
+                "content": {
+                    "type": "map",
+                    "maps": ["EOTW"]
+                }
+            },
+            {
+                "title": "100 Acre Wood",
+                "content": {
+                    "type": "map",
+                    "maps": ["100Acre"]
+                }
+            }
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-﻿{
+{
     "settings_popup": {
         "type": "array",
         "content": [
@@ -21,12 +21,12 @@
             "content": [
                 {
                     "type": "dock",
-                    "dock": "left",
+                    "dock": "bottom",
                     "content": [
                         {
                             "type": "group",
                             "header": "Visit Locks",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "visits"
@@ -35,7 +35,7 @@
                         {
                             "type": "group",
                             "header": "World Items",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "worlds"
@@ -44,7 +44,7 @@
                         {
                             "type": "group",
                             "header": "Abilities",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "abilities"
@@ -53,7 +53,7 @@
                         {
                             "type": "group",
                             "header": "Collectibles",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "collectibles"

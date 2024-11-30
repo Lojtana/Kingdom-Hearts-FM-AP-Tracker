@@ -1,0 +1,42 @@
+{
+    "visits": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "item_size": "40,40",
+        "rows": [
+            ["wonderland", "olympus_coliseum", "deep_jungle"],
+            ["agrabah", "monstro", "atlantica"],
+            ["halloween_town","neverland", "hollow_bastion"]
+        ]
+    },
+    "worlds": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "item_size": "40,40",
+        "rows": [
+            ["footprints", "slides"],
+            ["entry_pass", "phil_cup", "pegasus_cup", "hercules_cup"],
+            ["forget_me_not", "jack_box", "trident", "theon_6"]
+        ]
+    },
+    "abilities": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "item_size": "35,35",
+        "rows": [
+            ["fire", "blizzard", "thunder", "cure", "gravity", "stop", "aero"],
+            ["simba", "bambi", "genie", "dumbo", "tinkerbell", "mushu"],
+            ["high_jump", "glide", "mermaid_kick"],
+            ["blue_trinity", "red_trinity", "green_trinity", "yellow_trinity", "white_trinity"]
+        ]
+    },
+    "collectibles": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "item_size": "40,40",
+        "rows": [
+            ["postcard", "bottle", "torn_page", "report"],
+            ["emblem_fountain", "emblem_flame", "emblem_chest", "emblem_statue"]
+        ]
+    }
+}
