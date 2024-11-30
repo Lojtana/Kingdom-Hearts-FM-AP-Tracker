@@ -1,7 +1,7 @@
 [
     {
         "name": "End of the World - Atlantica Chest",
-        "access_rules":["$eotw_access"],
+        "access_rules":["$eotw_access, [$world_count:7]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -24,7 +24,7 @@
     },
     {
         "name": "End of the World",
-        "access_rules":["$eotw_access, $eotw_chests"],
+        "access_rules":["$eotw_access, $eotw_chests, [$world_count:7]"],
         "chest_unopened_img": "/images/misc/chest.png",
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
@@ -242,7 +242,7 @@
             },
             {
                 "name": "Giant Crevasse - 5th Chest",
-                "access_rules":["high_jump", "glide"],
+                "access_rules":["glide"],
                 "sections": [
                     {
                         "name": ""
