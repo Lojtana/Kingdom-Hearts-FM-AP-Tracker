@@ -1,6 +1,12 @@
 {
     "versions": [
         {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/Lojtana/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v1.2.0.zip",
+            "sha256": "E9D40F4B53C5330F066E56B8C454B6111A2B31B6BB8580680A70DA87EF1C16E2",
+            "changelog": ["Added horizontal tracker, added world progression items, logic fixes"]
+        },
+        {
             "package_version": "1.1.3",
             "download_url": "https://github.com/Lojtana/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v1.1.3.zip",
             "sha256": "E147927896093590F8E2A7E5CED2FB6ACEC73B95E7553FB4D4DA056C0F13BEE4",
