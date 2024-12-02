@@ -773,6 +773,13 @@
                     {
                         "name": "Break the Pots"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "HB",
+                        "x": 294,
+                        "y": 298
+                    }
                 ]
             },
             {
