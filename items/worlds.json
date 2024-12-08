@@ -6,7 +6,7 @@
         "img": "images/worlds/Wonderland.png"
     },
     {
-        "name": "Footrpints",
+        "name": "Footprints",
         "type": "toggle",
         "codes": "footprints",
         "img": "images/worlds/Evidence.png"
