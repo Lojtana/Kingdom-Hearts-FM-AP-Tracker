@@ -82,5 +82,12 @@
         "name": "All Puppies",
         "type": "toggle",
         "codes": "puppies_all"
+    },
+    {
+        "name": "Puppies",
+        "type": "consumable",
+        "img": "images/misc/puppies.png",
+        "max_quantity": 99,
+        "codes": "puppies"
     }
 ]
