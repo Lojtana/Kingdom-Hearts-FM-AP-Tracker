@@ -1,16 +1,13 @@
 [
     {
         "name": "Deep Jungle Chests",
-        "access_rules": ["$access_chests|3, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Beneath Tree House Chest",
+                "name": "Tree House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Beneath Tree House",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tree House - Chest Beneath Tree House"
                     }
                 ],
                 "map_locations": [
@@ -22,11 +19,11 @@
                 ]
             },
             {
-                "name": "Tree House - Rooftop Chest",
+                "name": "Tree House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Rooftop Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tree House - Rooftop Chest"
                     }
                 ],
                 "map_locations": [
@@ -38,11 +35,27 @@
                 ]
             },
             {
-                "name": "Hippo's Lagoon - Center Chest",
+                "name": "Tree House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Suspended Boat Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tree House - Suspended Boat Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 443,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Hippo's Lagoon",
+                "sections": [
+                    {
+                        "name": "Center Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Hippo's Lagoon - Center Chest"
                     }
                 ],
                 "map_locations": [
@@ -54,11 +67,11 @@
                 ]
             },
             {
-                "name": "Hippo's Lagoon - Left Chest",
+                "name": "Hippo's Lagoon",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Hippo's Lagoon - Left Chest"
                     }
                 ],
                 "map_locations": [
@@ -70,12 +83,11 @@
                 ]
             },
             {
-                "name": "Hippo's Lagoon - Right Chest",
-                "access_rules":["[$jump_glide_or_nothing]"],
+                "name": "Hippo's Lagoon",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Hippo's Lagoon - Right Chest"
                     }
                 ],
                 "map_locations": [
@@ -87,11 +99,11 @@
                 ]
             },
             {
-                "name": "Vines Chest",
+                "name": "Vines",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Vines",
+                        "ref": "Overview/Deep Jungle - Before Slides/Vines - Chest"
                     }
                 ],
                 "map_locations": [
@@ -103,11 +115,11 @@
                 ]
             },
             {
-                "name": "Vines 2 Chest",
+                "name": "Vines 2",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Vines",
+                        "ref": "Overview/Deep Jungle - Before Slides/Vines 2 - Chest"
                     }
                 ],
                 "map_locations": [
@@ -119,12 +131,11 @@
                 ]
             },
             {
-                "name": "Climbing Trees- Blue Trinity Chest",
-                "access_rules":["blue_trinity"],
+                "name": "Climbing Trees",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Blue Trinity Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Climbing Trees - Blue Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -136,11 +147,11 @@
                 ]
             },
             {
-                "name": "Tunnel Chest",
+                "name": "Tunnel",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Ledge",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tunnel - Chest"
                     }
                 ],
                 "map_locations": [
@@ -152,29 +163,12 @@
                 ]
             },
             {
-                "name": "Cavern of Hearts - White Trinity Chest",
-                "access_rules":["slides, white_trinity"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 835,
-                        "y": 59
-                    }
-                ]
-            },
-            {
-                "name": "Camp - Blue Trinity Chest",
+                "name": "Camp",
                 "access_rules":["blue_trinity"],
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Blue Trinity Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Camp - Blue Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -186,11 +180,11 @@
                 ]
             },
             {
-                "name": "Tent Chest",
+                "name": "Tent",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tent - Chest"
                     }
                 ],
                 "map_locations": [
@@ -202,79 +196,11 @@
                 ]
             },
             {
-                "name": "Waterfall Cavern - Lower Chest",
-                "access_rules":["slides"],
+                "name": "Cliff",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 977,
-                        "y": 244
-                    }
-                ]
-            },
-            {
-                "name": "Waterfall Cavern - Middle Chest",
-                "access_rules":["slides"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 934,
-                        "y": 219
-                    }
-                ]
-            },
-            {
-                "name": "Waterfall Cavern - High Wall Chest",
-                "access_rules":["slides"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 962,
-                        "y": 204
-                    }
-                ]
-            },
-            {
-                "name": "Waterfall Cavern - High Middle Chest",
-                "access_rules":["slides"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 915,
-                        "y": 199
-                    }
-                ]
-            },
-            {
-                "name": "Cliff - Left Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Cliff - Left Chest"
                     }
                 ],
                 "map_locations": [
@@ -286,11 +212,11 @@
                 ]
             },
             {
-                "name": "Cliff - Right Chest",
+                "name": "Cliff",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Cliff - Right Chest"
                     }
                 ],
                 "map_locations": [
@@ -302,47 +228,82 @@
                 ]
             },
             {
-                "name": "Tree House - Suspended Boat Chest",
-                "access_rules":["[$glide_or_nothing]"],
+                "name": "Waterfall Cavern",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Lower Chest",
+                        "ref": "Overview/Deep Jungle - After Slides/Waterfall Cavern - Lower Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "DJ",
-                        "x": 443,
-                        "y": 420
+                        "x": 977,
+                        "y": 244
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Deep Jungle Tent Event",
-        "access_rules":["deep_jungle, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
-        "children": [
+            },
             {
-                "name": "Meet Jane",
+                "name": "Waterfall Cavern",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Middle Chest",
+                        "ref": "Overview/Deep Jungle - After Slides/Waterfall Cavern - Middle Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "DJ",
-                        "x": 770,
-                        "y": 863
-                    },
+                        "x": 934,
+                        "y": 219
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern",
+                "sections": [
+                    {
+                        "name": "High Wall Chest",
+                        "ref": "Overview/Deep Jungle - After Slides/Waterfall Cavern - High Wall Chest"
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "DJ",
-                        "x": 933,
-                        "y": 710
+                        "x": 962,
+                        "y": 204
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall Cavern",
+                "sections": [
+                    {
+                        "name": "High Middle Chest",
+                        "ref": "Overview/Deep Jungle - After Slides/Waterfall Cavern - High Middle Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 915,
+                        "y": 199
+                    }
+                ]
+            },
+            {
+                "name": "Cavern of Hearts",
+                "sections": [
+                    {
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Deep Jungle - After Slides/Cavern of Hearts - White Trinity Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 835,
+                        "y": 59
                     }
                 ]
             }
@@ -350,16 +311,49 @@
     },
     {
         "name": "Deep Jungle Events",
-        "access_rules":["deep_jungle, slides, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Defeat Sabor",
+                "name": "Tent",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Meet Jane",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tent - Meet Jane"
+                    },
+                    {
+                        "name": "Chest",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tent - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 933,
+                        "y": 710
+                    }
+                ]
+            },
+            {
+                "name": "Tent",
+                "sections": [
+                    {
+                        "name": "Meet Jane",
+                        "ref": "Overview/Deep Jungle - Before Slides/Tent - Meet Jane"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 770,
+                        "y": 863
+                    }
+                ]
+            },
+            {
+                "name": "Bamboo Thicket",
+                "sections": [
+                    {
+                        "name": "Defeat Sabor",
+                        "ref": "Overview/Deep Jungle - After Slides/Bamboo Thicket - Defeat Sabor"
                     }
                 ],
                 "map_locations": [
@@ -371,75 +365,11 @@
                 ]
             },
             {
-                "name": "Defeat Clayton",
+                "name": "Camp",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 873,
-                        "y": 375
-                    }
-                ]
-            },
-            {
-                "name": "Seal the Keyhole",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 3
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 850,
-                        "y": 50
-                    }
-                ]
-            },
-            {
-                "name": "Cliff - Save Gorillas",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 918,
-                        "y": 432
-                    }
-                ]
-            },
-            {
-                "name": "Tree House - Save Gorillas",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "DJ",
-                        "x": 321,
-                        "y": 309
-                    }
-                ]
-            },
-            {
-                "name": "Camp - Save Gorillas",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Save Gorillas",
+                        "ref": "Overview/Deep Jungle - After Slides/Camp - Save Gorillas"
                     }
                 ],
                 "map_locations": [
@@ -451,11 +381,11 @@
                 ]
             },
             {
-                "name": "Bamboo Thicket - Save Gorillas",
+                "name": "Bamboo Thicket",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Save Gorillas",
+                        "ref": "Overview/Deep Jungle - After Slides/Bamboo Thicket - Save Gorillas"
                     }
                 ],
                 "map_locations": [
@@ -467,11 +397,27 @@
                 ]
             },
             {
-                "name": "Climbing Trees - Save Gorillas",
+                "name": "Cliff",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Save Gorillas",
+                        "ref": "Overview/Deep Jungle - After Slides/Cliff - Save Gorillas"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 918,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Climbing Trees",
+                "sections": [
+                    {
+                        "name": "Save Gorillas",
+                        "ref": "Overview/Deep Jungle - After Slides/Climbing Trees - Save Gorillas"
                     }
                 ],
                 "map_locations": [
@@ -483,27 +429,75 @@
                 ]
             },
             {
+                "name": "Tree House",
+                "sections": [
+                    {
+                        "name": "Save Gorillas",
+                        "ref": "Overview/Deep Jungle - After Slides/Tree House - Save Gorillas"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 321,
+                        "y": 309
+                    }
+                ]
+            },
+            {
+                "name": "Cliff",
+                "sections": [
+                    {
+                        "name": "Defeat Clayton",
+                        "ref": "Overview/Deep Jungle - After Slides/Cliff - Defeat Clayton"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 873,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Cavern of Hearts",
+                "sections": [
+                    {
+                        "name": "Seal the Keyhole",
+                        "ref": "Overview/Deep Jungle - After Slides/Cavern of Hearts - Seal the Keyhole"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 850,
+                        "y": 50
+                    }
+                ]
+            },
+            {
                 "name": "Jungle Slider - After Defeating Clayton",
                 "sections": [
                     {
                         "name": "Green Serpent",
-                        "item_count": 1
+                        "ref": "Overview/Deep Jungle - Jungle Slider/Jungle Slider - Green Serpent"
                     },
                     {
                         "name": "Splash Tunnel",
-                        "item_count": 1
+                        "ref": "Overview/Deep Jungle - Jungle Slider/Jungle Slider - Splash Tunnel"
                     },
                     {
                         "name": "Jade Spiral",
-                        "item_count": 1
+                        "ref": "Overview/Deep Jungle - Jungle Slider/Jungle Slider - Jade Spiral"
                     },
                     {
                         "name": "Panic Fall",
-                        "item_count": 1
+                        "ref": "Overview/Deep Jungle - Jungle Slider/Jungle Slider - Panic Fall"
                     },
                     {
                         "name": "Shadow Cavern",
-                        "item_count": 1
+                        "ref": "Overview/Deep Jungle - Jungle Slider/Jungle Slider - Shadow Cavern"
                     }
                 ],
                 "map_locations": [
@@ -518,21 +512,13 @@
     },
     {
         "name": "Deep Jungle Experiments",
-        "access_rules":["deep_jungle, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Research Table Experiment",
-                "access_rules":["blizzard:1"],
+                "name": "Camp",
                 "sections": [
                     {
-                        "name": "1st Experiment",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "2nd Experiment",
-                        "item_count": 1
+                        "name": "Research Table Experiment",
+                        "ref": "Overview/Deep Jungle - Before Slides/Camp - Research Table Experiment"
                     }
                 ],
                 "map_locations": [
@@ -544,12 +530,11 @@
                 ]
             },
             {
-                "name": "Oven Experiment",
-                "access_rules":["fire:1"],
+                "name": "Camp",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Oven Experiment",
+                        "ref": "Overview/Deep Jungle - Before Slides/Camp - Oven Experiment"
                     }
                 ],
                 "map_locations": [

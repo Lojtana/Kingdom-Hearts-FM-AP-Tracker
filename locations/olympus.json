@@ -1,16 +1,13 @@
 [
     {
         "name": "Olympus Coliseum Chests",
-        "access_rules":["$access_chests|2, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Coliseum Gates - Chest Behind Left Columns",
+                "name": "Coliseum Gates",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Behind Left Columns",
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Chest Behind Left Columns"
                     }
                 ],
                 "map_locations": [
@@ -22,12 +19,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Right Blue Trinity Chest",
-                "access_rules":["blue_trinity"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Right Blue Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -39,12 +35,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Left Blue Trinity Chest",
-                "access_rules":["blue_trinity"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Left Blue Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -56,12 +51,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - White Trinity Chest",
-                "access_rules":["white_trinity"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -73,12 +67,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Blizzara Chest",
-                "access_rules":["blizzard:2"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Blizzara Chest"
                     }
                 ],
                 "map_locations": [
@@ -90,12 +83,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Blizzaga Chest",
-                "access_rules":["blizzard:3"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Blizzaga Chest"
                     }
                 ],
                 "map_locations": [
@@ -107,13 +99,11 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Purple Jar",
-                "access_rules":["phil_cup, pegasus_cup, hercules_cup"],
-                "visibility_rules":["cups_on"],
+                "name": "Coliseum Gates",
                 "sections": [
                     {
-                        "name": "After defeating Hades",
-                        "item_count": 1
+                        "name": "Purple Jar after defeating Hades",
+                        "ref": "Overview/Olympus Coliseum - Cups/Coliseum Gates - Purple Jar"
                     }
                 ],
                 "map_locations": [
@@ -125,13 +115,11 @@
                 ]
             },
             {
-                "name": "Olympia Chest",
-                "access_rules":["hercules_cup"],
-                "visibility_rules":["cups_on"],
+                "name": "Coliseum Lobby",
                 "sections": [
                     {
-                        "name": "After defeating Hercules",
-                        "item_count": 1
+                        "name": "Olympia Chest after defeating Hercules",
+                        "ref": "Overview/Olympus Coliseum - Cups/Coliseum Lobby - Olympia Chest"
                     }
                 ],
                 "map_locations": [
@@ -146,15 +134,13 @@
     },
     {
         "name": "Olympus Coliseum Events",
-        "access_rules":["olympus_coliseum, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Phil's Training",
+                "name": "Coliseum Lobby",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "",
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Lobby - Phil's Training"
                     }
                 ],
                 "map_locations": [
@@ -166,10 +152,11 @@
                 ]
             },
             {
-                "name": "Obtain Entry Pass",
+                "name": "Coliseum Gates",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "",
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Obtain Entry Pass"
                     }
                 ],
                 "map_locations": [
@@ -181,12 +168,11 @@
                 ]
             },
             {
-                "name": "Defeat Cerberus",
-                "access_rules":["entry_pass"],
+                "name": "Coliseum Lobby",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 2
+                        "ref": "Overview/Olympus Coliseum - After Entry Pass/Coliseum Lobby - Defeat Cerberus"
                     }
                 ],
                 "map_locations": [
@@ -198,12 +184,12 @@
                 ]
             },
             {
-                "name": "Talk to Cloud",
+                "name": "Coliseum Lobby",
                 "access_rules":["entry_pass"],
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - After Entry Pass/Coliseum Gates - Talk to Cloud"
                     }
                 ],
                 "map_locations": [
@@ -215,12 +201,12 @@
                 ]
             },
             {
-                "name": "Coliseum Gates - Green Trinity",
+                "name": "Coliseum Gates",
                 "access_rules":["green_trinity"],
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Green Trinity",
+                        "ref": "Overview/Olympus Coliseum - Before Entry Pass/Coliseum Gates - Green Trinity"
                     }
                 ],
                 "map_locations": [
@@ -233,49 +219,34 @@
             },
             {
                 "name": "Olympus Coliseum Cups",
-                "access_rules":["entry_pass"],
                 "sections": [
                     {
                         "name": "Phil Cup",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["phil_cup"],
-                        "item_count": 3
+                        "ref": "Overview/Olympus Coliseum - Cups/Phil Cup"
                     },
                     {
                         "name": "Pegasus Cup",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["pegasus_cup"],
-                        "item_count": 3
+                        "ref": "Overview/Olympus Coliseum - Cups/Pegasus Cup"
                     },
                     {
                         "name": "Hercules Cup",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["hercules_cup, [$world_count:4]"],
-                        "item_count": 5
+                        "ref": "Overview/Olympus Coliseum - Cups/Hercules Cup"
                     },
                     {
                         "name": "Hades Cup",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
-                        "item_count": 7
+                        "ref": "Overview/Olympus Coliseum - Cups/Hades Cup"
                     },
                     {
                         "name": "Defeat Hades",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
-                        "item_count": 2
+                        "ref": "Overview/Olympus Coliseum - Cups/Defeat Hades"
                     },
                     {
                         "name": "Defeat Sephiroth",
-                        "visibility_rules":["superbosses_on", "door_superbosses", "goal_sephiroth"],
-                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses]"],
-                        "item_count": 2
+                        "ref": "Overview/Olympus Coliseum - Cups/Defeat Sephiroth"
                     },
                     {
                         "name": "Defeat Ice Titan",
-                        "visibility_rules":["cups_on"],
-                        "access_rules":["phil_cup, pegasus_cup, hercules_cup, [$world_count:7], [$has_defenses], [guard]"],
-                        "item_count": 1
+                        "ref": "Overview/Olympus Coliseum - Cups/Defeat Ice Titan"
                     }
                 ],
                 "map_locations": [

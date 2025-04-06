@@ -1,16 +1,13 @@
 [
     {
-        "name": "Agrabah Chests",
-        "access_rules":["$access_chests|4, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Agrabah - Chests",
         "children": [
             {
-                "name": "Plaza - Chest by Storage",
+                "name": "Plaza",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest by Storage",
+                        "ref": "Overview/Agrabah - Chests/Plaza - Chest by Storage"
                     }
                 ],
                 "map_locations": [
@@ -22,11 +19,11 @@
                 ]
             },
             {
-                "name": "Plaza - Raised Terrace Chest",
+                "name": "Plaza",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Raised Terrace Chest",
+                        "ref": "Overview/Agrabah - Chests/Plaza - Raised Terrace Chest"
                     }
                 ],
                 "map_locations": [
@@ -38,11 +35,11 @@
                 ]
             },
             {
-                "name": "Plaza - Top Corner Chest",
+                "name": "Plaza",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Top Corner Chest",
+                        "ref": "Overview/Agrabah - Chests/Plaza - Top Corner Chest"
                     }
                 ],
                 "map_locations": [
@@ -54,11 +51,11 @@
                 ]
             },
             {
-                "name": "Alley Chest",
+                "name": "Alley",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest",
+                        "ref": "Overview/Agrabah - Chests/Alley - Chest"
                     }
                 ],
                 "map_locations": [
@@ -70,11 +67,11 @@
                 ]
             },
             {
-                "name": "Bazaar - Chest Across Windows",
+                "name": "Bazaar",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Across Windows",
+                        "ref": "Overview/Agrabah - Chests/Bazaar - Chest Across Windows"
                     }
                 ],
                 "map_locations": [
@@ -86,11 +83,11 @@
                 ]
             },
             {
-                "name": "Bazaar - High Corner Chest",
+                "name": "Bazaar",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "High Corner Chest",
+                        "ref": "Overview/Agrabah - Chests/Bazaar - High Corner Chest"
                     }
                 ],
                 "map_locations": [
@@ -102,11 +99,11 @@
                 ]
             },
             {
-                "name": "Main Street - Right Palace Entrance Chest",
+                "name": "Main Street",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Palace Entrance Chest",
+                        "ref": "Overview/Agrabah - Chests/Main Street - Right Palace Entrance Chest"
                     }
                 ],
                 "map_locations": [
@@ -118,11 +115,11 @@
                 ]
             },
             {
-                "name": "Main Street - Chest High Above Alley Entrance",
+                "name": "Main Street",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest High Above Alley Entrance",
+                        "ref": "Overview/Agrabah - Chests/Main Street - Chest High Above Alley Entrance"
                     }
                 ],
                 "map_locations": [
@@ -134,12 +131,11 @@
                 ]
             },
             {
-                "name": "Main Street - Chest High Above Palace Entrance",
-                "access_rules":["$jump_glide_or_dumbo"],
+                "name": "Main Street",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest High Above Palace Entrance",
+                        "ref": "Overview/Agrabah - Chests/Main Street - Chest High Above Palace Entrance"
                     }
                 ],
                 "map_locations": [
@@ -151,11 +147,11 @@
                 ]
             },
             {
-                "name": "Palace Gates - Low Chest",
+                "name": "Palace Gates",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Low Chest",
+                        "ref": "Overview/Agrabah - Chests/Palace Gates - Low Chest"
                     }
                 ],
                 "map_locations": [
@@ -167,12 +163,11 @@
                 ]
             },
             {
-                "name": "Palace Gates - High Chest Opposite Palace",
-                "access_rules":["[$jump_or_nothing]"],
+                "name": "Palace Gates",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "High Chest Opposite Palace",
+                        "ref": "Overview/Agrabah - Chests/Palace Gates - High Chest Opposite Palace"
                     }
                 ],
                 "map_locations": [
@@ -184,12 +179,11 @@
                 ]
             },
             {
-                "name": "Palace Gates - High Chest Close to Palace",
-                "access_rules":["$triplejump_or_glide_or_master_or_dumbo"],
+                "name": "Palace Gates",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "High Chest Close to Palace",
+                        "ref": "Overview/Agrabah - Chests/Palace Gates - High Chest Close to Palace"
                     }
                 ],
                 "map_locations": [
@@ -201,12 +195,11 @@
                 ]
             },
             {
-                "name": "Storage - Green Trinity Chest",
-                "access_rules":["green_trinity"],
+                "name": "Storage",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Green Trinity Chest",
+                        "ref": "Overview/Agrabah - Chests/Storage - Green Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -218,11 +211,11 @@
                 ]
             },
             {
-                "name": "Storage - Chest Behind Barrel",
+                "name": "Storage",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Behind Barrel",
+                        "ref": "Overview/Agrabah - Chests/Storage - Chest Behind Barrel"
                     }
                 ],
                 "map_locations": [
@@ -234,11 +227,11 @@
                 ]
             },
             {
-                "name": "Aladdin's House - Chest at Main Street Entrance",
+                "name": "Aladdin's House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest at Main Street Entrance",
+                        "ref": "Overview/Agrabah - Chests/Aladdin's House - Chest at Main Street Entrance"
                     }
                 ],
                 "map_locations": [
@@ -250,11 +243,11 @@
                 ]
             },
             {
-                "name": "Aladdin's House - Chest at Plaza Entrance",
+                "name": "Aladdin's House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest at Plaza Entrance",
+                        "ref": "Overview/Agrabah - Chests/Aladdin's House - Chest at Plaza Entrance"
                     }
                 ],
                 "map_locations": [
@@ -268,17 +261,14 @@
         ]
     },
     {
-        "name": "Cave of Wonders Chests",
-        "access_rules":["$access_chests|4, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Cave of Wonders - Chests",
         "children": [
             {
-                "name": "Cave Entrance - Left Chest",
+                "name": "Cave Entrance",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Cave Entrance - Left Chest"
                     }
                 ],
                 "map_locations": [
@@ -290,12 +280,11 @@
                 ]
             },
             {
-                "name": "Cave Entrance - Tall Tower Chest",
-                "access_rules":["$doublejump_glide_or_master_or_dumbo"],
+                "name": "Cave Entrance",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Tall Tower Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Cave Entrance - Tall Tower Chest"
                     }
                 ],
                 "map_locations": [
@@ -307,11 +296,11 @@
                 ]
             },
             {
-                "name": "Hall - High Left Chest",
+                "name": "Hall",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "High Left Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Hall - High Left Chest"
                     }
                 ],
                 "map_locations": [
@@ -323,11 +312,11 @@
                 ]
             },
             {
-                "name": "Hall - Chest Near Bottomless Hall",
+                "name": "Hall",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Bottomless Hall",
+                        "ref": "Overview/Cave of Wonders - Chests/Hall - Chest Near Bottomless Hall"
                     }
                 ],
                 "map_locations": [
@@ -339,11 +328,11 @@
                 ]
             },
             {
-                "name": "Bottomless Hall - Raised Platform Chest",
+                "name": "Bottomless Hall",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Raised Platform Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Bottomless Hall - Raised Platform Chest"
                     }
                 ],
                 "map_locations": [
@@ -355,12 +344,11 @@
                 ]
             },
             {
-                "name": "Bottomless Hall - Pillar Chest",
-                "access_rules":["[$jump_glide_or_nothing]"],
+                "name": "Bottomless Hall",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Pillar Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Bottomless Hall - Pillar Chest"
                     }
                 ],
                 "map_locations": [
@@ -372,11 +360,11 @@
                 ]
             },
             {
-                "name": "Bottomless Hall - Chest Across Chasm",
+                "name": "Bottomless Hall",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Across Chasm",
+                        "ref": "Overview/Cave of Wonders - Chests/Bottomless Hall - Chest Across Chasm"
                     }
                 ],
                 "map_locations": [
@@ -388,11 +376,11 @@
                 ]
             },
             {
-                "name": "Treasure Room - Chest Across Platforms",
+                "name": "Treasure Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Across Platforms",
+                        "ref": "Overview/Cave of Wonders - Chests/Treasure Room - Chest Across Platforms"
                     }
                 ],
                 "map_locations": [
@@ -404,11 +392,11 @@
                 ]
             },
             {
-                "name": "Treasure Room - Small Treasure Pile Chest",
+                "name": "Treasure Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Small Treasure Pile Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Treasure Room - Small Treasure Pile Chest"
                     }
                 ],
                 "map_locations": [
@@ -420,11 +408,11 @@
                 ]
             },
             {
-                "name": "Treasure Room - Large Treasure Pile Chest",
+                "name": "Treasure Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Large Treasure Pile Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Treasure Room - Large Treasure Pile Chest"
                     }
                 ],
                 "map_locations": [
@@ -436,11 +424,11 @@
                 ]
             },
             {
-                "name": "Treasure Room - Chest Above Fire",
+                "name": "Treasure Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Above Fire",
+                        "ref": "Overview/Cave of Wonders - Chests/Treasure Room - Chest Above Fire"
                     }
                 ],
                 "map_locations": [
@@ -452,11 +440,11 @@
                 ]
             },
             {
-                "name": "Relic Chamber - Jump from Stairs Chest",
+                "name": "Relic Chamber",
                 "sections": [
                     {
-                        "name": "Push Block in Bottomless Hall",
-                        "item_count": 1
+                        "name": "Jump from Stairs Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Relic Chamber - Jump from Stairs Chest"
                     }
                 ],
                 "map_locations": [
@@ -468,11 +456,11 @@
                 ]
             },
             {
-                "name": "Relic Chamber - Stairs Chest",
+                "name": "Relic Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Stairs Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Relic Chamber - Stairs Chest"
                     }
                 ],
                 "map_locations": [
@@ -484,11 +472,11 @@
                 ]
             },
             {
-                "name": "Dark Chamber - Abu Gem Chest",
+                "name": "Dark Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Abu Gem Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Dark Chamber - Abu Gem Chest"
                     }
                 ],
                 "map_locations": [
@@ -500,11 +488,11 @@
                 ]
             },
             {
-                "name": "Dark Chamber - Chest Across Relic Chamber Entrance",
+                "name": "Dark Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Across Relic Chamber Entrance",
+                        "ref": "Overview/Cave of Wonders - Chests/Dark Chamber - Chest Across Relic Chamber Entrance"
                     }
                 ],
                 "map_locations": [
@@ -516,11 +504,11 @@
                 ]
             },
             {
-                "name": "Dark Chamber - Bridge Chest",
+                "name": "Dark Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Bridge Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Dark Chamber - Bridge Chest"
                     }
                 ],
                 "map_locations": [
@@ -532,11 +520,11 @@
                 ]
             },
             {
-                "name": "Dark Chamber - Chest Near Save Point",
+                "name": "Dark Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Save Point",
+                        "ref": "Overview/Cave of Wonders - Chests/Dark Chamber - Chest Near Save Point"
                     }
                 ],
                 "map_locations": [
@@ -548,12 +536,11 @@
                 ]
             },
             {
-                "name": "Silent Chamber - Blue Trinity Chest",
-                "access_rules":["blue_trinity"],
+                "name": "Silent Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Blue Trinity Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Silent Chamber - Blue Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -565,12 +552,11 @@
                 ]
             },
             {
-                "name": "Hidden Room - Right Chest",
-                "access_rules":["$yellow_trinity_or_glide"],
+                "name": "Hidden Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Hidden Room - Right Chest"
                     }
                 ],
                 "map_locations": [
@@ -582,12 +568,11 @@
                 ]
             },
             {
-                "name": "Hidden Room - Left Chest",
-                "access_rules":["$yellow_trinity_or_glide"],
+                "name": "Hidden Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Hidden Room - Left Chest"
                     }
                 ],
                 "map_locations": [
@@ -599,12 +584,11 @@
                 ]
             },
             {
-                "name": "Cave Entrance - White Trinity Chest",
-                "access_rules":["white_trinity"],
+                "name": "Cave Entrance",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Cave of Wonders - Chests/Cave Entrance - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -618,17 +602,14 @@
         ]
     },
     {
-        "name": "Agrabah Events",
-        "access_rules":["agrabah, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "name": "Agrabah - Events",
         "children": [
             {
-                "name": "Defeat Pot Centipede",
+                "name": "Palace Gates",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Defeat Pot Centipede",
+                        "ref": "Overview/Agrabah - Events/Palace Gates - Defeat Pot Centipede"
                     }
                 ],
                 "map_locations": [
@@ -640,11 +621,11 @@
                 ]
             },
             {
-                "name": "Defeat Jafar",
+                "name": "Lamp Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Defeat Jafar",
+                        "ref": "Overview/Agrabah - Events/Lamp Chamber - Defeat Jafar"
                     }
                 ],
                 "map_locations": [
@@ -656,15 +637,15 @@
                 ]
             },
             {
-                "name": "Defeat Genie Jafar",
+                "name": "Lamp Chamber",
                 "sections": [
                     {
                         "name": "Defeat Genie Jafar",
-                        "item_count": 2
+                        "ref": "Overview/Agrabah - Events/Lamp Chamber - Defeat Genie Jafar"
                     },
                     {
                         "name": "Seal the Keyhole",
-                        "item_count": 3
+                        "ref": "Overview/Agrabah - Events/Lamp Chamber - Seal the Keyhole"
                     }
                 ],
                 "map_locations": [
@@ -676,13 +657,11 @@
                 ]
             },
             {
-                "name": "Defeat Kurt Zisa",
-                "access_rules":["hollow_bastion, $has_emblems, [$world_count:7], [$has_defenses], [blizzard:3]"],
-                "visibility_rules":["superbosses_on", "door_superbosses"],
+                "name": "Desert",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Kurt Zisa",
+                        "ref": "Overview/Agrabah - Events/Defeat Kurt Zisa"
                     }
                 ],
                 "map_locations": [

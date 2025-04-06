@@ -1,17 +1,13 @@
 [
     {
-        "name": "Halloween Town Chests",
-        "access_rules":["$access_chests|6, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Halloween Town - Chests",
         "children": [
             {
-                "name": "Moonlight Hill - White Trinity Chest",
-                "access_rules":["white_trinity, forget_me_not"],
+                "name": "Moonlight Hill",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Moonlight Hill - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -23,12 +19,11 @@
                 ]
             },
             {
-                "name": "Boneyard - Tombstone Puzzle Chest",
-                "access_rules":["forget_me_not"],
+                "name": "Boneyard",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Tombstone Puzzle Chest",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Boneyard - Tombstone Puzzle Chest"
                     }
                 ],
                 "map_locations": [
@@ -40,12 +35,11 @@
                 ]
             },
             {
-                "name": "Guillotine Square - High Tower Chest",
-                "access_rules":["$jump_or_glide_or_dumbo"],
+                "name": "Guillotine Square",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "High Tower Chest",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Guillotine Square - High Tower Chest"
                     }
                 ],
                 "map_locations": [
@@ -57,12 +51,11 @@
                 ]
             },
             {
-                "name": "Guillotine Square - Left Chest in Pumpkin Structure",
-                "access_rules":["$halloweentown_pumpkin_structure_access"],
+                "name": "Guillotine Square",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Chest in Pumpkin Structure",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Guillotine Square - Left Chest in Pumpkin Structure"
                     }
                 ],
                 "map_locations": [
@@ -74,11 +67,11 @@
                 ]
             },
             {
-                "name": "Guillotine Square - Chest Under Jack's House",
+                "name": "Guillotine Square",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Under Jack's House",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Guillotine Square - Chest Under Jack's House"
                     }
                 ],
                 "map_locations": [
@@ -90,12 +83,11 @@
                 ]
             },
             {
-                "name": "Guillotine Square - Right Side in Pumpkin Structure",
-                "access_rules":["$halloweentown_pumpkin_structure_access"],
+                "name": "Guillotine Square",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Chest in Pumpkin Structure",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Guillotine Square - Right Chest in Pumpkin Structure"
                     }
                 ],
                 "map_locations": [
@@ -109,17 +101,14 @@
         ]
     },
     {
-        "name": "Halloween Town Chests - 2nd Visit",
-        "access_rules":["$access_chests|6, [$world_count:2], jack_box, forget_me_not"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Halloween Town - Chests - 2nd Visit",
         "children": [
             {
-                "name": "Bridge - Chest Under Bridge",
+                "name": "Bridge",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Under Bridge",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Bridge - Chest Under Bridge"
                     }
                 ],
                 "map_locations": [
@@ -131,12 +120,11 @@
                 ]
             },
             {
-                "name": "Bridge - Chest Right of Gate",
-                "access_rules":["$glide_or_nothing"],
+                "name": "Bridge",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Right of Gate",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Bridge - Chest Right of Gate"
                     }
                 ],
                 "map_locations": [
@@ -148,12 +136,11 @@
                 ]
             },
             {
-                "name": "Cemetery - Chest Behind Grave",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Cemetery",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Behind Grave",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Cemetery - Chest Behind Grave"
                     }
                 ],
                 "map_locations": [
@@ -165,12 +152,11 @@
                 ]
             },
             {
-                "name": "Cemetery - Chest By Cat Shaped Grave",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Cemetery",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest By Cat Shaped Grave",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Cemetery - Chest By Cat Shaped Grave"
                     }
                 ],
                 "map_locations": [
@@ -182,12 +168,11 @@
                 ]
             },
             {
-                "name": "Cemetery - Chest Between Graves",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Cemetery",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Between Graves",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Cemetery - Chest Between Graves"
                     }
                 ],
                 "map_locations": [
@@ -199,12 +184,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Chest in Lower Iron Cage",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest in Lower Iron Cage",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest in Lower Iron Cage"
                     }
                 ],
                 "map_locations": [
@@ -216,12 +200,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Chest in Upper Iron Cage",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest in Upper Iron Cage",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest in Upper Iron Cage"
                     }
                 ],
                 "map_locations": [
@@ -233,12 +216,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Hollow Chest",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Hollow Chest",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Hollow Chest"
                     }
                 ],
                 "map_locations": [
@@ -250,12 +232,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Red Trinity Chest",
-                "access_rules":["red_trinity"],
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Red Trinity Chest",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Red Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -272,11 +253,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Chest at Entrance Steps",
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest at Entrance Steps",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest at Entrance Steps"
                     }
                 ],
                 "map_locations": [
@@ -288,11 +269,11 @@
                 ]
             },
             {
-                "name": "Oogie's Manor - Chest Inside Entrance",
+                "name": "Oogie's Manor",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Inside Entrance",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest Inside Entrance"
                     }
                 ],
                 "map_locations": [
@@ -308,23 +289,23 @@
                 "sections": [
                     {
                         "name": "Oogie's Manor - Chest in Lower Iron Cage",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest in Lower Iron Cage/"
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest in Lower Iron Cage"
                     },
                     {
                         "name": "Oogie's Manor - Chest in Upper Iron Cage",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest in Upper Iron Cage/"
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest in Upper Iron Cage"
                     },
                     {
                         "name": "Oogie's Manor - Hollow Chest",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Hollow Chest/"
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Hollow Chest"
                     },
                     {
                         "name": "Oogie's Manor - Chest at Entrance Steps",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest at Entrance Steps/"
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest at Entrance Steps"
                     },
                     {
                         "name": "Oogie's Manor - Chest Inside Entrance",
-                        "ref": "Halloween Town Chests - 2nd Visit/Oogie's Manor - Chest Inside Entrance/"
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Chest Inside Entrance"
                     }
                 ],
                 "map_locations": [
@@ -336,12 +317,11 @@
                 ]
             },
             {
-                "name": "Bridge - Chest Left of Gate",
-                "access_rules":["$jump_glide_or_nothing"],
+                "name": "Bridge",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Left of Gate",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Bridge - Chest Left of Gate"
                     }
                 ],
                 "map_locations": [
@@ -353,12 +333,11 @@
                 ]
             },
             {
-                "name": "Cemetery - Chest by Striped Grave",
-                "access_rules":["$oogie_manor_access"],
+                "name": "Cemetery",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest by Striped Grave",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Cemetery - Chest by Striped Grave"
                     }
                 ],
                 "map_locations": [
@@ -372,17 +351,14 @@
         ]
     },
     {
-        "name": "Halloween Town Events",
-        "access_rules":["halloween_town, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "name": "Halloween Town - Events",
         "children": [
             {
-                "name": "Guillotine Square - Ring Jack's Doorbell 3 Times",
+                "name": "Guillotine Square",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Guillotine Square - Ring Jack's Doorbell 3 Times"
                     }
                 ],
                 "map_locations": [
@@ -394,10 +370,11 @@
                 ]
             },
             {
-                "name": "Graveyard - Obtain Forget-Me-Not",
+                "name": "Graveyard",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Obtain Forget-Me-Not",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Graveyard - Obtain Forget-Me-Not"
                     }
                 ],
                 "map_locations": [
@@ -409,10 +386,11 @@
                 ]
             },
             {
-                "name": "Lab - Torn Page in Book",
+                "name": "Lab",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Torn Page in Book",
+                        "ref": "Overview/Halloween Town - Before Jack-in-the-Box/Lab - Torn Page in Book"
                     }
                 ],
                 "map_locations": [
@@ -424,12 +402,11 @@
                 ]
             },
             {
-                "name": "Defeat Oogie Boogie",
-                "access_rules":["jack_box, forget_me_not, $oogie_manor_access"],
+                "name": "Torture Chamber",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Oogie Boogie",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Torture Chamber - Defeat Oogie Boogie"
                     }
                 ],
                 "map_locations": [
@@ -442,11 +419,10 @@
             },
             {
                 "name": "Defeat Oogie's Manor",
-                "access_rules":["jack_box, forget_me_not, $oogie_manor_access"],
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Oogie's Manor",
+                        "ref": "Overview/Halloween Town - After Jack-in-the-Box/Oogie's Manor - Defeat Oogie's Manor"
                     }
                 ],
                 "map_locations": [

@@ -1,16 +1,13 @@
 [
     {
         "name": "100 Acre Chests",
-        "access_rules":["fire:1, $haw_chests"],
-        "visibility_rules":["100_acre_on"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Meadow - Chest Inside Log",
+                "name": "Meadow",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest Inside Log",
+                        "ref": "Overview/Hundred Acre Wood/Meadow - Chest Inside Log"
                     }
                 ],
                 "map_locations": [
@@ -27,11 +24,11 @@
                 ]
             },
             {
-                "name": "Bouncing Spot - Chest on Cliff on Left Side",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Cliff on Left Side",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest on Cliff on Left Side"
                     }
                 ],
                 "map_locations": [
@@ -43,11 +40,11 @@
                 ]
             },
             {
-                "name": "Bouncing Spot - Chest in Tree Alcove",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest in Tree Alcove",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest in Tree Alcove"
                     }
                 ],
                 "map_locations": [
@@ -59,11 +56,11 @@
                 ]
             },
             {
-                "name": "Bouncing Spot - Chest in Tree Stump",
-                "access_rules":["torn_page:4"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest in Tree Stump",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest in Tree Stump"
                     }
                 ],
                 "map_locations": [
@@ -78,17 +75,13 @@
     },
     {
         "name": "100 Acre Events",
-        "access_rules":["fire:1"],
-        "visibility_rules":["100_acre_on"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Turn in Rare Nut 1",
-                "access_rules":["torn_page:4"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turn in Rare Nut #1",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #1"
                     }
                 ],
                 "map_locations": [
@@ -100,11 +93,11 @@
                 ]
             },
             {
-                "name": "Turn in Rare Nut 2",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turn in Rare Nut #2",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #2"
                     }
                 ],
                 "map_locations": [
@@ -116,11 +109,11 @@
                 ]
             },
             {
-                "name": "Turn in Rare Nut 3",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turn in Rare Nut #3",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #3"
                     }
                 ],
                 "map_locations": [
@@ -132,11 +125,11 @@
                 ]
             },
             {
-                "name": "Turn in Rare Nut 4",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turn in Rare Nut #4",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #4"
                     }
                 ],
                 "map_locations": [
@@ -148,11 +141,11 @@
                 ]
             },
             {
-                "name": "Turn in Rare Nut 5",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turn in Rare Nut #5",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #5"
                     }
                 ],
                 "map_locations": [
@@ -167,19 +160,19 @@
                 "name": "Bouncing Spot - Turn in Rare Nuts",
                 "sections": [
                     {
-                        "ref": "100 Acre Events/Turn in Rare Nut 1/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #1"
                     },
                     {
-                        "ref": "100 Acre Events/Turn in Rare Nut 2/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #2"
                     },
                     {
-                        "ref": "100 Acre Events/Turn in Rare Nut 3/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #3"
                     },
                     {
-                        "ref": "100 Acre Events/Turn in Rare Nut 4/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #4"
                     },
                     {
-                        "ref": "100 Acre Events/Turn in Rare Nut 5/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #5"
                     }
                 ],
                 "map_locations": [
@@ -191,11 +184,11 @@
                 ]
             },
             {
-                "name": "Pooh's House - Talk to Owl",
-                "access_rules":["torn_page:5"],
+                "name": "Pooh's House",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Talk to Owl",
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Talk to Owl"
                     }
                 ],
                 "map_locations": [
@@ -207,11 +200,11 @@
                 ]
             },
             {
-                "name": "Pooh's House - Light the Fire",
-                "access_rules":["torn_page:3"],
+                "name": "Pooh's House",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Light the Fire",
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Light the Fire"
                     }
                 ],
                 "map_locations": [
@@ -223,10 +216,11 @@
                 ]
             },
             {
-                "name": "Pooh's House - Open Cabinet",
+                "name": "Pooh's House",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Open Cabinet",
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Open Cabinet"
                     }
                 ],
                 "map_locations": [
@@ -238,10 +232,11 @@
                 ]
             },
             {
-                "name": "Pooh's House - Strike Chimney",
+                "name": "Pooh's House",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Strike Chimney",
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Strike Chimney"
                     }
                 ],
                 "map_locations": [
@@ -258,11 +253,11 @@
                 ]
             },
             {
-                "name": "Bouncing Spot - Break the Log",
-                "access_rules":["torn_page:4"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Break the Log",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Break the Log"
                     }
                 ],
                 "map_locations": [
@@ -274,11 +269,11 @@
                 ]
             },
             {
-                "name": "Bouncing Spot - Use the Seesaw",
-                "access_rules":["torn_page:4, high_jump", "torn_page:4, glide"],
+                "name": "Bouncing Spot",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Use the Seesaw",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Use the Seesaw"
                     }
                 ],
                 "map_locations": [
@@ -303,19 +298,19 @@
                 "sections": [
                     {
                         "name": "Open Cabinet",
-                        "ref": "100 Acre Events/Pooh's House - Open Cabinet/"
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Open Cabinet"
                     },
                     {
                         "name": "Strike Chimney",
-                        "ref": "100 Acre Events/Pooh's House - Strike Chimney/"
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Strike Chimney"
                     },
                     {
                         "name": "Light the Fire",
-                        "ref": "100 Acre Events/Pooh's House - Light the Fire/"
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Light the Fire"
                     },
                     {
                         "name": "Talk to Owl",
-                        "ref": "100 Acre Events/Pooh's House - Talk to Owl/"
+                        "ref": "Overview/Hundred Acre Wood/Pooh's House - Talk to Owl"
                     }
                 ],
                 "map_locations": [
@@ -328,10 +323,10 @@
             },
             {
                 "name": "Torn Page #1 - Hunny Tree",
-                "access_rules":["torn_page:1"],
                 "sections": [
                     {
-                        "name": "Convert Torn Page"
+                        "name": "Convert Torn Page",
+                        "ref": "Overview/Hundred Acre Wood/Convert Torn Page #1"
                     }
                 ],
                 "map_locations": [
@@ -344,10 +339,10 @@
             },
             {
                 "name": "Torn Page #2 - Rabbit's House",
-                "access_rules":["torn_page:2"],
                 "sections": [
                     {
-                        "name": "Convert Torn Page"
+                        "name": "Convert Torn Page",
+                        "ref": "Overview/Hundred Acre Wood/Convert Torn Page #2"
                     }
                 ],
                 "map_locations": [
@@ -360,10 +355,10 @@
             },
             {
                 "name": "Torn Page #3 - Starry Hill",
-                "access_rules":["torn_page:3"],
                 "sections": [
                     {
-                        "name": "Convert Torn Page"
+                        "name": "Convert Torn Page",
+                        "ref": "Overview/Hundred Acre Wood/Convert Torn Page #3"
                     }
                 ],
                 "map_locations": [
@@ -378,48 +373,48 @@
                 "name": "Torn Page #4 - Tigger's Bouncing Spot",
                 "sections": [
                     {
-                        "name": "Chest of Cliff",
-                        "ref": "100 Acre Chests/Bouncing Spot - Chest on Cliff on Left Side/"
+                        "name": "Chest on Cliff",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest on Cliff on Left Side"
                     },
                     {
                         "name": "Chest in Tree Alcove",
-                        "ref": "100 Acre Chests/Bouncing Spot - Chest in Tree Alcove/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest in Tree Alcove"
                     },
                     {
                         "name": "Chest in Tree Stump",
-                        "ref": "100 Acre Chests/Bouncing Spot - Chest in Tree Stump/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Chest in Tree Stump"
                     },
                     {
-                        "name": "Break Log",
-                        "ref": "100 Acre Events/Bouncing Spot - Break the Log/"
+                        "name": "Break the Log",
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Break the Log"
                     },
                     {
                         "name": "Use the Seesaw",
-                        "ref": "100 Acre Events/Bouncing Spot - Use the Seesaw/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Use the Seesaw"
                     },
                     {
                         "name": "Turn in Rare Nut 1",
-                        "ref": "100 Acre Events/Turn in Rare Nut 1/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #1"
                     },
                     {
                         "name": "Turn in Rare Nut 2",
-                        "ref": "100 Acre Events/Turn in Rare Nut 2/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #2"
                     },
                     {
                         "name": "Turn in Rare Nut 3",
-                        "ref": "100 Acre Events/Turn in Rare Nut 3/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #3"
                     },
                     {
                         "name": "Turn in Rare Nut 4",
-                        "ref": "100 Acre Events/Turn in Rare Nut 4/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #4"
                     },
                     {
                         "name": "Turn in Rare Nut 5",
-                        "ref": "100 Acre Events/Turn in Rare Nut 5/"
+                        "ref": "Overview/Hundred Acre Wood/Bouncing Spot - Turn in Rare Nut #5"
                     },
                     {
                         "name": "Convert Torn Page",
-                        "access_rules":["torn_page:4"]
+                        "ref": "Overview/Hundred Acre Wood/Convert Torn Page #4"
                     }
                 ],
                 "map_locations": [
@@ -432,10 +427,10 @@
             },
             {
                 "name": "Torn Page #5 - Muddy Path",
-                "access_rules":["torn_page:5"],
                 "sections": [
                     {
-                        "name": "Convert Torn Page"
+                        "name": "Convert Torn Page",
+                        "ref": "Overview/Hundred Acre Wood/Convert Torn Page #5"
                     }
                 ],
                 "map_locations": [

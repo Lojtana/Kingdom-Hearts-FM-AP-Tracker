@@ -3,6 +3,13 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": ["OV"]
+                }
+            },
+            {
                 "title": "Traverse Town",
                 "content": {
                     "type": "map",

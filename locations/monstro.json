@@ -1,17 +1,13 @@
 [
     {
-        "name": "Monstro Chests",
-        "access_rules":["$access_chests|5, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Monstro - Chests",
         "children": [
             {
-                "name": "Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance",
-                "access_rules":["$jump_and_glide_or_combo_master"],
+                "name": "Chamber 6",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Platform Opposite Chamber 5 Entrance",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 6 - Chest on Platform Opposite Chamber 5 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -23,12 +19,11 @@
                 ]
             },
             {
-                "name": "Chamber 6 - Chest on Platform Near Chamber 5 Entrance",
-                "access_rules":["[$jump_or_nothing]"],
+                "name": "Chamber 6",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Platform Near Chamber 5 Entrance",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 6 - Chest on Platform Near Chamber 5 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -40,12 +35,11 @@
                 ]
             },
             {
-                "name": "Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance",
-                "access_rules":["$jump_and_glide_or_combo_master"],
+                "name": "Chamber 6",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Raised Area Near Chamber 1 Entrance",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -57,11 +51,11 @@
                 ]
             },
             {
-                "name": "Chamber 6 - Low Chest",
+                "name": "Chamber 6",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Low Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 6 - Low Chest"
                     }
                 ],
                 "map_locations": [
@@ -73,11 +67,11 @@
                 ]
             },
             {
-                "name": "Mouth - Boat Deck Chest",
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "After Defeating Parasite",
-                        "item_count": 1
+                        "name": "Boat Deck Chest After Defeating Parasite",
+                        "ref": "Overview/Monstro - Chests Before Movement/Mouth - Boat Deck Chest"
                     }
                 ],
                 "map_locations": [
@@ -90,12 +84,11 @@
             }
             ,
             {
-                "name": "Mouth - Chest on High Platform Boat Side",
-                "access_rules":["high_jump", "glide"],
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on High Platform Boat Side",
+                        "ref": "Overview/Monstro - Chests After Movement/Mouth - Chest on High Platform Boat Side"
                     }
                 ],
                 "map_locations": [
@@ -107,12 +100,11 @@
                 ]
             },
             {
-                "name": "Mouth - Chest on High Platform Across from Boat",
-                "access_rules":["high_jump", "glide"],
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on High Platform Across from Boat",
+                        "ref": "Overview/Monstro - Chests After Movement/Mouth - Chest on High Platform Across from Boat"
                     }
                 ],
                 "map_locations": [
@@ -124,11 +116,11 @@
                 ]
             },
             {
-                "name": "Mouth - Chest Near Ship",
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Ship",
+                        "ref": "Overview/Monstro - Chests Before Movement/Mouth - Chest Near Ship"
                     }
                 ],
                 "map_locations": [
@@ -140,12 +132,11 @@
                 ]
             },
             {
-                "name": "Mouth - Green Trinity Chest",
-                "access_rules":["green_trinity, high_jump", "green_trinity, glide"],
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "After Defeating Parasite",
-                        "item_count": 1
+                        "name": "Green Trinity Chest After Defeating Parasite",
+                        "ref": "Overview/Monstro - Chests After Movement/Mouth - Green Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -157,11 +148,11 @@
                 ]
             },
             {
-                "name": "Chamber 2 - Ground Chest",
+                "name": "Chamber 2",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Ground Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 2 - Ground Chest"
                     }
                 ],
                 "map_locations": [
@@ -173,11 +164,11 @@
                 ]
             },
             {
-                "name": "Chamber 2 - Platform Chest",
+                "name": "Chamber 2",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Platform Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 2 - Platform Chest"
                     }
                 ],
                 "map_locations": [
@@ -189,12 +180,11 @@
                 ]
             },
             {
-                "name": "Chamber 5 - Platform Chest",
-                "access_rules":["high_jump"],
+                "name": "Chamber 5",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Platform Chest",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 5 - Platform Chest"
                     }
                 ],
                 "map_locations": [
@@ -206,11 +196,11 @@
                 ]
             },
             {
-                "name": "Chamber 3 - Ground Chest",
+                "name": "Chamber 3",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Ground Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 3 - Ground Chest"
                     }
                 ],
                 "map_locations": [
@@ -222,12 +212,11 @@
                 ]
             },
             {
-                "name": "Chamber 3 - Chest on Platform Above Chamber 2 Entrance",
-                "access_rules":["[$jump_or_nothing]"],
+                "name": "Chamber 3",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Platform Above Chamber 2 Entrance",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 3 - Chest on Platform Above Chamber 2 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -239,11 +228,11 @@
                 ]
             },
             {
-                "name": "Chamber 3 - Chest Near Chamber 6 Entrance",
+                "name": "Chamber 3",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Chamber 6 Entrance",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 3 - Chest Near Chamber 6 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -255,12 +244,11 @@
                 ]
             },
             {
-                "name": "Chamber 3 - Chest on Platform Near Chamber 6 Entrance",
-                "access_rules":["[$jump_or_nothing]"],
+                "name": "Chamber 3",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on Platform Near Chamber 6 Entrance",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 3 - Chest on Platform Near Chamber 6 Entrance"
                     }
                 ],
                 "map_locations": [
@@ -272,11 +260,11 @@
                 ]
             },
             {
-                "name": "Mouth - Chest on High Platform Near Teeth",
+                "name": "Mouth",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest on High Platform Near Teeth",
+                        "ref": "Overview/Monstro - Chests Before Movement/Mouth - Chest on High Platform Near Teeth"
                     }
                 ],
                 "map_locations": [
@@ -288,12 +276,11 @@
                 ]
             },
             {
-                "name": "Chamber 5 - Chest Atop Barrel",
-                "access_rules":["[$jump_or_nothing]"],
+                "name": "Chamber 5",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Atop Barrel",
+                        "ref": "Overview/Monstro - Chests After Movement/Chamber 5 - Chest Atop Barrel"
                     }
                 ],
                 "map_locations": [
@@ -305,11 +292,11 @@
                 ]
             },
             {
-                "name": "Chamber 5 - 2nd Low Chest",
+                "name": "Chamber 5",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "2nd Low Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 5 - 2nd Low Chest"
                     }
                 ],
                 "map_locations": [
@@ -321,11 +308,11 @@
                 ]
             },
             {
-                "name": "Chamber 5 - 1st Low Chest",
+                "name": "Chamber 5",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "1st Low Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 5 - 1st Low Chest"
                     }
                 ],
                 "map_locations": [
@@ -337,12 +324,11 @@
                 ]
             },
             {
-                "name": "Chamber 6 - White Trinity Chest",
-                "access_rules":["white_trinity"],
+                "name": "Chamber 6",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 6 - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -356,17 +342,14 @@
         ]
     },
     {
-        "name": "Monstro Events",
-        "access_rules":["monstro, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "name": "Monstro - Events",
         "children": [
             {
                 "name": "Defeat Parasite Cage",
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Monstro - Events/Bowels - Defeat Parasite Cage"
                     }
                 ],
                 "map_locations": [
@@ -379,11 +362,10 @@
             },
             {
                 "name": "Defeat Parasite Cage II",
-                "access_rules":["$jump_or_glide"],
                 "sections": [
                     {
                         "name": "",
-                        "item_count": 1
+                        "ref": "Overview/Monstro - Events/Stomach - Defeat Parasite Cage II"
                     }
                 ],
                 "map_locations": [

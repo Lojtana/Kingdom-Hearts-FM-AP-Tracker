@@ -1,15 +1,13 @@
 [
     {
         "name": "Hollow Bastion Chests",
-        "access_rules":["$access_chests|8, [$world_count:5]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Rising Falls - Chest on Water Surface",
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Water Surface",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - Chest on Water Surface"
                     }
                 ],
                 "map_locations": [
@@ -21,10 +19,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - 1st Chest Under Water",
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "1st Chest Under Water",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - 1st Chest Under Water"
                     }
                 ],
                 "map_locations": [
@@ -36,11 +35,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - 2nd Chest Under Water",
-                "access_rules":["$has_emblems"],
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": "Return after Rescuing Kairi"
+                        "name": "2nd Chest Under Water",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Rising Falls - 2nd Chest Under Water"
                     }
                 ],
                 "map_locations": [
@@ -52,11 +51,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - Chest on Floating Platform Near Save Point",
-                "access_rules":["high_jump", "glide", "blizzard:1"],
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Floating Platform Near Save Point",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - Chest on Floating Platform Near Save Point"
                     }
                 ],
                 "map_locations": [
@@ -68,11 +67,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - Chest on Floating Platform Near Bubble",
-                "access_rules":["high_jump", "glide", "blizzard:1"],
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Floating Platform Near Bubble",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - Chest on Floating Platform Near Bubble"
                     }
                 ],
                 "map_locations": [
@@ -84,11 +83,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - High Platform Chest",
-                "access_rules":["$hb_glide_blizzard_or_combo_master"],
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "High Platform Chest",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - High Platform Chest"
                     }
                 ],
                 "map_locations": [
@@ -100,11 +99,11 @@
                 ]
             },
             {
-                "name": "Castle Gates - Gravity Chest",
-                "access_rules":["gravity, $has_emblems", "gravity, $doublejump_glide_or_dumbo_glide"],
+                "name": "Castle Gates",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Castle Gates - Gravity Chest"
                     }
                 ],
                 "map_locations": [
@@ -116,11 +115,11 @@
                 ]
             },
             {
-                "name": "Castle Gates - Chest on Freestanding Pillar",
-                "access_rules":["$has_emblems", "$doublejump_or_dumbo"],
+                "name": "Castle Gates",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Freestanding Pillar",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Castle Gates - Chest on Freestanding Pillar"
                     }
                 ],
                 "map_locations": [
@@ -132,11 +131,11 @@
                 ]
             },
             {
-                "name": "Caste Gates - Chest on High Pillar",
-                "access_rules":["$has_emblems", "$doublejump_or_dumbo"],
+                "name": "Caste Gates",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on High Pillar",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Caste Gates - Chest on High Pillar"
                     }
                 ],
                 "map_locations": [
@@ -148,11 +147,11 @@
                 ]
             },
             {
-                "name": "Great Crest - Lower Chest",
-                "access_rules":["$has_emblems"],
+                "name": "Great Crest",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Lower Chest",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Great Crest - Lower Chest"
                     }
                 ],
                 "map_locations": [
@@ -164,11 +163,11 @@
                 ]
             },
             {
-                "name": "Great Crest - Chest after Battle Platform",
-                "access_rules":["$has_emblems"],
+                "name": "Great Crest",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest after Battle Platform",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Great Crest - Chest after Battle Platform"
                     }
                 ],
                 "map_locations": [
@@ -180,11 +179,11 @@
                 ]
             },
             {
-                "name": "High Tower - 2nd Gravity Chest",
-                "access_rules":["$has_emblems, gravity"],
+                "name": "High Tower",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "2nd Gravity Chest",
+                        "ref": "Overview/Hollow Bastion - After Emblems/High Tower - 2nd Gravity Chest"
                     }
                 ],
                 "map_locations": [
@@ -196,11 +195,11 @@
                 ]
             },
             {
-                "name": "High Tower - 1st Gravity Chest",
-                "access_rules":["$has_emblems, gravity"],
+                "name": "High Tower",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "1st Gravity Chest",
+                        "ref": "Overview/Hollow Bastion - After Emblems/High Tower - 1st Gravity Chest"
                     }
                 ],
                 "map_locations": [
@@ -212,11 +211,11 @@
                 ]
             },
             {
-                "name": "High Tower - Chest Above Sliding Blocks",
-                "access_rules":["$has_emblems"],
+                "name": "High Tower",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest Above Sliding Blocks",
+                        "ref": "Overview/Hollow Bastion - After Emblems/High Tower - Chest Above Sliding Blocks"
                     }
                 ],
                 "map_locations": [
@@ -228,10 +227,11 @@
                 ]
             },
             {
-                "name": "Library - Chest on Bookshelf",
+                "name": "Library",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Bookshelf",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Library - Chest on Bookshelf"
                     }
                 ],
                 "map_locations": [
@@ -243,11 +243,11 @@
                 ]
             },
             {
-                "name": "Lift Stop - Gravity Chest in Library Node After High Tower Switch",
-                "access_rules":["$has_emblems, gravity"],
+                "name": "Lift Stop",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest in Library Node After High Tower Switch",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Lift Stop - Gravity Chest in Library Node After High Tower Switch"
                     }
                 ],
                 "map_locations": [
@@ -259,11 +259,11 @@
                 ]
             },
             {
-                "name": "Lift Stop - Gravity Chest in Library Node",
-                "access_rules":["$has_emblems, gravity"],
+                "name": "Lift Stop",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest in Library Node",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Lift Stop - Gravity Chest in Library Node"
                     }
                 ],
                 "map_locations": [
@@ -275,11 +275,11 @@
                 ]
             },
             {
-                "name": "Lift Stop - Gravity Chest Under High Tower Sliding Blocks",
-                "access_rules":["$has_emblems, glide, gravity"],
+                "name": "Lift Stop",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest Under High Tower Sliding Blocks",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Lift Stop - Gravity Chest Under High Tower Sliding Blocks"
                     }
                 ],
                 "map_locations": [
@@ -296,11 +296,11 @@
                 ]
             },
             {
-                "name": "Lift Stop - Gravity Chest Behind Library Bookshelf",
-                "access_rules":["gravity"],
+                "name": "Lift Stop",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest Behind Library Bookshelf",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Lift Stop - Gravity Chest Behind Library Bookshelf"
                     }
                 ],
                 "map_locations": [
@@ -312,11 +312,11 @@
                 ]
             },
             {
-                "name": "Lift Stop - Gravity Chest Behind Heartless Sigil Door",
-                "access_rules":["$has_emblems, gravity"],
+                "name": "Lift Stop",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Gravity Chest Behind Heartless Sigil Door",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Lift Stop - Gravity Chest Behind Heartless Sigil Door"
                     }
                 ],
                 "map_locations": [
@@ -328,10 +328,11 @@
                 ]
             },
             {
-                "name": "Base Level - Use Bubble to Move Under the Wall",
+                "name": "Base Level",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Use Bubble to Move Under the Wall",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Base Level - Use Bubble to Move Under the Wall"
                     }
                 ],
                 "map_locations": [
@@ -343,10 +344,11 @@
                 ]
             },
             {
-                "name": "Base Level - Chest on Platform Near Entrance",
+                "name": "Base Level",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Platform Near Entrance",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Base Level - Chest on Platform Near Entrance"
                     }
                 ],
                 "map_locations": [
@@ -358,10 +360,11 @@
                 ]
             },
             {
-                "name": "Base Level - Chest Near Crystal Switch",
+                "name": "Base Level",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest Near Crystal Switch",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Base Level - Chest Near Crystal Switch"
                     }
                 ],
                 "map_locations": [
@@ -373,10 +376,11 @@
                 ]
             },
             {
-                "name": "Waterway - Chest Near Save",
+                "name": "Waterway",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest Near Save",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Waterway - Chest Near Save"
                     }
                 ],
                 "map_locations": [
@@ -388,11 +392,12 @@
                 ]
             },
             {
-                "name": "Waterway - Chest Atop Passageway",
+                "name": "Waterway",
                 "access_rules":["blizzard, high_jump", "high_jump:3"],
                 "sections": [
                     {
-                        "name": "Freeze Bubble"
+                        "name": "Chest Atop Passageway",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Waterway - Chest Atop Passageway"
                     }
                 ],
                 "map_locations": [
@@ -404,10 +409,11 @@
                 ]
             },
             {
-                "name": "Waterway - Unlock Passage from Base Level",
+                "name": "Waterway",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Unlock Passage from Base Level",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Waterway - Unlock Passage from Base Level"
                     }
                 ],
                 "map_locations": [
@@ -419,10 +425,11 @@
                 ]
             },
             {
-                "name": "Dungeon - Chest by Candles",
+                "name": "Dungeon",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest by Candles",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Dungeon - Chest by Candles"
                     }
                 ],
                 "map_locations": [
@@ -434,10 +441,11 @@
                 ]
             },
             {
-                "name": "Dungeon - Chest in Corner",
+                "name": "Dungeon",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest in Corner",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Dungeon - Chest in Corner"
                     }
                 ],
                 "map_locations": [
@@ -449,11 +457,11 @@
                 ]
             },
             {
-                "name": "Grand Hall - Chest on Right Side Steps",
-                "access_rules":["$has_emblems"],
+                "name": "Grand Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Right Side Steps",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Grand Hall - Chest on Right Side Steps"
                     }
                 ],
                 "map_locations": [
@@ -465,11 +473,11 @@
                 ]
             },
             {
-                "name": "Grand Hall - Oblivion Chest",
-                "access_rules":["$has_emblems"],
+                "name": "Grand Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Oblivion Chest",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Grand Hall - Oblivion Chest"
                     }
                 ],
                 "map_locations": [
@@ -481,11 +489,11 @@
                 ]
             },
             {
-                "name": "Grand Hall - Chest Left of Gate",
-                "access_rules":["$has_emblems"],
+                "name": "Grand Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest Left of Gate",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Grand Hall - Chest Left of Gate"
                     }
                 ],
                 "map_locations": [
@@ -497,11 +505,11 @@
                 ]
             },
             {
-                "name": "Entrance Hall - Chest on Pillar Before Emblem Door",
-                "access_rules":["$hb_jump_or_dumbo"],
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest on Pillar Before Emblem Door",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Chest on Pillar Before Emblem Door"
                     }
                 ],
                 "map_locations": [
@@ -513,11 +521,11 @@
                 ]
             },
             {
-                "name": "Rising Falls - White Trinity Chest",
-                "access_rules":["white_trinity"],
+                "name": "Rising Falls",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Rising Falls - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -537,10 +545,11 @@
         "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Library - Turning Carousel Chest on 1st Floor",
+                "name": "Library",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turning Carousel Chest on 1st Floor",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Library - Turning Carousel Chest on 1st Floor"
                     }
                 ],
                 "map_locations": [
@@ -552,10 +561,11 @@
                 ]
             },
             {
-                "name": "Library - Turning Carousel Chest on Top of Bookshelf",
+                "name": "Library",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Turning Carousel Chest on Top of Bookshelf",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Library - Turning Carousel Chest on Top of Bookshelf"
                     }
                 ],
                 "map_locations": [
@@ -567,10 +577,11 @@
                 ]
             },
             {
-                "name": "Library - 1st Turning Carousel Chest on 2nd Floor",
+                "name": "Library",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "1st Turning Carousel Chest on 2nd Floor",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Library - 1st Turning Carousel Chest on 2nd Floor"
                     }
                 ],
                 "map_locations": [
@@ -582,10 +593,11 @@
                 ]
             },
             {
-                "name": "Library - 2nd Turning Carousel Chest on 2nd Floor",
+                "name": "Library",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "2nd Turning Carousel Chest on 2nd Floor",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Library - 2nd Turning Carousel Chest on 2nd Floor"
                     }
                 ],
                 "map_locations": [
@@ -605,10 +617,11 @@
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Defeat Riku I",
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Riku I",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Defeat Riku I"
                     }
                 ],
                 "map_locations": [
@@ -620,12 +633,11 @@
                 ]
             },
             {
-                "name": "Defeat Maleficent",
-                "access_rules":["$has_emblems"],
+                "name": "Castle Chapel",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Maleficent",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Castle Chapel - Defeat Maleficent"
                     }
                 ],
                 "map_locations": [
@@ -637,11 +649,11 @@
                 ]
             },
             {
-                "name": "Defeat Dragon Maleficent",
-                "access_rules":["$has_emblems"],
+                "name": "Castle Chapel",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Dragon Maleficent",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Castle Chapel - Defeat Dragon Maleficent"
                     }
                 ],
                 "map_locations": [
@@ -653,11 +665,11 @@
                 ]
             },
             {
-                "name": "Defeat Riku II",
-                "access_rules":["$has_emblems"],
+                "name": "Grand Hall",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Riku II",
+                        "ref": "Overview/Hollow Bastion - After Emblems/Grand Hall - Defeat Riku II"
                     }
                 ],
                 "map_locations": [
@@ -669,11 +681,11 @@
                 ]
             },
             {
-                "name": "Defeat Behemoth",
-                "access_rules":["$has_emblems"],
+                "name": "Grand Hall",
                 "sections": [
                     {
-                        "name": "After Returning from Traverse Town"
+                        "name": "Defeat Behemoth",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Grand Hall - Defeat Behemoth"
                     }
                 ],
                 "map_locations": [
@@ -685,11 +697,11 @@
                 ]
             },
             {
-                "name": "Talk to the Princesses",
-                "access_rules":["$has_emblems"],
+                "name": "Castle Chapel",
                 "sections": [
                     {
-                        "name": "After Defeating Behemoth"
+                        "name": "Talk to the Princesses",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Castle Chapel - Talk To Princesses"
                     }
                 ],
                 "map_locations": [
@@ -701,13 +713,11 @@
                 ]
             },
             {
-                "name": "Defeat Unknown",
-                "visibility_rules":["superbosses_on", "door_superbosses", "goal_unknown"],
-                "access_rules":["$has_emblems, [$world_count:7], [$has_defenses]"],
+                "name": "Castle Chapel",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Unknown",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Castle Chapel - Defeat Unknown"
                     }
                 ],
                 "map_locations": [
@@ -719,11 +729,11 @@
                 ]
             },
             {
-                "name": "Entrance Hall - Emblem Piece (Flame)",
-                "access_rules":["$flame_emblem_access"],
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": "Light the Candles"
+                        "name": "Emblem Piece (Flame) - Light the Candles",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Emblem Piece (Flame)"
                     }
                 ],
                 "map_locations": [
@@ -735,11 +745,11 @@
                 ]
             },
             {
-                "name": "Entrance Hall - Emblem Piece (Chest)",
-                "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": "Push the Statue"
+                        "name": "Emblem Piece (Chest) - Push the Statue",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Emblem Piece (Chest)"
                     }
                 ],
                 "map_locations": [
@@ -751,11 +761,11 @@
                 ]
             },
             {
-                "name": "Entrance Hall - Emblem Piece (Statue)",
-                "access_rules":["theon_6, red_trinity", "high_jump:3, red_trinity", "$has_emblems, red_trinity"],
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": "Drop Statue with Red Trinity"
+                        "name": "Emblem Piece (Statue) - Drop Statue with Red Trinity",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Emblem Piece (Statue)"
                     }
                 ],
                 "map_locations": [
@@ -767,11 +777,11 @@
                 ]
             },
             {
-                "name": "Entrance Hall - Emblem Piece (Fountain)",
-                "access_rules":["theon_6", "high_jump:3", "$has_emblems"],
+                "name": "Entrance Hall",
                 "sections": [
                     {
-                        "name": "Break the Pots"
+                        "name": "Emblem Piece (Fountain) - Break the Pots",
+                        "ref": "Overview/Hollow Bastion - Before Emblems/Entrance Hall - Emblem Piece (Fountain)"
                     }
                 ],
                 "map_locations": [
@@ -783,11 +793,11 @@
                 ]
             },
             {
-                "name": "Talk to Belle",
-                "access_rules":["$has_emblems"],
+                "name": "Library",
                 "sections": [
                     {
-                        "name": "After Rescuing Kairi"
+                        "name": "Talk to Belle",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Library - Talk to Belle"
                     }
                 ],
                 "map_locations": [
@@ -799,16 +809,11 @@
                 ]
             },
             {
-                "name": "Talk to Aerith",
-                "access_rules":["$has_emblems"],
+                "name": "Library",
                 "sections": [
                     {
-                        "name": "Talk to Aerith once",
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Talk to Aerith twice more",
-                        "item_count": 1
+                        "name": "Talk to Aerith",
+                        "ref": "Overview/Hollow Bastion - 2nd Visit/Library - Talk to Aerith"
                     }
                 ],
                 "map_locations": [

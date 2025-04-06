@@ -1,16 +1,13 @@
 [
     {
-        "name": "Neverland Chests",
-        "access_rules":["$access_chests|7, [$world_count:3]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
+        "name": "Neverland - Chests",
         "children": [
             {
-                "name": "Pirate Ship - Whity Trinity Chest on Deck",
-                "access_rules":["white_trinity, green_trinity"],
+                "name": "Pirate Ship",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "White Trinity Chest on Deck",
+                        "ref": "Overview/Neverland - Chests/Pirate Ship - White Trinity Chest on Deck"
                     }
                 ],
                 "map_locations": [
@@ -22,11 +19,11 @@
                 ]
             },
             {
-                "name": "Pirate Ship - Chest in Crows Nest",
-                "access_rules":["green_trinity"],
+                "name": "Pirate Ship",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest in Crows Nest",
+                        "ref": "Overview/Neverland - Chests/Pirate Ship - Chest in Crows Nest"
                     }
                 ],
                 "map_locations": [
@@ -38,11 +35,11 @@
                 ]
             },
             {
-                "name": "Hold - Right Blue Chest",
-                "access_rules":["yellow_trinity"],
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Right Blue Chest",
+                        "ref": "Overview/Neverland - Chests/Hold - Right Blue Chest"
                     }
                 ],
                 "map_locations": [
@@ -54,11 +51,11 @@
                 ]
             },
             {
-                "name": "Hold - Left Blue Chest",
-                "access_rules":["yellow_trinity"],
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Left Blue Chest",
+                        "ref": "Overview/Neverland - Chests/Hold - Left Blue Chest"
                     }
                 ],
                 "map_locations": [
@@ -70,10 +67,11 @@
                 ]
             },
             {
-                "name": "Galley - Chest",
+                "name": "Galley",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest",
+                        "ref": "Overview/Neverland - Chests/Galley - Chest"
                     }
                 ],
                 "map_locations": [
@@ -85,11 +83,11 @@
                 ]
             },
             {
-                "name": "Cabin - Chest",
-                "access_rules":["green_trinity"],
+                "name": "Cabin",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest",
+                        "ref": "Overview/Neverland - Chests/Cabin - Chest"
                     }
                 ],
                 "map_locations": [
@@ -101,12 +99,11 @@
                 ]
             },
             {
-                "name": "Hold - 1st Chest on Beam",
-                "access_rules":["green_trinity", "glide", "high_jump:3"],
-
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "1st Chest on Beam",
+                        "ref": "Overview/Neverland - Chests/Hold - 1st Chest on Beam"
                     }
                 ],
                 "map_locations": [
@@ -118,11 +115,11 @@
                 ]
             },
             {
-                "name": "Clock Tower - Chest",
-                "access_rules":["$clocktower_access", "green_trinity, hollow_bastion, [$world_count:5], $has_emblems, [$has_defenses], [$has_lv_magic|2]"],
+                "name": "Clock Tower",
                 "sections": [
                     {
-                        "name": "Defeat Phantom if Missed Before Sealing Hollow Bastion Keyhole"
+                        "name": "Chest",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - Chest"
                     }
                 ],
                 "map_locations": [
@@ -134,11 +131,11 @@
                 ]
             },
             {
-                "name": "Hold - 2nd Chest on Beam",
-                "access_rules":["green_trinity", "glide", "high_jump:3"],
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "2nd Chest on Beam",
+                        "ref": "Overview/Neverland - Chests/Hold - 2nd Chest on Beam"
                     }
                 ],
                 "map_locations": [
@@ -150,11 +147,11 @@
                 ]
             },
             {
-                "name": "Hold - Green Chest",
-                "access_rules":["yellow_trinity"],
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Green Chest",
+                        "ref": "Overview/Neverland - Chests/Hold - Green Chest"
                     }
                 ],
                 "map_locations": [
@@ -166,11 +163,11 @@
                 ]
             },
             {
-                "name": "Captain's Cabin - Chest",
-                "access_rules":["green_trinity"],
+                "name": "Captain's Cabin",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Chest",
+                        "ref": "Overview/Neverland - Chests/Captain's Cabin - Chest"
                     }
                 ],
                 "map_locations": [
@@ -180,21 +177,13 @@
                         "y": 258
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Neverland Urn",
-        "access_rules":["neverland, [$world_count:3]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
-        "children": [
+            },
             {
-                "name": "Hold - Red Chest",
-                "access_rules":["yellow_trinity"],
+                "name": "Hold",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Red Chest",
+                        "ref": "Overview/Neverland - Chests/Hold - Red Chest"
                     }
                 ],
                 "map_locations": [
@@ -208,16 +197,14 @@
         ]
     },
     {
-        "name": "Neverland Events",
-        "access_rules":["neverland, [$world_count:3], green_trinity"],
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "name": "Neverland - Events",
         "children": [
             {
-                "name": "Defeat Anti Sora",
+                "name": "Captain's Cabin",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Anti Sora",
+                        "ref": "Overview/Neverland - Events/Captain's Cabin - Defeat Anti Sora"
                     }
                 ],
                 "map_locations": [
@@ -229,10 +216,11 @@
                 ]
             },
             {
-                "name": "Encounter Captain Hook",
+                "name": "Pirate Ship",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Encounter Captain Hook",
+                        "ref": "Overview/Neverland - Events/Pirate Ship - Encounter Captain Hook"
                     }
                 ],
                 "map_locations": [
@@ -244,11 +232,11 @@
                 ]
             },
             {
-                "name": "Seal Keyhole at Clock Tower",
+                "name": "Clock Tower",
                 "sections": [
                     {
-                        "name": "Set Clock to 12:00",
-                        "item_count": 3
+                        "name": "Seal Keyhole",
+                        "ref": "Overview/Neverland - Events/Clock Tower - Seal Keyhole"
                     }
                 ],
                 "map_locations": [
@@ -260,12 +248,11 @@
                 ]
             },
             {
-                "name": "Defeat Phantom",
-                "access_rules":["[$has_lv_magic|2], [$has_defenses], hollow_bastion, [$world_count:5], $has_emblems"],
-                "visibility_rules":["superbosses_on", "door_superbosses"],
+                "name": "Clock Tower",
                 "sections": [
                     {
-                        "name": ""
+                        "name": "Defeat Phantom",
+                        "ref": "Overview/Neverland - Events/Clock Tower - Defeat Phantom"
                     }
                 ],
                 "map_locations": [
@@ -277,11 +264,11 @@
                 ]
             },
             {
-                "name": "Defeat Captain Hook",
+                "name": "Pirate Ship",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Defeat Captain Hook",
+                        "ref": "Overview/Neverland - Events/Pirate Ship - Defeat Captain Hook"
                     }
                 ],
                 "map_locations": [
@@ -289,196 +276,6 @@
                         "map": "NL",
                         "x": 438,
                         "y": 177
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Neverland Clock Tower Chests",
-        "access_rules":["$access_chests|7, [$world_count:3], $clocktower_access", 
-                        "$access_chests|7, [$world_count:3], green_trinity, hollow_bastion, [$world_count:5], $has_emblems, [$has_defenses], [$has_lv_magic|2]"],
-        "visibility_rules":["missables_on"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
-        "children": [
-            {
-                "name": "Clock Tower 01:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 688,
-                        "y": 220
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 02:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 603,
-                        "y": 44
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 03:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 740,
-                        "y": 43
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 04:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 761,
-                        "y": 43
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 05:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 708,
-                        "y": 222
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 06:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 656,
-                        "y": 241
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 07:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 624,
-                        "y": 44
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 08:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 646,
-                        "y": 44
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 09:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 783,
-                        "y": 43
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 10:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 734,
-                        "y": 205
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 11:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 730,
-                        "y": 224
-                    }
-                ]
-            },
-            {
-                "name": "Clock Tower 12:00 Door",
-                "sections": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "NL",
-                        "x": 669,
-                        "y": 213
                     }
                 ]
             }

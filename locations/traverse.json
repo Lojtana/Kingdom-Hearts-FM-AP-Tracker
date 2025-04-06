@@ -1,33 +1,13 @@
 [
     {
         "name": "Traverse Town Chests",
-        "access_rules":["$tt_chests"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "1st District - Candle Puzzle Chest",
-                "access_rules": ["blizzard:1"],
+                "name": "1st District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 419,
-                        "y": 658
-                    }
-                ]
-            },
-            {
-                "name": "1st District - Accessory Shop Roof Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Accessory Shop Roof Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/1st District - Accessory Shop Roof Chest"
                     }
                 ],
                 "map_locations": [
@@ -39,172 +19,11 @@
                 ]
             },
             {
-                "name": "2nd District - Boots and Shoes Awning Chest",
+                "name": "1st District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 963,
-                        "y": 129
-                    }
-                ]
-            },
-            {
-                "name": "2nd District - Rooftop Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 958,
-                        "y": 85
-                    }
-                ]
-            },
-            {
-                "name": "2nd District - Gizmo Shop Facade Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 845,
-                        "y": 105
-                    }
-                ]
-            },
-            {
-                "name": "Alleyway - Balcony Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 159,
-                        "y": 427 
-                    }
-                ]
-            },
-            {
-                "name": "Alleyway - Blue Room Awning Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 330,
-                        "y": 459 
-                    }
-                ]
-            },
-            {
-                "name": "Alleyway - Corner Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 346,
-                        "y": 463
-                    }
-                ]
-            },
-            {
-                "name": "Green Room - Clock Puzzle Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 583,
-                        "y": 341
-                    }
-                ]
-            },
-            {
-                "name": "Green Room - Table Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 567,
-                        "y": 322
-                    }
-                ]
-            },
-            {
-                "name": "Red Room Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    } 
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 358,
-                        "y": 333
-                    }
-                ]
-            },
-            {
-                "name": "Mystical House - Yellow Trinity Chest",
-                "access_rules": ["fire:1, $yellow_trinity_or_jump"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 860,
-                        "y": 808
-                    }
-                ]
-            },
-            {
-                "name": "Accessory Shop Chest",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Accessory Shop Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Accessory Shop Chest"
                     }
                 ],
                 "map_locations": [
@@ -216,63 +35,187 @@
                 ]
             },
             {
-                "name": "Secret Waterway - White Trinity Chest",
-                "access_rules": ["white_trinity"],
+                "name": "2nd District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Boots and Shoes Awning Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/2nd District - Boots and Shoes Awning Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "TT",
-                        "x": 781,
-                        "y": 860
+                        "x": 963,
+                        "y": 129
                     }
                 ]
             },
             {
-                "name": "Gepetto's House Chest",
-                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
+                "name": "2nd District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Rooftop Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/2nd District - Rooftop Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "TT",
-                         "x": 623,
-                         "y": 493
+                        "x": 958,
+                        "y": 85
                     }
                 ]
             },
             {
-                "name": "Moogle Workshop - Right Chest",
-                "access_rules": ["green_trinity", "high_jump:3"],
+                "name": "2nd District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Gizmo Shop Facade Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/2nd District - Gizmo Shop Facade Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "TT",
-                        "x": 323,
-                        "y": 777
+                        "x": 845,
+                        "y": 105
                     }
                 ]
             },
             {
-                "name": "1st District - Blue Trinity Balcony Chest",
-                "access_rules": ["$blue_trinity_or_glide"],
+                "name": "Alleyway",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Balcony Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Alleyway - Balcony Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 159,
+                        "y": 427 
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway",
+                "sections": [
+                    {
+                        "name": "Blue Room Awning Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Alleyway - Blue Room Awning Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 330,
+                        "y": 459 
+                    }
+                ]
+            },
+            {
+                "name": "Alleyway",
+                "sections": [
+                    {
+                        "name": "Corner Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Alleyway - Corner Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 346,
+                        "y": 463
+                    }
+                ]
+            },
+            {
+                "name": "Green Room",
+                "sections": [
+                    {
+                        "name": "Clock Puzzle Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Green Room - Clock Puzzle Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 583,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Green Room",
+                "sections": [
+                    {
+                        "name": "Table Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Green Room - Table Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 567,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Red Room",
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "ref": "Overview/Traverse Town - 1st Visit/Red Room Chest"
+                    } 
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 358,
+                        "y": 333
+                    }
+                ]
+            },
+            {
+                "name": "Secret Waterway",
+                "sections": [
+                    {
+                        "name": "Chest Near Stairs",
+                        "ref": "Overview/Traverse Town - 1st Visit/Secret Waterway - Chest Near Stairs"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 745,
+                        "y": 833
+                    }
+                ]
+            },
+            {
+                "name": "1st District",
+                "sections": [
+                    {
+                        "name": "Candle Puzzle Chest",
+                        "ref": "Overview/Traverse Town - Further Visits/1st District - Candle Puzzle Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 419,
+                        "y": 658
+                    }
+                ]
+            },
+            {
+                "name": "1st District",
+                "sections": [
+                    {
+                        "name": "Blue Trinity Balcony Chest",
+                        "ref": "Overview/Traverse Town - Further Visits/1st District - Blue Trinity Balcony Chest"
                     }
                 ],
                 "map_locations": [
@@ -284,29 +227,11 @@
                 ]
             },
             {
-                "name": "Mystical House - Glide Chest",
-                "access_rules": ["fire:1, $glide_or_jump_or_mermaidkick"],
+                "name": "Alleyway",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 825,
-                        "y": 831
-                    }
-                ]
-            },
-            {
-                "name": "Alleyway - Chest Behind Crates",
-                "access_rules": ["red_trinity"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Behind Crates",
+                        "ref": "Overview/Traverse Town - Further Visits/Alleyway - Chest Behind Crates"
                     }
                 ],
                 "map_locations": [
@@ -318,35 +243,50 @@
                 ]
             },
             {
-                "name": "Moogle Workshop - Left Chest",
-                "access_rules": ["green_trinity", "high_jump:3"],
+                "name": "Secret Waterway",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Traverse Town - Further Visits/Secret Waterway - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "TT",
-                        "x": 328,
-                        "y": 764
+                        "x": 781,
+                        "y": 860
                     }
                 ]
             },
             {
-                "name": "Secret Waterway - Chest Near Stairs",
+                "name": "Mystical House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Yellow Trinity Chest",
+                        "ref": "Overview/Traverse Town - Further Visits/Mystical House - Yellow Trinity Chest"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "TT",
-                        "x": 745,
-                        "y": 833
+                        "x": 860,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "name": "Mystical House",
+                "sections": [
+                    {
+                        "name": "Glide Chest",
+                        "ref": "Overview/Traverse Town - Further Visits/Mystical House - Glide Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 825,
+                        "y": 831
                     }
                 ]
             }
@@ -354,81 +294,13 @@
     },
     {
         "name": "Traverse Town Events",
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Guard Armor Rewards",
+                "name": "1st District",
                 "sections": [
                     {
-                        "name": "Dodge Roll",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fire",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blue Trinity",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Defeat Leon - MISSABLE",
-                        "visibility_rules":["missables_on"],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 452,
-                        "y": 680
-                    }
-                ]
-            },
-            {
-                "name": "Secret Waterway",
-                "sections": [
-                    {
-                        "name": "Leon",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kairi",
-                        "item_count": 1,
-                        "access_rules": ["hollow_bastion, [$world_count:5], $has_emblems"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 782,
-                        "y": 872
-                    }
-                ]
-            },
-            {
-                "name": "Defeat Guard Armor",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 870,
-                        "y": 481
-                    }
-                ]
-            },
-            {
-                "name": "1st District - Talk to Cid",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Talk to Cid",
+                        "ref": "Overview/Traverse Town - 1st Visit/1st District - Talk to Cid"
                     }
                 ],
                 "map_locations": [
@@ -440,12 +312,11 @@
                 ]
             },
             {
-                "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE", 
-                "visibility_rules":["missables_on"],
+                "name": "1st District", 
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Talk to Aerith before Defeating Guard Armor - MISSABLE",
+                        "ref": "Overview/Traverse Town - 1st Visit/1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE"
                     }
                 ],
                 "map_locations": [
@@ -457,12 +328,67 @@
                 ]
             },
             {
-                "name": "Defeat Opposite Armor",
-                "access_rules": ["red_trinity"],
+                "name": "Secret Waterway",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Leon",
+                        "ref": "Overview/Traverse Town - 1st Visit/Secret Waterway - Leon"
+                    },
+                    {
+                        "name": "Kairi",
+                        "ref": "Overview/Traverse Town - Further Visits/Secret Waterway - Kairi"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 782,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "3rd District",
+                "sections": [
+                    {
+                        "name": "Defeat Guard Armor",
+                        "ref": "Overview/Traverse Town - 1st Visit/Defeat Guard Armor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 870,
+                        "y": 481
+                    }
+                ]
+            },
+            {
+                "name": "1st District",
+                "sections": [
+                    {
+                        "name": "Guard Armor Rewards",
+                        "ref": "Overview/Traverse Town - 1st Visit/Guard Armor Rewards"
+                    },
+                    {
+                        "name": "Defeat Leon - MISSABLE",
+                        "ref": "Overview/Traverse Town - 1st Visit/Defeat Leon - MISSABLE"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 452,
+                        "y": 680
+                    }
+                ]
+            },
+            {
+                "name": "2nd District",
+                "sections": [
+                    {
+                        "name": "Defeat Opposite Armor",
+                        "ref": "Overview/Traverse Town - Further Visits/Defeat Opposite Armor"
                     }
                 ],
                 "map_locations": [
@@ -474,62 +400,19 @@
                 ]
             },
             {
-                "name": "Gepetto's House - Gepetto",
-                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
-                "sections": [
-                    {
-                        "name": "Rewards",
-                        "item_count": 5
-                    },
-                    {
-                        "name": "All Summons Reward",
-                        "item_count": 1,
-                        "access_rules": ["bambi, dumbo, mushu, simba, tinkerbell, genie"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                        "x": 597,
-                        "y": 530
-                    }
-                ]
-            },
-            {
-                "name": "Gepetto's House - Pinocchio",
-                "access_rules": ["monstro, [$world_count:2], $jump_or_glide"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                         "map": "TT",
-                         "x": 598,
-                         "y": 500
-                    }
-                ]
-            },
-            {
                 "name": "Magician's Study - Merlin",
-                "access_rules": ["fire:1"],
                 "sections": [
-                    {
-                        "name": "All Arts Items",
-                        "item_count": 1,
-                        "access_rules": ["$has_all_arts,[$$has_lv_magic|1],[$world_count:7]"]
-                    },
                     {
                         "name": "All LV1 Magic",
-                        "item_count": 1,
-                        "access_rules": ["$has_lv_magic|1"]
+                        "ref": "Overview/Traverse Town - Further Visits/Merlin - All LV1 Magic"
                     },
                     {
                         "name": "All LV3 Magic",
-                        "item_count": 1,
-                        "access_rules": ["$has_lv_magic|3"]
+                        "ref": "Overview/Traverse Town - Further Visits/Merlin - All LV3 Magic"
+                    },
+                    {
+                        "name": "All Arts Items",
+                        "ref": "Overview/Traverse Town - Further Visits/Merlin - All Arts Items"
                     }
                 ],
                 "map_locations": [
@@ -545,53 +428,43 @@
                 "sections": [
                     {
                         "name": "Return 10 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:10"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 10 Puppies"
                     },
                     {
                         "name": "Return 20 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:20"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 20 Puppies"
                     },
                     {
                         "name": "Return 30 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:30"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 30 Puppies"
                     },
                     {
                         "name": "Return 40 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:40"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 40 Puppies"
                     },
                     {
                         "name": "Return 50 Puppies",
-                        "item_count": 2,
-                        "access_rules": ["$puppy_count:50"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 50 Puppies"
                     },
                     {
                         "name": "Return 60 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:60"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 60 Puppies"
                     },
                     {
                         "name": "Return 70 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:70"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 70 Puppies"
                     },
                     {
                         "name": "Return 80 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:80"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 80 Puppies"
                     },
                     {
                         "name": "Return 90 Puppies",
-                        "item_count": 1,
-                        "access_rules": ["$puppy_count:90"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 90 Puppies"
                     },
                     {
                         "name": "Return 99 Puppies",
-                        "item_count": 2,
-                        "access_rules": ["$puppy_count:99"]
+                        "ref": "Overview/Traverse Town - Puppies/Return 99 Puppies"
                     }
                 ],
                 "map_locations": [
@@ -601,34 +474,87 @@
                         "y": 383
                     }
                 ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Traverse Town Moogle Workshop",
+        "children": [
+            {
+                "name": "Moogle Workshop",
+                "sections": [
+                    {
+                        "name": "Left Chest",
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Left Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 328,
+                        "y": 764
+                    }
+                ]
             },
             {
-                "name": "Moogle Shop Synthesis",
-                "access_rules":["green_trinity", "high_jump:3"],
+                "name": "Moogle Workshop",
+                "sections": [
+                    {
+                        "name": "Right Chest",
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Right Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 323,
+                        "y": 777
+                    }
+                ]
+            },
+            {
+                "name": "Moogle Workshop",
+                "sections": [
+                    {
+                        "name": "Postcard Behind Poster",
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Postcard Behind Poster"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 314,
+                         "y": 695
+                    }
+                ]
+            },
+            {
+                "name": "Moogle Workshop",
                 "sections": [
                     {
                         "name": "Synth Log",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Log"
                     },
                     {
                         "name": "Synth Cloth",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Cloth"
                     },
                     {
                         "name": "Synth Rope",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Rope"
                     },
                     {
                         "name": "Synth Seagull Egg",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Seagull Egg"
                     },
                     {
                         "name": "Synth Fish",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Fish"
                     },
                     {
                         "name": "Synth Mushroom",
-                        "access_rules":["bottle:1, [bottle:6]"]
+                        "ref": "Overview/Traverse Town - Moogle Workshop/Synth Mushroom"
                     }
                 ],
                 "map_locations": [
@@ -642,16 +568,87 @@
         ]
     },
     {
-        "name": "Traverse Town Postcards",
-        "chest_unopened_img": "/images/misc/emblem.png",
-        "chest_opened_img": "/images/misc/emblem_bw.png",
+        "name": "Traverse Town Gepetto",
         "children": [
             {
-                "name": "Postcard - Hit Fan in Item Shop",
+                "name": "Gepetto's House",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Gepetto's Rewards",
+                        "ref": "Overview/Traverse Town - Gepetto's House/Gepetto's Rewards"
+                    },
+                    {
+                        "name": "All Summons Reward",
+                        "ref": "Overview/Traverse Town - Gepetto's House/All Summons Rewards"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 597,
+                        "y": 530
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House",
+                "sections": [
+                    {
+                        "name": "Talk to Pinocchio",
+                        "ref": "Overview/Traverse Town - Gepetto's House/Talk to Pinocchio"
+                    }
+                ],
+                "map_locations": [
+                    {
+                         "map": "TT",
+                         "x": 598,
+                         "y": 500
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House",
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "ref": "Overview/Traverse Town - Gepetto's House/Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 623,
+                         "y": 493
+                    }
+                ]
+            },
+            {
+                "name": "Gepetto's House",
+                "sections": [
+                    {
+                        "name": "Postcard in Bowl",
+                        "ref": "Overview/Traverse Town - Gepetto's House/Postcard in Bowl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                         "x": 668,
+                         "y": 514
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Traverse Town Postcards",
+        "children": [
+            {
+                "name": "1st District",
+                "sections": [
+                    {
+                        "name": "Hit Fan in Item Shop",
+                        "ref": "Overview/Traverse Town - Postcards/Hit Fan in Item Shop"
                     }
                 ],
                 "map_locations": [
@@ -663,11 +660,11 @@
                 ]
             },
             {
-                "name": "Postcard - Open Safe in 1st District",
+                "name": "1st District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Open Safe",
+                        "ref": "Overview/Traverse Town - Postcards/Open Safe in 1st District"
                     }
                 ],
                 "map_locations": [
@@ -678,13 +675,13 @@
                     }
                 ]
             },
+
             {
-                "name": "Postcard - Activate Clock in Gizmo Shop",
-                "access_rules":["thunder:1"],
+                "name": "3rd District",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 2
+                        "name": "Activate Clock in Gizmo Shop",
+                        "ref": "Overview/Traverse Town - Postcards/Activate Clock in Gizmo Shop"
                         
                     }
                 ],
@@ -696,29 +693,13 @@
                     }
                 ]
             },
+
             {
-                "name": "Postcard - Moogle Workshop Poster",
-                "access_rules":["green_trinity", "high_jump:3"],
+                "name": "3rd District ",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 314,
-                         "y": 695
-                    }
-                ]
-            },
-            {
-                "name": "Postcard - 3rd District Balcony",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Corner on Balcony",
+                        "ref": "Overview/Traverse Town - Postcards/3rd District Balcony"
                     }
                 ],
                 "map_locations": [
@@ -730,74 +711,47 @@
                 ]
             },
             {
-                "name": "Postcard - Bowl in Gepetto's House",
-                "access_rules":["monstro, [$world_count:2], $jump_or_glide"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "TT",
-                         "x": 668,
-                         "y": 514
-                    }
-                ]
-            },
-            {
                 "name": "Postcards",
                 "sections": [
                     {
                         "name": "Mail Postcard 01",
-                        "item_count": 1,
-                        "access_rules": ["postcard:1"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 01"
                     },
                     {
                         "name": "Mail Postcard 02",
-                        "item_count": 1,
-                        "access_rules": ["postcard:2"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 02"
                     },
                     {
                         "name": "Mail Postcard 03",
-                        "item_count": 1,
-                        "access_rules": ["postcard:3"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 03"
                     },
                     {
                         "name": "Mail Postcard 04",
-                        "item_count": 1,
-                        "access_rules": ["postcard:4"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 04"
                     },
                     {
                         "name": "Mail Postcard 05",
-                        "item_count": 1,
-                        "access_rules": ["postcard:5"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 05"
                     },
                     {
                         "name": "Mail Postcard 06",
-                        "item_count": 1,
-                        "access_rules": ["postcard:6"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 06"
                     },
                     {
                         "name": "Mail Postcard 07",
-                        "item_count": 1,
-                        "access_rules": ["postcard:7"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 07"
                     },
                     {
                         "name": "Mail Postcard 08",
-                        "item_count": 1,
-                        "access_rules": ["postcard:8"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 08"
                     },
                     {
                         "name": "Mail Postcard 09",
-                        "item_count": 1,
-                        "access_rules": ["postcard:9"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 09"
                     },
                     {
                         "name": "Mail Postcard 10",
-                        "item_count": 1,
-                        "access_rules": ["postcard:10"]
+                        "ref": "Overview/Traverse Town - Postcards/Mail Postcard 10"
                     }
                 ],
                 "map_locations": [

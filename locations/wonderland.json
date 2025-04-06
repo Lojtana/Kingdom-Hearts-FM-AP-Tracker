@@ -1,17 +1,13 @@
 [
     {
         "name": "Wonderland Chests",
-        "access_rules":["$access_chests|1, [$world_count:2]"],
-        "chest_unopened_img": "/images/misc/chest.png",
-        "chest_opened_img": "/images/misc/chest_bw.png",
         "children": [
             {
-                "name": "Rabbit Hole - Green Trinity Chest",
-                "access_rules":["green_trinity"],
+                "name": "Rabbit Hole",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Green Trinity Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Rabbit Hole - Green Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -23,11 +19,11 @@
                 ]
             },
             {
-                "name": "Rabbit Hole - Defeat Heartless 1",
+                "name": "Rabbit Hole",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Defeat Heartless 1",
+                        "ref": "Overview/Wonderland - Before Footprints/Rabbit Hole - Defeat Heartless 1"
                     }
                 ],
                 "map_locations": [
@@ -39,11 +35,11 @@
                 ]
             },
             {
-                "name": "Rabbit Hole - Defeat Heartless 2",
+                "name": "Rabbit Hole",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Defeat Heartless 2",
+                        "ref": "Overview/Wonderland - Before Footprints/Rabbit Hole - Defeat Heartless 2"
                     }
                 ],
                 "map_locations": [
@@ -55,12 +51,11 @@
                 ]
             },
             {
-                "name": "Rabbit Hole - Defeat Heartless 3",
-                "access_rules":["[$world_count:5]"],
+                "name": "Rabbit Hole",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Defeat Heartless 3",
+                        "ref": "Overview/Wonderland - Before Footprints/Rabbit Hole - Defeat Heartless 3"
                     }
                 ],
                 "map_locations": [
@@ -72,12 +67,11 @@
                 ]
             },
             {
-                "name": "Bizarre Room - Green Trinity Chest",
-                "access_rules": ["green_trinity"],
+                "name": "Bizarre Room",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Green Trinity Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Bizarre Room - Green Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -89,12 +83,11 @@
                 ]
             },
             {
-                "name": "Queen's Castle - Left Hedge Chest",
-                "access_rules":["footprints", "high_jump","glide"],
+                "name": "Queen's Castle",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Left Hedge Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Queen's Castle - Left Hedge Chest"
                     }
                 ],
                 "map_locations": [
@@ -106,12 +99,11 @@
                 ]
             },
             {
-                "name": "Queen's Castle - Right Hedge Blue Chest",
-                "access_rules":["footprints", "high_jump","glide"],
+                "name": "Queen's Castle",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Hedge Blue Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Queen's Castle - Right Hedge Blue Chest"
                     }
                 ],
                 "map_locations": [
@@ -123,12 +115,11 @@
                 ]
             },
             {
-                "name": "Queen's Castle - Right Hedge Red Chest",
-                "access_rules":["footprints", "high_jump","glide"],
+                "name": "Queen's Castle",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Right Hedge Red Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Queen's Castle - Right Hedge Red Chest"
                     }
                 ],
                 "map_locations": [
@@ -140,46 +131,11 @@
                 ]
             },
             {
-                "name": "Lotus Forest - Thunder Plant Chest 1",
-                "access_rules":["footprints, thunder:1"],
+                "name": "Lotus Forest",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WL",
-                        "x": 131,
-                        "y": 365
-                    }
-                ]
-            },
-            {
-                "name": "Lotus Forest - Thunder Plant Chest 2",
-                "access_rules":["footprints, thunder:1"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WL",
-                        "x": 312,
-                        "y": 82
-                    }
-                ]
-            },
-            {
-                "name": "Lotus Forest - Southwest Corner Chest",
-                "access_rules":["$wonderland_glide_or_dumbo"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Southwest Corner Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Lotus Forest - Southwest Corner Chest"
                     }
                 ],
                 "map_locations": [
@@ -191,11 +147,11 @@
                 ]
             },
             {
-                "name": "Lotus Forest - Chest Near Nut",
+                "name": "Lotus Forest",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Near Nut",
+                        "ref": "Overview/Wonderland - Before Footprints/Lotus Forest - Chest Near Nut"
                     }
                 ],
                 "map_locations": [
@@ -207,12 +163,11 @@
                 ]
             },
             {
-                "name": "Lotus Forest - Northeast Corner Chest",
-                "access_rules":["[$jump_glide_or_nothing]"],
+                "name": "Lotus Forest",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Northeast Corner Chest",
+                        "ref": "Overview/Wonderland - Before Footprints/Lotus Forest - Northeast Corner Chest"
                     }
                 ],
                 "map_locations": [
@@ -224,46 +179,11 @@
                 ]
             },
             {
-                "name": "Bizarre Room - Lamp Chest",
-                "access_rules":["footprints"],
+                "name": "Tea Party Garden",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WL",
-                        "x": 729,
-                        "y": 914
-                    }
-                ]
-            },
-            {
-                "name": "Tea Party Garden - 2nd Chest Above Lotus Forest Entrance",
-                "access_rules":["$wonderland_tea_party_entrance_access"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WL",
-                        "x": 278,
-                        "y": 459
-                    }
-                ]
-            },
-            {
-                "name": "Tea Party Garden - 1st Chest Above Lotus Forest Entrance",
-                "access_rules":["$wonderland_tea_party_entrance_access"],
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "1st Chest Above Lotus Forest Entrance",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - 1st Chest Above Lotus Forest Entrance"
                     }
                 ],
                 "map_locations": [
@@ -275,29 +195,27 @@
                 ]
             },
             {
-                "name": "Tea Party Garden - Bear and Clock Puzzle Chest",
-                "access_rules":["$wonderland_tea_party_bear_access"],
+                "name": "Tea Party Garden",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "2nd Chest Above Lotus Forest Entrance",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - 2nd Chest Above Lotus Forest Entrance"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "WL",
-                        "x": 392,
-                        "y": 524
+                        "x": 278,
+                        "y": 459
                     }
                 ]
             },
             {
-                "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
-                "access_rules":["$wonderland_tea_party_high_hedge_access"],
+                "name": "Tea Party Garden",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Chest Across Bizarre Room Entrance",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Chest Across Bizarre Room Entrance"
                     }
                 ],
                 "map_locations": [
@@ -309,12 +227,75 @@
                 ]
             },
             {
-                "name": "Lotus Forest - White Trinity Chest",
-                "access_rules":["footprints, white_trinity"],
+                "name": "Lotus Forest",
                 "sections": [
                     {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Thunder Plant Chest 1",
+                        "ref": "Overview/Wonderland - After Footprints/Lotus Forest - Thunder Plant Chest 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 131,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Thunder Plant Chest 2",
+                        "ref": "Overview/Wonderland - After Footprints/Lotus Forest - Thunder Plant Chest 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 312,
+                        "y": 82
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room",
+                "sections": [
+                    {
+                        "name": "Lamp Chest",
+                        "ref": "Overview/Wonderland - After Footprints/Bizarre Room - Lamp Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 729,
+                        "y": 914
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
+                        "name": "Bear and Clock Puzzle Chest",
+                        "ref": "Overview/Wonderland - After Footprints/Tea Party Garden - Bear and Clock Puzzle Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 392,
+                        "y": 524
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Wonderland - After Footprints/Lotus Forest - White Trinity Chest"
                     }
                 ],
                 "map_locations": [
@@ -329,35 +310,15 @@
     },
     {
         "name": "Wonderland Events",
-        "access_rules":["wonderland, footprints, [$world_count:2]"],
         "chest_unopened_img": "/images/misc/emblem.png",
         "chest_opened_img": "/images/misc/emblem_bw.png",
         "children": [
             {
-                "name": "Defeat Trickmaster",
+                "name": "Bizarre Room",
                 "sections": [
                     {
-                        "name": "Defeat Trickmaster",
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Seal Keyhole"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WL",
-                        "x": 670,
-                        "y": 570
-                    }
-                ]
-            },
-            {
-                "name": "Bizarre Room - Read Book",
-                "sections": [
-                    {
-                        "name": "",
-                        "item_count": 1
+                        "name": "Read Book",
+                        "ref": "Overview/Wonderland - After Footprints/Bizarre Room - Read Book"
                     }
                 ],
                 "map_locations": [
@@ -365,6 +326,26 @@
                         "map": "WL",
                         "x": 543,
                         "y": 576
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room",
+                "sections": [
+                    {
+                        "name": "Defeat Trickmaster",
+                        "ref": "Overview/Wonderland - After Footprints/Defeat Trickmaster"
+                    },
+                    {
+                        "name": "Seal Keyhole",
+                        "ref": "Overview/Wonderland - After Footprints/Seal Keyhole"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 670,
+                        "y": 570
                     }
                 ]
             }
