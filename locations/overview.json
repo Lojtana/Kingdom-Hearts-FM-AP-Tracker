@@ -1423,11 +1423,11 @@
                 "sections": [
                     {
                         "name": "Hold - 1st Chest on Beam",
-                        "access_rules":["$access_chests|7, green_trinity", "glide", "high_jump:3"]
+                        "access_rules":["$access_chests|7, green_trinity", "$access_chests|7, glide", "$access_chests|7, high_jump:3"]
                     },
                     {
                         "name": "Hold - 2nd Chest on Beam",
-                        "access_rules":["$access_chests|7, yellow_trinity", "glide", "high_jump:3"]
+                        "access_rules":["$access_chests|7, yellow_trinity", "$access_chests|7, glide", "$access_chests|7, high_jump:3"]
                     },
                     {
                         "name": "Hold - Right Blue Chest",
@@ -1443,7 +1443,7 @@
                     },
                     {
                         "name": "Hold - Red Chest",
-                        "access_rules":["yellow_trinity"]
+                        "access_rules":["neverland, yellow_trinity"]
                     },
                     {
                         "name": "Galley - Chest",
