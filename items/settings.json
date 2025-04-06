@@ -228,7 +228,8 @@
         "codes": "eotw_req",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 14
+        "max_quantity": 14,
+        "initial_quantity": 4
     },
     {
         "name": "Final Rest Door - Reports Requirement",
@@ -236,7 +237,8 @@
         "codes": "door_req",
         "type": "consumable",
         "min_quantity": 0,
-        "max_quantity": 14
+        "max_quantity": 14,
+        "initial_quantity": 4
     },
     {
         "name": "Puppies Goal - Requirement",
