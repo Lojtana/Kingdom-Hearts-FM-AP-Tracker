@@ -19,6 +19,16 @@
             ["forget_me_not", "jack_box", "trident", "theon_6"]
         ]
     },
+    "keyblade_unlocks": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "item_size": "40,40",
+        "rows": [
+            ["lady_luck", "olympia", "jungle_king", "three_wishes"],
+            ["wishing_star", "pumpkinhead", "fairy_harp", "divine_rose"],
+            ["lionheart", "oathkeeper", "oblivion"]
+        ]
+    },
     "abilities": {
         "type": "itemgrid",
         "item_margin": "5,5",
@@ -35,7 +45,7 @@
         "item_margin": "5,5",
         "item_size": "40,40",
         "rows": [
-            ["postcard", "bottle", "torn_page", "report"],
+            ["postcard", "bottle", "torn_page", "report", "puppies"],
             ["emblem_fountain", "emblem_flame", "emblem_chest", "emblem_statue"]
         ]
     }

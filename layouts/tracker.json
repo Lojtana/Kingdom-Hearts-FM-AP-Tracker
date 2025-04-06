@@ -43,6 +43,15 @@
                         },
                         {
                             "type": "group",
+                            "header": "Keyblades",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "keyblade_unlocks"
+                            }
+                        },
+                        {
+                            "type": "group",
                             "header": "Abilities",
                             "dock": "top",
                             "content": {

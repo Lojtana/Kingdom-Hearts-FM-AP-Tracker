@@ -6,6 +6,7 @@ ITEM_MAPPING = {
     [2641089] = {"pumpkinhead", "toggle"},
     [2641090] = {"crabclaw", "toggle"},
     [2641091] = {"divine_rose", "toggle"},
+    [2641092] = {"spellbinder", "toggle"},
     [2641093] = {"olympia", "toggle"},
     [2641094] = {"lionheart", "toggle"},
     [2641096] = {"oathkeeper", "toggle"},

@@ -1,61 +1,73 @@
 [
     {
-        "name": "Jungle King",
+        "name": "Deep Jungle - Jungle King",
+        "img": "images/keyblades/metal_chocobo.png",
         "type": "toggle",
         "codes": "jungle_king"
     },
     {
-        "name": "Three Wishes",
+        "name": "Agrabah - Three Wishes",
+        "img": "images/keyblades/three_wishes.png",
         "type": "toggle",
         "codes": "three_wishes"
     },
     {
-        "name": "Fairy Harp",
+        "name": "Neverland - Fairy Harp",
+        "img": "images/keyblades/fairy_harp.png",
         "type": "toggle",
         "codes": "fairy_harp"
     },
     {
-        "name": "Pumpkinhead",
+        "name": "Halloween Town - Pumpkinhead",
+        "img": "images/keyblades/pumpkinhead.png",
         "type": "toggle",
         "codes": "pumpkinhead"
     },
     {
-        "name": "Crabclaw",
+        "name": "Atlantica - Crabclaw",
+        "img": "images/keyblades/crabclaw.png",
         "type": "toggle",
         "codes": "crabclaw"
     },
     {
-        "name": "Divine Rose",
+        "name": "Hollow Bastion - Divine Rose",
+        "img": "images/keyblades/divine_rose.png",
         "type": "toggle",
         "codes": "divine_rose"
     },
     {
-        "name": "Olympia",
+        "name": "Olympus Coliseum - Olympia",
+        "img": "images/keyblades/olympia.png",
         "type": "toggle",
         "codes": "olympia"
     },
     {
-        "name": "Lionheart",
+        "name": "Traverse Town - Lionheart",
+        "img": "images/keyblades/lionheart.png",
         "type": "toggle",
         "codes": "lionheart"
     },
     {
-        "name": "Oblivion",
+        "name": "End of the World - Oblivion",
+        "img": "images/keyblades/oblivion.png",
         "type": "toggle",
         "codes": "oblivion"
     },
     {
-        "name": "Lady Luck",
+        "name": "Wonderland - Lady Luck",
+        "img": "images/keyblades/lady_luck.png",
         "type": "toggle",
         "codes": "lady_luck"
     },
     {
-        "name": "Wishing Star",
+        "name": "Monstro - Wishing Star",
+        "img": "images/keyblades/wishing_star.png",
         "type": "toggle",
         "codes": "wishing_star"
     },
     {
-        "name": "Oathkeeper",
+        "name": "Hundred Acre Wood - Oathkeeper",
+        "img": "images/keyblades/oathkeeper.png",
         "type": "toggle",
         "codes": "oathkeeper"
     }
